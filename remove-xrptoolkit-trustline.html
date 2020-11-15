@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Sologenic Core Team" />
+    <meta name="generator" content="Jekyll v4.1.1" />
+    <title>Sologenic - XRPTOOLKIT Trustline</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="disclaimer fixed-top">
+      SIMULATOR (XRPL <strong>TESTNET</strong>)
+    </div>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a href="https://sologenic.com"><img src="assets/images/logo.png" /></a>
+    </nav>
+
+    <main role="main" class="container with-disclaimer">
+      <div class="content">
+        <br />
+        <span class="helper-red">
+          <strong>IMPORTANT: </strong> Sologenic is currently running on
+          <strong>SIMULATOR</strong> mode and therefore all transactions must
+          take place on the <strong>TESTNET</strong> XRP Ledger.
+        </span>
+        <br />
+
+        <div class="page-title">
+          Create a Trustline using
+          <span class="inverse-red">test.xrptoolkit.com</span>
+        </div>
+
+        <p>
+          Sologenic Ecosystem uses the XRP Ledger Blockchain to conduct
+          tokenizations and thus allowing the tokenized assets to be
+          traded/exchanged on the XRP Ledger Built-in Decentralized Exchange.
+          There are two types of Trustlines in the XRP Ledger, a regular one-way
+          Trustline, and an Authorized two-way Trustline. Sologenic, requires an
+          Authorized Trustline to allow assets to be withdrawn from the
+          platform.
+        </p>
+        <p>
+          To withdraw your tokenized assets from Sologenic, you need to setup a
+          Trustline from your personal wallet to Sologenic (Issuer) and request
+          Sologenic gateway to Authorize this Trustline once it is established.
+        </p>
+        <p>
+          In this guide you will be using
+          <a target="_blank" href="https://test.xrptoolkit.com"
+            >https://test.xrptoolkit.com</a
+          >
+          to create Trustlines.
+        </p>
+
+        <span class="helper-yellow">
+          Please note that test.xrptoolkit.com is a third-party wallet.
+        </span>
+
+        <div class="guide">
+          <span class="step">1</span>
+          <span class="title">Obtain Trustline info</span>
+          <p>First, navigate to the "DEX" Section on the website or the app.</p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-1.png"/ >
+          </div>
+          <p>Next, click "Add Trustline".</p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-2.png"/ >
+          </div>
+
+          <p>
+            Next, search for the asset you wish to establish the Trustline for.
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-3.png"/ >
+          </div>
+
+          <p>
+            And finally, copy the "ISSUER", "CURRENCY" and "LIMIT" values, and
+            leave this page open for the time being.
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-4.png"/ >
+          </div>
+        </div>
+
+        <div class="guide">
+          <span class="step">2</span>
+          <span class="title"
+            >Establish a Trustline using test.xrptoolkit.com</span
+          >
+
+          <p>
+            First, head over to
+            <a target="_blank" href="https://test.xrptoolkit.com"
+              >https://test.xrptoolkit.com</a
+            >
+
+            <span class="helper-blue">
+              If you don't have a TESTNET wallet, go to
+              <a href="https://xrpl.org/xrp-testnet-faucet.html" target="_blank"
+                >https://xrpl.org/xrp-testnet-faucet.html</a
+              >
+              and generate a tesnet credentials.
+            </span>
+
+            <span class="helper-yellow">
+              Please note that adding a Trustline increases your reserve
+              requirements by 5 XRP. to learn more visit:
+              <a target="_blank" href="https://xrpl.org/reserves.html"
+                >https://xrpl.org/reserves.html</a
+              >
+            </span>
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-1.png"/ >
+          </div>
+          <p>
+            Next, you will have to choose your signing method. For the purpose
+            of testing, you can provide your <strong>TESTNET</strong> secret
+            account. Once entered, click "Add Account".
+          </p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-2.png"/ >
+          </div>
+          <p>
+            <span class="helper-red">
+              <strong>IMPORTANT: </strong> NEVER expose your mainnet XRP secret.
+            </span>
+          </p>
+
+          <p>Then, click "+ Add Asset".</p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-3.png"/ >
+          </div>
+
+          <p>
+            Next, click "Custom Edit" and paste the values you copied from
+            Sologenic.
+          </p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-4.png"/ >
+          </div>
+
+          <p>Click "Next".</p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-5.png"/ >
+          </div>
+
+          <p>Then, confirm the transaction.</p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-6.png"/ >
+          </div>
+
+          <p>
+            Once transaction is confirmed, you can see the asset in your
+            dashboard with the status of "Unauthorized" .
+          </p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-7.png"/ >
+          </div>
+        </div>
+
+        <div class="guide">
+          <span class="step">3</span>
+          <span class="title">Authorize the Trustline from Sologenic</span>
+          <p>
+            Now that you have established the Trustline from
+            test.xrptoolkit.com, you need to authorize it by going back to the
+            Sologenic Platform. <br />Click "Continue".
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-5.png"/ >
+          </div>
+          <p>
+            Next, enter the your XRP wallet address. (The one you just
+            established a Trustline from) and then click "Confirm".
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-6.png"/ >
+          </div>
+
+          <p>
+            It may take a few seconds for your Trustline to become authorized.
+            If your Trustline is not "authorized" please make sure you set up
+            the Trustline from your wallet correctly and then click the "Auth"
+            button to try authorizing again.
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-7.png"/ >
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Copyright © 2020 Manticore Securities AS. All rights reserved
+      </div>
+    </main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</html>
