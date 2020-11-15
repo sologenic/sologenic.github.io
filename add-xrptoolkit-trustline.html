@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="Sologenic Core Team" />
     <meta name="generator" content="Jekyll v4.1.1" />
-    <title>Sologenic - Custom Trustline</title>
+    <title>Sologenic - XRPTOOLKIT Trustline</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -17,13 +17,24 @@
   </head>
 
   <body>
+    <div class="disclaimer fixed-top">
+      SIMULATOR (XRPL <strong>TESTNET</strong>)
+    </div>
     <nav class="navbar navbar-expand-md fixed-top">
       <a href="https://sologenic.com"><img src="assets/images/logo.png" /></a>
     </nav>
 
-    <main role="main" class="container">
+    <main role="main" class="container with-disclaimer">
       <div class="content">
-        <div class="page-title">Creating a Custom Trustline</div>
+        <br />
+        <span class="helper-red">
+          <strong>IMPORTANT: </strong> Sologenic is currently running on
+          <strong>SIMULATOR</strong> mode and therefore all transactions must
+          take place on the <strong>TESTNET</strong> XRP Ledger.
+        </span>
+        <br />
+
+        <div class="page-title">Create a Trustline using XRPToolkit.com</div>
 
         <p>
           Sologenic Ecosystem uses the XRP Ledger Blockchain to conduct
@@ -39,20 +50,20 @@
           Trustline from your personal wallet to Sologenic (Issuer) and request
           Sologenic gateway to Authorize this Trustline once it is established.
         </p>
+        <p>
+          In this guide you will be using
+          <a target="_blank" href="xrptoolkit.com">xrptoolkit.com</a>
+        </p>
         <div class="figure">
           <img src="assets/images/misc/sologenic-trustline.png"/ >
           <p>Sologenic Trustline structure</p>
         </div>
         <p>
           Follow the instructions below to set up a Trustline to Sologenic for
-          an asset.
+          an asset using XRPTOOLKIT.com
         </p>
         <span class="helper-yellow">
-          Please note that the following instructions are to be used by advanced
-          users who know details about the inner workings of the XRP Ledger
-          transactions and Trustlines. <br /><strong
-            >Use at your own risk.</strong
-          >
+          Please note that XRPTOOLKIT.com is a third-party wallet. <br />
           Sologenic is not responsible for any loss of your assets or
           misconfigurations.
         </span>
@@ -87,7 +98,7 @@
 
         <div class="guide">
           <span class="step">2</span>
-          <span class="title">Establish a Trustline from your wallet</span>
+          <span class="title">Establish a Trustline from xrptoolkit.com</span>
           <p>
             Using your favorite wallet, create and sign a transaction on the XRP
             Ledger as follows (Replace with your values)
