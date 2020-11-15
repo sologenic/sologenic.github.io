@@ -34,7 +34,10 @@
         </span>
         <br />
 
-        <div class="page-title">Create a Trustline using XRPToolkit.com</div>
+        <div class="page-title">
+          Create a Trustline using
+          <span class="inverse-red">test.xrptoolkit.com</span>
+        </div>
 
         <p>
           Sologenic Ecosystem uses the XRP Ledger Blockchain to conduct
@@ -52,20 +55,14 @@
         </p>
         <p>
           In this guide you will be using
-          <a target="_blank" href="xrptoolkit.com">xrptoolkit.com</a>
+          <a target="_blank" href="https://test.xrptoolkit.com"
+            >https://test.xrptoolkit.com</a
+          >
+          to create Trustlines.
         </p>
-        <div class="figure">
-          <img src="assets/images/misc/sologenic-trustline.png"/ >
-          <p>Sologenic Trustline structure</p>
-        </div>
-        <p>
-          Follow the instructions below to set up a Trustline to Sologenic for
-          an asset using XRPTOOLKIT.com
-        </p>
+
         <span class="helper-yellow">
-          Please note that XRPTOOLKIT.com is a third-party wallet. <br />
-          Sologenic is not responsible for any loss of your assets or
-          misconfigurations.
+          Please note that test.xrptoolkit.com is a third-party wallet.
         </span>
 
         <div class="guide">
@@ -88,7 +85,7 @@
           </div>
 
           <p>
-            And finally, note the "ISSUER", "CURRENCY" and "LIMIT" values, and
+            And finally, copy the "ISSUER", "CURRENCY" and "LIMIT" values, and
             leave this page open for the time being.
           </p>
           <div class="figure-alt">
@@ -98,21 +95,24 @@
 
         <div class="guide">
           <span class="step">2</span>
-          <span class="title">Establish a Trustline from xrptoolkit.com</span>
+          <span class="title"
+            >Establish a Trustline using test.xrptoolkit.com</span
+          >
+
           <p>
-            Using your favorite wallet, create and sign a transaction on the XRP
-            Ledger as follows (Replace with your values)
+            First, head over to
+            <a target="_blank" href="https://test.xrptoolkit.com"
+              >https://test.xrptoolkit.com</a
+            >
+
             <span class="helper-blue">
-              To see how to submit transactions to the XRP Ledger, you can use
-              the Sologenic JS SDK
-              <a
-                target="_blank"
-                href="https://github.com/sologenic/sologenic-xrpl-stream-js"
-                >https://github.com/sologenic/sologenic-xrpl-stream-js</a
+              If you don't have a TESTNET wallet, go to
+              <a href="https://xrpl.org/xrp-testnet-faucet.html" target="_blank"
+                >https://xrpl.org/xrp-testnet-faucet.html</a
               >
-              or follow guides provided by the
-              <a target="_blank" href="https://xrpl.org">https://xrpl.org</a>
+              and generate a tesnet credentials.
             </span>
+
             <span class="helper-yellow">
               Please note that adding a Trustline increases your reserve
               requirements by 5 XRP. to learn more visit:
@@ -121,87 +121,68 @@
               >
             </span>
           </p>
-          <pre class="prettyprint">
-            {
-              "TransactionType": "TrustSet",
-              "Account": "{YOUR WALLET ADDRESS}",
-              "LimitAmount": {
-                "currency": "{CURRENCY CODE}",
-                "issuer": "{ISSUER}",
-                "value": "{LIMIT}"
-              },
-              "Flags": 2147614720 //Be sure to includee this flag which set the NoRipple flag on this trustline.
-            }
-            </pre
-          >
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-1.png"/ >
+          </div>
           <p>
-            For example if you are using sologenic-xrpl-stream, your code will
-            look like:
+            Next, you will have to choose your signing method. For the purpose
+            of testing, you can provide your <strong>TESTNET</strong> secret
+            account. Once entered, click "Add Account".
           </p>
-          <pre class="prettyprint">
-            $ mkdir sologenic-trustline && cd sologenic-trustline</pre
-          >
-          <pre class="prettyprint">            $ npm init</pre>
-          <pre class="prettyprint">
-            $ npm install sologenic-xrpl-stream-js</pre
-          >
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-2.png"/ >
+          </div>
           <p>
-            Create a file with the following code, for example: trustline.js
+            <span class="helper-red">
+              <strong>IMPORTANT: </strong> NEVER expose your mainnet XRP secret.
+            </span>
           </p>
-          <pre class="prettyprint">
-            'use strict';
-            const ƨ = require('sologenic-xrpl-stream-js');
-            
-            (async () => {
-              try {
-                const sologenic = await new ƨ.SologenicTxHandler(
-                  {
-                    server: 'wss://s.altnet.rippletest.net',
-                  },
-                  {
-                    clearCache: true,
-                    queueType: "hash",
-                    hash: {}
-                  }
-                ).connect();
-            
-                await sologenic.setAccount({
-                  address: '{YOUR WALLET ADDRESS}',
-                  secret: '{YOUR WALLET SECRET}'
-                });
-            
-                const tx = sologenic.submit({
-                  TransactionType: 'TrustSet',
-                  Account: 'rNbe8nh1K6nDC5XNsdAzHMtgYDXHZB486G',
-                  LimitAmount: {
-                    currency: '{CURRENCY}',
-                    issuer: '{ISSUER}',
-                    value: '{LIMIT}'
-                  }
-                });
-            
-                }).on('validated' => {
-                  console.log('Success');
-                });.on('failed' => {
-                  console.log('Failed');
-                });            
-                console.log(await tx.promise);
-              } catch (error) {
-                console.log('Error:', error);
-              }
-            })();
-          </pre>
-          <p>And execute the code</p>
-          <pre class="prettyprint">            $ node trustline</pre>
+
+          <p>Then, click "+ Add Asset".</p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-3.png"/ >
+          </div>
+
+          <p>
+            Next, click "Custom Edit" and paste the values you copied from
+            Sologenic.
+          </p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-4.png"/ >
+          </div>
+
+          <p>Click "Next".</p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-5.png"/ >
+          </div>
+
+          <p>Then, confirm the transaction.</p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-6.png"/ >
+          </div>
+
+          <p>
+            Once transaction is confirmed, you can see the asset in your
+            dashboard with the status of "Unauthorized" .
+          </p>
+
+          <div class="figure-alt">
+            <img src="assets/images/misc/xt-7.png"/ >
+          </div>
         </div>
 
         <div class="guide">
           <span class="step">3</span>
           <span class="title">Authorize the Trustline from Sologenic</span>
           <p>
-            Now that you have established the Trustline from your wallet, you
-            need to authorize it by going back to the Sologenic Platform. Click
-            "Continue".
+            Now that you have established the Trustline from
+            test.xrptoolkit.com, you need to authorize it by going back to the
+            Sologenic Platform. <br />Click "Continue".
           </p>
           <div class="figure-alt">
             <img src="assets/images/misc/ct-5.png"/ >
