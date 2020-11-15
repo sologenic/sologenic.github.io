@@ -18,14 +18,206 @@
 
   <body>
     <nav class="navbar navbar-expand-md fixed-top">
-      <img src="assets/images/logo.png" />
+      <a href="https://sologenic.com"><img src="assets/images/logo.png" /></a>
     </nav>
 
     <main role="main" class="container">
-      <div class="starter-template">
-        <h1>Custom Trustline</h1>
-        <p class="lead">Content</p>
+      <div class="content">
+        <div class="page-title">Creating a Custom Trustline</div>
+
+        <p>
+          Sologenic Ecosystem uses the XRP Ledger Blockchain to conduct
+          tokenizations and thus allowing the tokenized assets to be
+          traded/exchanged on the XRP Ledger Built-in Decentralized Exchange.
+          There are two types of Trustlines in the XRP Ledger, a regular one-way
+          Trustline, and an Authorized two-way Trustline. Sologenic, requires an
+          Authorized Trustline to allow assets to be withdrawn from the
+          platform.
+        </p>
+        <p>
+          To withdraw your tokenized assets from Sologenic, you need to setup a
+          Trustline from your personal wallet to Sologenic (Issuer) and request
+          Sologenic gateway to Authorize this Trustline once it is established.
+        </p>
+        <div class="figure">
+          <img src="assets/images/misc/sologenic-trustline.png"/ >
+          <p>Sologenic Trustline structure</p>
+        </div>
+        <p>
+          Follow the instructions below to set up a Trustline to Sologenic for
+          an asset.
+        </p>
+        <span class="helper-yellow">
+          Please note that the following instructions are to be used by advanced
+          users who know details about the inner workings of the XRP Ledger
+          transactions and Trustlines. <br /><strong
+            >Use at your own risk.</strong
+          >
+          Sologenic is not responsible for any loss of your assets or
+          misconfigurations.
+        </span>
+
+        <div class="guide">
+          <span class="step">1</span>
+          <span class="title">Obtain Trustline info</span>
+          <p>First, navigate to the "DEX" Section on the website or the app.</p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-1.png"/ >
+          </div>
+          <p>Next, click "Add Trustline".</p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-2.png"/ >
+          </div>
+
+          <p>
+            Next, search for the asset you wish to establish the Trustline for.
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-3.png"/ >
+          </div>
+
+          <p>
+            And finally, note the "ISSUER", "CURRENCY" and "LIMIT" values, and
+            leave this page open for the time being.
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-4.png"/ >
+          </div>
+        </div>
+
+        <div class="guide">
+          <span class="step">2</span>
+          <span class="title">Establish a Trustline from your wallet</span>
+          <p>
+            Using your favorite wallet, create and sign a transaction on the XRP
+            Ledger as follows (Replace with your values)
+            <span class="helper-blue">
+              To see how to submit transactions to the XRP Ledger, you can use
+              the Sologenic JS SDK
+              <a
+                target="_blank"
+                href="https://github.com/sologenic/sologenic-xrpl-stream-js"
+                >https://github.com/sologenic/sologenic-xrpl-stream-js</a
+              >
+              or follow guides provided by the
+              <a target="_blank" href="https://xrpl.org">https://xrpl.org</a>
+            </span>
+            <span class="helper-yellow">
+              Please note that adding a Trustline increases your reserve
+              requirements by 5 XRP. to learn more visit:
+              <a target="_blank" href="https://xrpl.org/reserves.html"
+                >https://xrpl.org/reserves.html</a
+              >
+            </span>
+          </p>
+          <pre class="prettyprint">
+            {
+              "TransactionType": "TrustSet",
+              "Account": "{YOUR WALLET ADDRESS}",
+              "LimitAmount": {
+                "currency": "{CURRENCY CODE}",
+                "issuer": "{ISSUER}",
+                "value": "{LIMIT}"
+              },
+              "Flags": 2147614720 //Be sure to includee this flag which set the NoRipple flag on this trustline.
+            }
+            </pre
+          >
+          <p>
+            For example if you are using sologenic-xrpl-stream, your code will
+            look like:
+          </p>
+          <pre class="prettyprint">
+            $ mkdir sologenic-trustline && cd sologenic-trustline</pre
+          >
+          <pre class="prettyprint">            $ npm init</pre>
+          <pre class="prettyprint">
+            $ npm install sologenic-xrpl-stream-js</pre
+          >
+          <p>
+            Create a file with the following code, for example: trustline.js
+          </p>
+          <pre class="prettyprint">
+            'use strict';
+            const ƨ = require('sologenic-xrpl-stream-js');
+            
+            (async () => {
+              try {
+                const sologenic = await new ƨ.SologenicTxHandler(
+                  {
+                    server: 'wss://s.altnet.rippletest.net',
+                  },
+                  {
+                    clearCache: true,
+                    queueType: "hash",
+                    hash: {}
+                  }
+                ).connect();
+            
+                await sologenic.setAccount({
+                  address: '{YOUR WALLET ADDRESS}',
+                  secret: '{YOUR WALLET SECRET}'
+                });
+            
+                const tx = sologenic.submit({
+                  TransactionType: 'TrustSet',
+                  Account: 'rNbe8nh1K6nDC5XNsdAzHMtgYDXHZB486G',
+                  LimitAmount: {
+                    currency: '{CURRENCY}',
+                    issuer: '{ISSUER}',
+                    value: '{LIMIT}'
+                  }
+                });
+            
+                }).on('validated' => {
+                  console.log('Success');
+                });.on('failed' => {
+                  console.log('Failed');
+                });            
+                console.log(await tx.promise);
+              } catch (error) {
+                console.log('Error:', error);
+              }
+            })();
+          </pre>
+          <p>And execute the code</p>
+          <pre class="prettyprint">            $ node trustline</pre>
+        </div>
+
+        <div class="guide">
+          <span class="step">3</span>
+          <span class="title">Authorize the Trustline from Sologenic</span>
+          <p>
+            Now that you have established the Trustline from your wallet, you
+            need to authorize it by going back to the Sologenic Platform. Click
+            "Continue".
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-5.png"/ >
+          </div>
+          <p>
+            Next, enter the your XRP wallet address. (The one you just
+            established a Trustline from) and then click "Confirm".
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-6.png"/ >
+          </div>
+
+          <p>
+            It may take a few seconds for your Trustline to become authorized.
+            If your Trustline is not "authorized" please make sure you set up
+            the Trustline from your wallet correctly and then click the "Auth"
+            button to try authorizing again.
+          </p>
+          <div class="figure-alt">
+            <img src="assets/images/misc/ct-7.png"/ >
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Copyright © 2020 Manticore Securities AS. All rights reserved
       </div>
     </main>
   </body>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 </html>

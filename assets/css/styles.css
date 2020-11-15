@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700&display=swap");
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "DM sans", sans-serif;
+}
 body {
   padding-top: 5rem;
   font-family: "DM sans", sans-serif;
@@ -10,4 +18,91 @@ body {
 }
 .navbar img {
   max-height: 30px;
+}
+.page-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #d81d3c;
+}
+.figure {
+  text-align: center;
+  display: block;
+}
+.figure img {
+  max-height: 260px;
+  max-width: 100%;
+}
+.figure p {
+  font-size: 10px;
+  font-style: italic;
+}
+.step {
+  background-color: #d81d3c;
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-top: 8px;
+}
+.title {
+  margin-left: 10px;
+  font-size: 24px;
+}
+.guide {
+  margin-top: 40px;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
+.guide p {
+  margin-left: 64px;
+  margin-top: 20px;
+}
+
+.figure-alt {
+  margin-left: 64px;
+  text-align: left;
+  display: block;
+}
+.figure-alt img {
+  max-width: 100%;
+  max-height: 300px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.figure-alt p {
+  font-size: 10px;
+  font-style: italic;
+}
+.helper-yellow {
+  font-size: 12px;
+  background-color: #ffffca;
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f9c32a;
+  margin-top: 10px;
+}
+.helper-blue {
+  font-size: 12px;
+  background-color: #e4f4fa;
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #7bb5f2;
+  margin-top: 10px;
+}
+.prettyprint {
+  border: 0px !important;
+  background-color: whitesmoke;
+}
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
