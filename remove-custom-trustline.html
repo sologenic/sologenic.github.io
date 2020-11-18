@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="Sologenic Core Team" />
     <meta name="generator" content="Jekyll v4.1.1" />
-    <title>Sologenic - Custom Trustline</title>
+    <title>Sologenic - Remove a Trustline</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -34,7 +34,7 @@
         </span>
         <br />
 
-        <div class="page-title">Creating a Custom Trustline</div>
+        <div class="page-title">Removing a Trustline</div>
 
         <p>
           Sologenic Ecosystem uses the XRP Ledger Blockchain to conduct
@@ -55,7 +55,7 @@
           <p>Sologenic Trustline structure</p>
         </div>
         <p>
-          Follow the instructions below to set up a Trustline to Sologenic for
+          Follow the instructions below to remove a Trustline to Sologenic for
           an asset.
         </p>
         <span class="helper-yellow">
@@ -67,38 +67,27 @@
           Sologenic is not responsible for any loss of your assets or
           misconfigurations.
         </span>
+        <span class="helper-yellow">
+          Please note that removing a Trustline decreases your reserve
+          requirements by 5 XRP. to learn more visit:
+          <a target="_blank" href="https://xrpl.org/reserves.html"
+            >https://xrpl.org/reserves.html</a
+          >
+        </span>
 
         <div class="guide">
           <span class="step">1</span>
-          <span class="title">Obtain Trustline info</span>
-          <p>First, navigate to the "DEX" Section on the website or the app.</p>
-          <div class="figure-alt">
-            <img src="assets/images/misc/ct-1.png"/ >
-          </div>
-          <p>Next, click "Add Trustline".</p>
-          <div class="figure-alt">
-            <img src="assets/images/misc/ct-2.png"/ >
-          </div>
-
+          <span class="title">Transfer tokenized assets from your wallet</span>
           <p>
-            Next, search for the asset you wish to establish the Trustline for.
+            In order to remove a trustline, you need to make sure your balance
+            for the asset is 0. To do so, you can transfer back your Assets to
+            Sologenic (Deposit) or another authorized wallet.
           </p>
-          <div class="figure-alt">
-            <img src="assets/images/misc/ct-3.png"/ >
-          </div>
-
-          <p>
-            And finally, note the "ISSUER", "CURRENCY" and "LIMIT" values, and
-            leave this page open for the time being.
-          </p>
-          <div class="figure-alt">
-            <img src="assets/images/misc/ct-4.png"/ >
-          </div>
         </div>
 
         <div class="guide">
           <span class="step">2</span>
-          <span class="title">Establish a Trustline from your wallet</span>
+          <span class="title">Remove a Trustline from your wallet</span>
           <p>
             Using your favorite wallet, create and sign a transaction on the XRP
             Ledger as follows (Replace with your values)
@@ -113,13 +102,6 @@
               or follow guides provided by the
               <a target="_blank" href="https://xrpl.org">https://xrpl.org</a>
             </span>
-            <span class="helper-yellow">
-              Please note that adding a Trustline increases your reserve
-              requirements by 5 XRP. to learn more visit:
-              <a target="_blank" href="https://xrpl.org/reserves.html"
-                >https://xrpl.org/reserves.html</a
-              >
-            </span>
           </p>
           <pre class="prettyprint">
             {
@@ -128,9 +110,9 @@
               "LimitAmount": {
                 "currency": "{CURRENCY CODE}",
                 "issuer": "{ISSUER}",
-                "value": "{LIMIT}"
+                "value": "0"
               },
-              "Flags": 2147614720 //Be sure to includee this flag which set the NoRipple flag on this trustline.
+              "Flags": 2147483648
             }
             </pre
           >
@@ -176,9 +158,9 @@
                   LimitAmount: {
                     currency: '{CURRENCY}',
                     issuer: '{ISSUER}',
-                    value: '{LIMIT}'
+                    value: '0'
                   },
-                  Flags: 2147614720
+                  Flags: 2147483648
                 });
             
                 }).on('validated' => {
@@ -198,32 +180,24 @@
 
         <div class="guide">
           <span class="step">3</span>
-          <span class="title">Authorize the Trustline from Sologenic</span>
+          <span class="title">Remove the Trustline from Sologenic</span>
           <p>
-            Now that you have established the Trustline from your wallet, you
-            need to authorize it by going back to the Sologenic Platform.
-            <br />Click "Continue".
+            Now that you have removed the Trustline from test.xrptoolkit.com,
+            you need to remove it by going back to the Sologenic Platform.
+            <br />Find the asset in the list and click "Delete"
           </p>
           <div class="figure-alt">
-            <img src="assets/images/misc/ct-5.png"/ >
+            <img src="assets/images/misc/ctr-1.png"/ >
           </div>
           <p>
-            Next, enter the your XRP wallet address. (The one you just
-            established a Trustline from) and then click "Confirm".
+            Next, You have to confirm that you have removed the Trustline from
+            the XRP Ledger. Check the box and click "Continue"
           </p>
           <div class="figure-alt">
-            <img src="assets/images/misc/ct-6.png"/ >
+            <img src="assets/images/misc/ctr-2.png"/ >
           </div>
 
-          <p>
-            It may take a few seconds for your Trustline to become authorized.
-            If your Trustline is not "authorized" please make sure you set up
-            the Trustline from your wallet correctly and then click the "Auth"
-            button to try authorizing again.
-          </p>
-          <div class="figure-alt">
-            <img src="assets/images/misc/ct-7.png"/ >
-          </div>
+          <p>Once removed, you will get a notification.</p>
         </div>
       </div>
       <div class="footer">
