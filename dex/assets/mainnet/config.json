@@ -1,29 +1,362 @@
 {
-	"markets": [{
-		"base": {
-			"counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
-			"currency": "USD"
-		},
-		"counter": {
-			"currency": "XRP"
-		}
-	}],
-	"issuers": [{
-		"name": "Bitstamp",
-		"address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
-		"trusted": true,
-		"domain": "https://bitstamp.net",
-		"requires_auth": false,
-		"quaility_in": 1,
-		"quality_out": 1,
-		"transfer_fee": 0.002,
-		"position": 1,
-		"currencies": [{
-			"name": "USD",
-			"code": "USD",
-			"position": 1,
-			"precision": 4,
-			"logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
-		}]
-	}]
+  "markets": [
+    {
+      "base": {
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+        "currency": "USD"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    }
+  ],
+  "issuers": [
+    {
+      "entity": "Sologenic",
+      "known": true,
+      "domain": "https://gatehub.net",
+      "assets": [
+        {
+          "name": "SOLO",
+          "currency": "534F4C4F00000000000000000000000000000000",
+          "address": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "GateHub",
+      "known": true,
+      "domain": "https://gatehub.net",
+      "assets": [
+        {
+          "name": "USD",
+          "currency": "USD",
+          "address": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "EUR",
+          "currency": "EUR",
+          "address": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "QAU",
+          "currency": "QAU",
+          "address": "r3ttJ41YnMrKiLqGUXJpQE8urqyMGjC8vE",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "Bitcoin",
+          "currency": "BTC",
+          "address": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "Ethereum",
+          "currency": "ETH",
+          "address": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "Gold Gram",
+          "currency": "QAU",
+          "address": "r3ttJ41YnMrKiLqGUXJpQE8urqyMGjC8vE",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "Ethereum Classic",
+          "currency": "ETC",
+          "address": "rDAN8tzydyNfnNf2bfUQY6iR96UbpvNsze",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "Bitcoin Cash",
+          "currency": "BCH",
+          "address": "rcyS4CeCZVYvTiKcxj6Sx32ibKwcDHLds",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "DASH",
+          "currency": "DSH",
+          "address": "rcXY84C4g14iFp6taFXjjQGVeHqSCh9RX",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "Augur",
+          "currency": "REP",
+          "address": "rckzVpTnKpP4TJ1puQe827bV3X4oYtdTP",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "Bitstamp",
+      "known": true,
+      "domain": "https://bitstamp.net",
+      "assets": [
+        {
+          "name": "USD",
+          "currency": "USD",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "EUR",
+          "currency": "EUR",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "JPY",
+          "currency": "JPY",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "GBP",
+          "currency": "GBP",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "CHF",
+          "currency": "CHF",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "AUD",
+          "currency": "AUD",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        },
+        {
+          "name": "BTC",
+          "currency": "BTC",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "CasinoCoin",
+      "known": true,
+      "domain": "https://casinocoin.org",
+      "assets": [
+        {
+          "name": "CSC",
+          "currency": "CSC",
+          "address": "rCSCManTZ8ME9EoLrSHHYKW8PPwWMgkwr",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "Kudos",
+      "known": true,
+      "domain": "https://bitstamp.net",
+      "assets": [
+        {
+          "name": "XTK",
+          "currency": "XTK",
+          "address": "rXTKdHWuppSjkbiKoEv53bfxHAn1MxmTb",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "Allvor",
+      "known": true,
+      "domain": "https://bitstamp.net",
+      "assets": [
+        {
+          "name": "ALV",
+          "currency": "ALV",
+          "address": "raEQc5krJ2rUXyi6fgmUAf63oAXmF7p6jp",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "Bitstamp",
+      "known": true,
+      "domain": "https://bitstamp.net",
+      "assets": [
+        {
+          "name": "USD",
+          "currency": "USD",
+          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "unknown",
+      "known": false,
+      "assets": [
+        { "currency": "GCB", "address": "rNdwi8ain5ibXNB9A7H3zzKtSxgVzAqqAe" },
+        { "currency": "CNY", "address": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA" },
+        { "currency": "CNY", "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y" },
+        { "currency": "JPY", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "BTC", "address": "rpJZ5WyotdphojwMLxCr2prhULvG3Voe3X" },
+        { "currency": "USD", "address": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q" },
+        { "currency": "JPY", "address": "r94s8px6kSw1uZ1MV98dhSRTvc6VMPoPcN" },
+        { "currency": "CNY", "address": "rnuF96W4SZoCJmbHYBFoJZpR8eCaxNvekK" },
+        { "currency": "GCB", "address": "rBfVgTnsdh8ckC19RM8aVGNuMZnpwrMP6n" },
+        { "currency": "BTC", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "BRL", "address": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH" },
+        { "currency": "XLM", "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y" },
+        { "currency": "JPY", "address": "rMAz5ZnK73nyNUL4foAvaxdreczCkG3vA6" },
+        { "currency": "KRW", "address": "rUkMKjQitpgAM5WTGk79xpjT38DEJY283d" },
+        { "currency": "ADA", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "RJP", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "CAD", "address": "r3ADD8kXSUKHd6zTCKfnKT3zV9EZHjzp1S" },
+        { "currency": "XAG", "address": "rpG9E7B3ocgaKqG7vmrsu3jmGwex8W4xAG" },
+        { "currency": "XNF", "address": "rPKSvQ1qFAksr7hzk2wC2xtqSqFbxP3wvg" },
+        { "currency": "ETH", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "JCB", "address": "rBfVgTnsdh8ckC19RM8aVGNuMZnpwrMP6n" },
+        { "currency": "DOG", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "CNY", "address": "rM8199qFwspxiWNZRChZdZbGN5WrCepVP1" },
+        { "currency": "WTC", "address": "rHZP1pA3THovFqvwgtM2tnJWrS54hSrDiG" },
+        { "currency": "BCC", "address": "rMFG3vAYdAwjYxG21qf2CyZPWjgo5apPjF" },
+        { "currency": "CNY", "address": "rBfVgTnsdh8ckC19RM8aVGNuMZnpwrMP6n" },
+        { "currency": "JPY", "address": "rDKcJtUW5b8URJB5AVb41jkTeETfXWwahe" },
+        { "currency": "GCB", "address": "rUXUGrsSgqya9CxiA4oxzSgNmDhsb6qZ6c" },
+        { "currency": "GCB", "address": "rN2hcNiNwptpZuu64VKQbRVJnga8sUb7vr" },
+        { "currency": "BTC", "address": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX" },
+        { "currency": "STR", "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y" },
+        { "currency": "GKO", "address": "ruazs5h1qEsqpke88pcqnaseXdm6od2xc" },
+        { "currency": "JPY", "address": "rJRi8WW24gt9X85PHAxfWNPCizMMhqUQwg" },
+        { "currency": "JED", "address": "rMUVZiUKrcZNqfpgNJRqQjpatGCPZSdrB8" },
+        { "currency": "ULT", "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y" },
+        { "currency": "RBJ", "address": "rEYD5k6kZPARQbKfB9GpiNPDY93kRQgPKj" },
+        { "currency": "EUR", "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B" },
+        { "currency": "BTC", "address": "rHSFu2BEV15GY3QmDeFznRXqgXkMhihccC" },
+        { "currency": "GCB", "address": "r3bZUzUSpxh1r5L4Q3K66gtq4CMPA6pvy1" },
+        { "currency": "GCB", "address": "rP1aDuhUy2wcRewg8v9ff17TnYajNg3KHj" },
+        { "currency": "RSC", "address": "rLTSuhKSNaWvGHyRcnTSjms3iFew345SdG" },
+        { "currency": "GCB", "address": "rDwBC8aUGtNwkES6dwQZ16pBeokHYv6Ut7" },
+        { "currency": "BTC", "address": "rJHygWcTLVpSXkowott6kzgZU6viQSVYM1" },
+        { "currency": "USD", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "GCB", "address": "rGErfV2Cv1oSZsN5bWT98yHnQ86XpgMExi" },
+        { "currency": "XAU", "address": "rcoef87SYMJ58NAFx7fNM5frVknmvHsvJ" },
+        { "currency": "GCB", "address": "rNeTgsaD6UVtCGdGqNjcsGTYk1dLDBVfyW" },
+        { "currency": "KRW", "address": "rwdRX4jgRB5rZkbbbG7ezVTBKdBNKVrtpR" },
+        { "currency": "GCB", "address": "raxYySYxFrBZvC1MQPRxfLeqRDgW1nirmz" },
+        { "currency": "GCB", "address": "r4dYV67qy9fhMTscAUxb1GunLXs3BPu2bC" },
+        { "currency": "USD", "address": "rp2PaYDxVwDvaZVLEQv7bHhoFQEyX1mEx7" },
+        { "currency": "XEC", "address": "rNx3ty1w48iAa4JDfqhZk6bphwXxvCEtZP" },
+        { "currency": "VRB", "address": "rBfVgTnsdh8ckC19RM8aVGNuMZnpwrMP6n" },
+        { "currency": "JPY", "address": "r9ZFPSb1TFdnJwbTMYHvVwFK1bQPUCVNfJ" },
+        { "currency": "USD", "address": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9" },
+        { "currency": "JUD", "address": "r9qouqdcygAWyoFGPxwMN3LoJkpHJHoCBd" },
+        { "currency": "SCZ", "address": "rScheetz28HPqwAo3sxCtqKxU5TPWbLEf" },
+        { "currency": "ICE", "address": "r4H3F9dDaYPFwbrUsusvNAHLz2sEZk4wE5" },
+        { "currency": "BCC", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "GCB", "address": "rErDWeG8388YhWfr9cGAk2RqJZXsY8W5ag" },
+        { "currency": "GCB", "address": "rMXmVZqMy3zVaKyUwauxjWS6ZUqSjkq3g3" },
+        { "currency": "LTC", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "GCB", "address": "rJyiW2QS9ijkSUgF14478b1iJLg2pVrZHm" },
+        { "currency": "GCB", "address": "rpoGV4pdh1K57QBFSReDrAQ3ji8uUX1WuJ" },
+        { "currency": "JKC", "address": "rB7ktfqFpwABgdPcrXzq5mqq4Eia48ttLw" },
+        { "currency": "GCB", "address": "rDv7EtdTsvbkrM1eGwRWchUCM6dj6SztBf" },
+        { "currency": "GCB", "address": "rDkEmeEaeACwEaW3D5f2AegCoBy9BGT8j9" },
+        { "currency": "BTC", "address": "rKxKhXZCeSDsbkyB8DVgxpjy5AHubFkMFe" },
+        { "currency": "GCB", "address": "rJWP64zDHrSszr9ZgMWemWUWLZz2AKCFw7" },
+        { "currency": "GCB", "address": "rPaLJYM32LaVYdxNKKAjcYVC1zNz2YyXX7" },
+        { "currency": "USD", "address": "rBfVgTnsdh8ckC19RM8aVGNuMZnpwrMP6n" },
+        { "currency": "FMM", "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y" },
+        { "currency": "ILS", "address": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9" },
+        { "currency": "GCB", "address": "rE6CBQiJ5JvCeVJj6cCDQoFBTgXMnGjzF" },
+        { "currency": "GCB", "address": "r9LDdYfNWCnHSdQnfY48pk4EZBjWNm7mh3" },
+        { "currency": "STR", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "GCB", "address": "rDLqfYDWz9qxzbW2fZ35ppMzhPwD6RuyAd" },
+        { "currency": "RIP", "address": "rEYD5k6kZPARQbKfB9GpiNPDY93kRQgPKj" },
+        { "currency": "CCK", "address": "rp2PaYDxVwDvaZVLEQv7bHhoFQEyX1mEx7" },
+        { "currency": "BTC", "address": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9" },
+        { "currency": "LTC", "address": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX" },
+        { "currency": "GCB", "address": "rsuZEXkKjBtYKwuNZ6eiEf7F3UZd8mVPFj" },
+        { "currency": "GCB", "address": "rLJq8hchoS4W96iLKRMFmgLC2RzBHPUK3" },
+        { "currency": "GCB", "address": "rn3z8b23oTsuSFGPt23oNqWyfDsaD6XMxy" },
+        { "currency": "XAU", "address": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67" },
+        { "currency": "USD", "address": "rLEsXccBGNR3UPuPu2hUXPjziKC3qKSBun" },
+        { "currency": "GCB", "address": "rM1HyGYdnUunkHqsQhCkCsxYkq8pAcq9BP" },
+        { "currency": "CNY", "address": "rpQ5GMdEr2z9y14mTDWmgaQT7yBJP2diDD" },
+        { "currency": "EUR", "address": "rLEsXccBGNR3UPuPu2hUXPjziKC3qKSBun" },
+        { "currency": "NXT", "address": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV" },
+        { "currency": "GCB", "address": "rB9XUkc3UEsBbt8h78xnQmnHtdzcPvdxix" },
+        { "currency": "GCB", "address": "rp8uNQFUaDZUn4VuQvYRZVW3sM6YZsNvzC" },
+        { "currency": "XPY", "address": "rEVxaqydnDTqiLC6ivwEAAG4j21zS2LuLe" },
+        { "currency": "BTC", "address": "rLEsXccBGNR3UPuPu2hUXPjziKC3qKSBun" },
+        { "currency": "NZD", "address": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc" },
+        { "currency": "CTC", "address": "rHZP1pA3THovFqvwgtM2tnJWrS54hSrDiG" },
+        { "currency": "KRW", "address": "rPxU6acYni7FcXzPCMeaPSwKcuS2GTtNVN" },
+        { "currency": "DOG", "address": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV" },
+        { "currency": "PCV", "address": "rfK9co7ypx6DJVDCpNyPr9yGKLNer5GRif" },
+        { "currency": "YOU", "address": "rGvWKKaVboTqY6GwP7afhDkYZ5qQMTvora" },
+        { "currency": "RPS", "address": "r9wx4BoPPDtNYMkEY7Xj5bJK25JfyNwSZ" },
+        { "currency": "XMF", "address": "rHKTzLQjXo7JM7JrKEZo2jyDtC7iqS6NJp" },
+        { "currency": "GCB", "address": "rGNq2BwoMPoeTKaV65h46UfmvbrvoqpYCt" },
+        { "currency": "GCB", "address": "rDRTbWrBREjpuo3qBVKTzjuxZqgzejbs8G" },
+        { "currency": "FRX", "address": "rPA73XSVQ3UEz7gSixREhMzBMtF4RGZPie" },
+        { "currency": "BIG", "address": "rHoUTGMxWKbrTTF8tpAjysjpu8PWrbt1Wx" },
+        { "currency": "BTC", "address": "rVPpPfsbizsEoBXrk7mpHzb42R1w2LLwj" },
+        { "currency": "ONC", "address": "rn5Ttyhd89VEQMeVhuSeAEJg41UH8zGHxa" },
+        { "currency": "KRW", "address": "rwYWDtCRuWXjhJhrAy47HKbTVXbuQ4FMcM" },
+        { "currency": "BTC", "address": "rnfJHRvhg1gpZeuf5HXyJWqHYj2qBVec6b" },
+        { "currency": "XAU", "address": "r9Dr5xwkeLegBeXq6ujinjSBLQzQ1zQGjH" },
+        { "currency": "IOU", "address": "rG6Fzwkovcg8dFiQ97fhujcbgPy1D3qyjh" },
+        { "currency": "USD", "address": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV" },
+        { "currency": "USD", "address": "r9Dr5xwkeLegBeXq6ujinjSBLQzQ1zQGjH" },
+        { "currency": "BTC", "address": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc" },
+        { "currency": "GCB", "address": "rhLACkoYW7oMHf7nY7bHFrQbdcPEbdNt9U" },
+        { "currency": "USD", "address": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc" },
+        { "currency": "WEC", "address": "rJXGFDrN5h3ooiCSsupPXhg81QgGtUQmeJ" },
+        { "currency": "GCB", "address": "rNJ9mWvuP7iY9cMoG5YHRWF1eR5MJbNrcq" },
+        { "currency": "XCC", "address": "rf6i9v2TT4zwyvRTbXTi9vD1te9sEyDVjK" },
+        { "currency": "ETC", "address": "rB3gZey7VWHYRqJHLoHDEJXJ2pEPNieKiS" },
+        { "currency": "USD", "address": "rPDXxSZcuVL3ZWoyU82bcde3zwvmShkRyF" },
+        { "currency": "MRH", "address": "rh5sJ4ejSvyXGki5bgMJ7uzH1LpGqB3vGE" },
+        { "currency": "RMJ", "address": "rJRi8WW24gt9X85PHAxfWNPCizMMhqUQwg" },
+        { "currency": "GCB", "address": "rw7tWKbDoxRcGLnPAFUGHYJDGKweqgmseB" },
+        { "currency": "FLC", "address": "rKUxrnNCpXCXAz49Vhtoo6VLfsV7yxU7x3" },
+        { "currency": "XMG", "address": "rHKTzLQjXo7JM7JrKEZo2jyDtC7iqS6NJp" },
+        { "currency": "JPY", "address": "rJXGFDrN5h3ooiCSsupPXhg81QgGtUQmeJ" },
+        { "currency": "STR", "address": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc" },
+        { "currency": "GCB", "address": "rKCiRUUVHc5NFjrYboZsixnexTHGJEusQc" },
+        { "currency": "WCG", "address": "rUx4xgE7bNWCCgGcXv1CCoQyTcCeZ275YG" },
+        { "currency": "XAU", "address": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67" },
+        { "currency": "JPY", "address": "rUFcQnmGYEuvJVJnZy8QBc9ouKJbpvK7QU" },
+        { "currency": "XBW", "address": "r4sYcbdi4oE18FhVYWEhXa1AEe21XGR39z" },
+        { "currency": "CNY", "address": "rGYYWKxT1XgNipUJouCq4cKiyAdq8xBoE9" },
+        { "currency": "BTC", "address": "rnuF96W4SZoCJmbHYBFoJZpR8eCaxNvekK" },
+        { "currency": "RDD", "address": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV" },
+        { "currency": "CNY", "address": "rJ1adrpGS3xsnQMb9Cw54tWJVFPuSdZHK" },
+        { "currency": "USD", "address": "rMLtFZE6ZvLkiRet8Bncs8EZEWQYXyXixN" },
+        { "currency": "SGD", "address": "r9Dr5xwkeLegBeXq6ujinjSBLQzQ1zQGjH" },
+        { "currency": "XAG", "address": "r9Dr5xwkeLegBeXq6ujinjSBLQzQ1zQGjH" },
+        { "currency": "LIK", "address": "rGvWKKaVboTqY6GwP7afhDkYZ5qQMTvora" },
+        { "currency": "VTC", "address": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV" },
+        { "currency": "WTR", "address": "rDiocag1uC1m59TqWdNR8ZnmMUjSamD1rQ" },
+        { "currency": "AGC", "address": "rfqspG4S6H3NLYGecx3FHHYjPeYSNCdApf" },
+        { "currency": "ZPR", "address": "rUSrgqXVFEw5ZaruTqiDrXDecRuGnhFqu8" },
+        { "currency": "BTC", "address": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA" },
+        { "currency": "GBP", "address": "rBycsjqxD8RVZP5zrrndiVtJwht7Z457A8" },
+        { "currency": "LTC", "address": "rJHygWcTLVpSXkowott6kzgZU6viQSVYM1" },
+        { "currency": "BTC", "address": "rPDXxSZcuVL3ZWoyU82bcde3zwvmShkRyF" },
+        { "currency": "RMB", "address": "rLbppnUciWQ2AfLkcdTfBwb1yh97Kc9cfx" }
+      ]
+    }
+  ]
 }
