@@ -2,7 +2,7 @@
   "markets": [
     {
       "base": {
-        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
@@ -11,8 +11,83 @@
     },
     {
       "base": {
+        "currency": "XRP"
+      },
+      "counter": {
         "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
         "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+        "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+        "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+        "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+        "currency": "BTC"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+        "currency": "EUR"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+        "currency": "BTC"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rXTKdHWuppSjkbiKoEv53bfxHAn1MxmTb",
+        "currency": "XTK"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rCSCManTZ8ME9EoLrSHHYKW8PPwWMgkwr",
+        "currency": "CSC"
       },
       "counter": {
         "currency": "XRP"
@@ -184,19 +259,6 @@
           "name": "ALV",
           "currency": "ALV",
           "address": "raEQc5krJ2rUXyi6fgmUAf63oAXmF7p6jp",
-          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
-        }
-      ]
-    },
-    {
-      "entity": "Bitstamp",
-      "known": true,
-      "domain": "https://bitstamp.net",
-      "assets": [
-        {
-          "name": "USD",
-          "currency": "USD",
-          "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
           "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
         }
       ]
