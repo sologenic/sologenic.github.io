@@ -105,6 +105,16 @@
     },
     {
       "base": {
+        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+        "currency": "BTC"
+      },
+      "counter": {
+        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+        "currency": "EUR"
+      }
+    },
+    {
+      "base": {
         "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
         "currency": "ETH"
       },
@@ -121,16 +131,6 @@
       "counter": {
         "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
         "currency": "BTC"
-      }
-    },
-    {
-      "base": {
-        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
-        "currency": "BTC"
-      },
-      "counter": {
-        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
-        "currency": "EUR"
       }
     },
     {
