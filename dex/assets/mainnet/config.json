@@ -19,7 +19,6 @@
         "currency": "USD"
       }
     },
-
     {
       "base": {
         "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
@@ -30,7 +29,6 @@
         "currency": "USD"
       }
     },
-
     {
       "base": {
         "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
@@ -41,7 +39,6 @@
         "currency": "BTC"
       }
     },
-
     {
       "base": {
         "currency": "XRP"
@@ -60,7 +57,6 @@
         "currency": "USD"
       }
     },
-
     {
       "base": {
         "currency": "XRP"
@@ -79,7 +75,6 @@
         "currency": "BTC"
       }
     },
-
     {
       "base": {
         "currency": "XRP"
@@ -98,7 +93,46 @@
         "currency": "BCH"
       }
     },
-
+    {
+      "base": {
+        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+        "currency": "BTC"
+      },
+      "counter": {
+        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+        "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+        "currency": "BTC"
+      },
+      "counter": {
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+        "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
+        "currency": "ETH"
+      },
+      "counter": {
+        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
+        "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rcyS4CeCZVYvTiKcxj6Sx32ibKwcDHLds",
+        "currency": "BCH"
+      },
+      "counter": {
+        "counterparty": "rcyS4CeCZVYvTiKcxj6Sx32ibKwcDHLds",
+        "currency": "USD"
+      }
+    },
     {
       "base": {
         "counterparty": "rXTKdHWuppSjkbiKoEv53bfxHAn1MxmTb",
