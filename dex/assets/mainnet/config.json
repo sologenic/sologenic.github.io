@@ -31,16 +31,6 @@
     },
     {
       "base": {
-        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
-        "currency": "534F4C4F00000000000000000000000000000000"
-      },
-      "counter": {
-        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
-        "currency": "BTC"
-      }
-    },
-    {
-      "base": {
         "currency": "XRP"
       },
       "counter": {
