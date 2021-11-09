@@ -15,6 +15,16 @@
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
+        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+        "currency": "USD"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
         "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
         "currency": "USD"
       }
@@ -25,8 +35,8 @@
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
-        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
-        "currency": "USD"
+        "counterparty": "rctArjqVvTHihekzDeecKo6mkTYTUSBNc",
+        "currency": "SGB"
       }
     },
     {
@@ -70,6 +80,15 @@
         "currency": "XRP"
       },
       "counter": {
+        "counterparty": "rctArjqVvTHihekzDeecKo6mkTYTUSBNc",
+        "currency": "SGB"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
         "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
         "currency": "ETH"
       }
@@ -81,6 +100,62 @@
       "counter": {
         "counterparty": "rcyS4CeCZVYvTiKcxj6Sx32ibKwcDHLds",
         "currency": "BCH"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rLqUC2eCPohYvJCEBJ77eCCqVL2uEiczjA",
+        "currency": "5852646F67650000000000000000000000000000"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rUtXeAXonpFpgKubAa7LxcLd7NFep92T1t",
+        "currency": "58464C4F4B490000000000000000000000000000"
+      }
+    },
+
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rHEL3bM4RFsvF8kbQj3cya8YiDvjoEmxLq",
+        "currency": "5850554E4B000000000000000000000000000000"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rpakCr61Q92abPXJnVboKENmpKssWyHpwu",
+        "currency": "457175696C69627269756D000000000000000000"
+      }
+    },
+
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rU5LE7X6yyu9DuHsLdHhWSiUVTgpyRK1vz",
+        "currency": "5844554445000000000000000000000000000000"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rHXuEaRYnnJHbDeuBH5w8yPh5uwNVh5zAg",
+        "currency": "ELS"
       }
     },
     {
@@ -214,6 +289,11 @@
           "currency": "REP",
           "address": "rckzVpTnKpP4TJ1puQe827bV3X4oYtdTP",
           "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/86/4a5879cf2b054eb6e73a12597133cfd5c072e933514c439a9ddff3013c3fa620.png"
+        },
+        {
+          "name": "Songbird",
+          "currency": "SGB",
+          "address": "rctArjqVvTHihekzDeecKo6mkTYTUSBNc"
         }
       ]
     },
@@ -305,6 +385,65 @@
         }
       ]
     },
+
+    {
+      "entity": "XRdoge",
+      "known": false,
+      "assets": [
+        {
+          "name": "XRdoge",
+          "currency": "5852646F67650000000000000000000000000000",
+          "address": "rLqUC2eCPohYvJCEBJ77eCCqVL2uEiczjA"
+        }
+      ]
+    },
+    {
+      "entity": "XFLOKI",
+      "known": false,
+      "assets": [
+        {
+          "name": "XFLOKI",
+          "currency": "58464C4F4B490000000000000000000000000000",
+          "address": "rUtXeAXonpFpgKubAa7LxcLd7NFep92T1t"
+        }
+      ]
+    },
+
+    {
+      "entity": "XPUNK",
+      "known": false,
+      "assets": [
+        {
+          "name": "XPUNK",
+          "currency": "5850554E4B000000000000000000000000000000",
+          "address": "rHEL3bM4RFsvF8kbQj3cya8YiDvjoEmxLq"
+        }
+      ]
+    },
+    {
+      "entity": "Equilibrium",
+      "known": false,
+      "assets": [
+        {
+          "name": "Equilibrium",
+          "currency": "457175696C69627269756D000000000000000000",
+          "address": "rpakCr61Q92abPXJnVboKENmpKssWyHpwu"
+        }
+      ]
+    },
+
+    {
+      "entity": "Elysian",
+      "known": false,
+      "assets": [
+        {
+          "name": "ELS",
+          "currency": "457175696C69627269756D000000000000000000",
+          "address": "rHXuEaRYnnJHbDeuBH5w8yPh5uwNVh5zAg"
+        }
+      ]
+    },
+
     {
       "entity": "unknown",
       "known": false,
