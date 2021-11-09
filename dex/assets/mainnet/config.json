@@ -94,19 +94,19 @@
       }
     },
     {
-      "counter": {
+      "base": {
         "currency": "XRP"
       },
-      "base": {
+      "counter": {
         "counterparty": "rXTKdHWuppSjkbiKoEv53bfxHAn1MxmTb",
         "currency": "XTK"
       }
     },
     {
-      "counter": {
+      "base": {
         "currency": "XRP"
       },
-      "base": {
+      "counter": {
         "counterparty": "rCSCManTZ8ME9EoLrSHHYKW8PPwWMgkwr",
         "currency": "CSC"
       }
