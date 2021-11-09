@@ -94,12 +94,21 @@
       }
     },
     {
-      "base": {
+      "counter": {
         "currency": "XRP"
       },
+      "base": {
+        "counterparty": "rXTKdHWuppSjkbiKoEv53bfxHAn1MxmTb",
+        "currency": "XTK"
+      }
+    },
+    {
       "counter": {
-        "counterparty": "rcyS4CeCZVYvTiKcxj6Sx32ibKwcDHLds",
-        "currency": "BCH"
+        "currency": "XRP"
+      },
+      "base": {
+        "counterparty": "rCSCManTZ8ME9EoLrSHHYKW8PPwWMgkwr",
+        "currency": "CSC"
       }
     },
     {
@@ -135,18 +144,17 @@
         "currency": "XRP"
       },
       "counter": {
-        "counterparty": "rpakCr61Q92abPXJnVboKENmpKssWyHpwu",
-        "currency": "457175696C69627269756D000000000000000000"
+        "counterparty": "rU5LE7X6yyu9DuHsLdHhWSiUVTgpyRK1vz",
+        "currency": "5844554445000000000000000000000000000000"
       }
     },
-
     {
       "base": {
         "currency": "XRP"
       },
       "counter": {
-        "counterparty": "rU5LE7X6yyu9DuHsLdHhWSiUVTgpyRK1vz",
-        "currency": "5844554445000000000000000000000000000000"
+        "counterparty": "rpakCr61Q92abPXJnVboKENmpKssWyHpwu",
+        "currency": "457175696C69627269756D000000000000000000"
       }
     },
     {
@@ -170,50 +178,12 @@
     },
     {
       "base": {
-        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
-        "currency": "BTC"
-      },
-      "counter": {
-        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
-        "currency": "EUR"
-      }
-    },
-    {
-      "base": {
         "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
         "currency": "ETH"
       },
       "counter": {
         "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
         "currency": "USD"
-      }
-    },
-    {
-      "base": {
-        "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
-        "currency": "ETH"
-      },
-      "counter": {
-        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
-        "currency": "BTC"
-      }
-    },
-    {
-      "base": {
-        "counterparty": "rXTKdHWuppSjkbiKoEv53bfxHAn1MxmTb",
-        "currency": "XTK"
-      },
-      "counter": {
-        "currency": "XRP"
-      }
-    },
-    {
-      "base": {
-        "counterparty": "rCSCManTZ8ME9EoLrSHHYKW8PPwWMgkwr",
-        "currency": "CSC"
-      },
-      "counter": {
-        "currency": "XRP"
       }
     }
   ],
