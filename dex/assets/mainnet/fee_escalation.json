@@ -1,5 +1,5 @@
 {
-	"recommend": true,
+	"recommend": false,
 	"suggestion": {
 		"drops": 10000,
 		"xrp": 0.01
