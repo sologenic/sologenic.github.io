@@ -141,7 +141,7 @@
                 This address has the following metadata:
             </p>
 
-            <pre>
+            <pre class="prettyprint">
                 {
                     "address":"Address of the issuer",
                     "minted_by":"Address of the user who minted the nft",
@@ -162,7 +162,7 @@
   </pre>
 
             <p>Sample collection metadata:</p>
-            <pre>
+            <pre class="prettyprint">
                 {
                    "address":"r9HMSHstaQwzEEEuVi8jK4npsXXr7mzuRK",
                    "minted_by":"ryxnAR3uaBTuVjuz899JLCFHgoYJSk1Yr",
@@ -193,13 +193,13 @@
   </pre>
 
             <p>Each minted NFT has a unique currency code with the following format:</p>
-            <pre>
+            <pre class="prettyprint">
     "023031" + HEX(ipfs.cid.substring(0, 5) + "NFT") + "000000000000000000"
             </pre>
 
             <p>Each NFT has the following metadata that is uploaded to IPFS:
             </p>
-            <pre>
+            <pre class="prettyprint">
                 {
                     "address": "Address of the issuer",
                     "minted_by": "Minted by this address",
@@ -232,7 +232,7 @@
             <p>The following transactions are conducted on the issuer accounts:</p>
 
             <p><strong>1st TX:</strong></p>
-            <pre>
+            <pre class="prettyprint">
                 {
                     TransactionType: "AccountSet",
                     Account: ISSUER_ADDRESS,
@@ -249,7 +249,7 @@
 
 
             </p>
-            <pre>
+            <pre class="prettyprint">
                 {
                     TransactionType: "Payment",
                     Account: ISSUER_ADDRESS,
@@ -283,7 +283,7 @@
 </pre>
 
             <p><strong>3rd TX: </strong></p>
-            <pre>
+            <pre class="prettyprint">
                 {
                     TransactionType: "SetRegularKey",
                     Account: ISSUER_ADDRESS,
@@ -294,7 +294,7 @@
             </pre>
 
             <p><strong>4th TX:</strong></p>
-            <pre>
+            <pre class="prettyprint">
                 {
                     TransactionType: "AccountSet",
                     Fee: FEE,
