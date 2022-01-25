@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="Sologenic Development Foundation" />
     <title>Sologenic - XLS-14d/SOLO</title>
@@ -13,47 +11,333 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <link href="assets/css/styles.css" rel="stylesheet" />
-  </head>
+</head>
 
-  <body>
+<body>
     <nav class="navbar navbar-expand-md fixed-top">
-      <a href="https://sologenic.org"><img src="assets/images/logo.png" /></a>
+        <a href="https://sologenic.org"><img src="assets/images/logo.png" /></a>
     </nav>
 
     <main role="main" class="container with-disclaimer">
-      <div class="content">
-        <h1>XLS-14d/SOLO</h1>
-        <br />
-      </div>
+        <div class="content">
+            <h1>XLS-14d/SOLO NFT Standard</h1>
+            <br />
+        </div>
 
-      <h5>Introduction</h5>
-      <p>
-       content
-      </p>
-      <br />
-
-      <h5>XLS-14d SOLO version</h5>
-      <p>
-        content
-      </p>
-
-      <br />
-
-      <h5>XLS-20d</h5>
-      <div>
+        <h5>Non-Fungible Tokens (NFT)</h5>
         <p>
-          content
+            A non-fungible token (NFT) is a token on the Blockchain to represent unique items such as art and
+            collectibles. Each NFT is unique and has different properties that distinguishes it from other NFTs. Unlike
+            cryptocurrencies such as Bitcoin, NFTs are not interchangeable and are indivisible. And NFT is traded as a
+            whole and fractional exchanges such as in other cryptocurrencies are not allowed.
         </p>
-       
-      </div>
+        <br />
 
-      <br />
+        <h5>XRP Ledger (XRP)</h5>
+        <p>
+            The XRP Ledger (XRPL) is a decentralized, public blockchain led by a global community of developers.
+        </p>
+        <p>
+            It’s fast, energy efficient, and reliable. With ease of development, low transaction costs, and a
+            knowledgeable community, it provides developers with a strong open-source foundation for executing on the
+            most demanding projects—without hurting the environment.
+        </p>
+        <p>
+            XRPL uses a consensus protocol, in which designated servers called validators come to an agreement on the
+            order
+            and outcome of XRP transactions every 3-5 seconds.
+        </p>
+        <p>
+            All servers in the network process each transaction according to the same rules, and any transaction that
+            follows the protocol is confirmed right away. All transactions are public, with strong cryptography to
+            guarantee
+            the integrity of the system.</p>
+        <p>
+            Anyone can operate a validator; currently, over 150 validators are active on the ledger, operated by
+            universities, exchanges, businesses, and individuals. Additionally, the consensus protocol ensures the
+            blockchain becomes more decentralized over time as the validator pool grows.
+        </p>
 
-    
-      <div class="footer">
-        Copyright © 2021 Sologenic Development Foundation. All rights reserved
-      </div>
+        <br />
+
+        <h5>XRP Ledger Issued Tokens</h5>
+        <div>
+            <p>
+                The XRP Ledger Blockchain provides a way for any currencies to be issued on the network using IOUs. This
+                feature allows users to issue tokens that can be exchanged on the network through transfers or the
+                built-in Decentralized Exchange on the XRPL.
+            </p>
+            <p>
+                While the token issuance on the XRP Ledger works really well for issued crypto currencies such as SOLO
+                out of the box, it needs to be tweaked to be used for indivisible assets such as NFTs.
+            </p>
+            <p>
+                The XRP Ledger has an issued token precision of 15 significant figures. The smallest amount of an issued
+                token the XRPL can handle is 1000000000000000e-96. That means for a token to be indivisible, the issuer
+                must only create 1000000000000000e-96 of the token to represent an NFT.
+            </p>
+
+        </div>
+
+        <br />
+
+        <h5>XLS-14d</h5>
+        <div>
+            <p>
+                Full details: <a
+                    href="https://github.com/XRPLF/XRPL-Standards/discussions/30">https://github.com/XRPLF/XRPL-Standards/discussions/30</a>
+            </p>
+
+            <p>
+                The XLS-14d proposal originally by Wietse Wind from the XRP Ledger developer community introduced a set
+                of standards to be followed for NFTs issuances.
+            </p>
+            <p>
+                This proposal has been welcomed by the community as a way to issue NFTs on the XRP Ledger, but since the
+                underlying technology is not built for NFT use-cases, it lacks some features and makes the overall
+                minting a complicated process.
+            </p>
+
+        </div>
+
+        <br />
+
+
+        <h5>XLS-14d/SOLO variation</h5>
+        <div>
+            <p>
+                The SOLO variation of the XLS-14d follows many aspects of the original XLS-14d but tearts an XRP address
+                as a “collection” that can hold many NFTs within it.
+
+            </p>
+
+            <p>
+                This allows users to mint a collection of NFTs using only 1 account, thus reducing multiple account
+                activation fees.
+
+            </p>
+            <p>
+                Sologenic NFT Marketplace is made up of 2 components. A Backend component that is responsible for
+                minting NFTs on user’s behalf, indexing data directly from the ledger and the Frontend, which is
+                connected to the ledger and the API data provided by the backend. Together these components make up the
+                minting, searching and trading of NFTs.
+
+            </p>
+
+            <h6>Minting Process:</h6>
+
+            <p>
+                Each NFT must be minted inside a collection, a collection is an issuer that mints only 1 of each asset
+                type, but can hold multiple NFTs.
+            </p>
+            <p>Minting is done through the NFT workshop section on the Sologenic.org platform. </p>
+
+            <p>
+                Each collection has a unique ID, which is the XRPL address of the issuer. E.g.
+                rwTw6Bm5AXce4PgDnY7HcdAqkSj6DgUXjq
+            </p>
+
+            <p>
+                This address has the following metadata:
+            </p>
+
+            <pre>{
+    "address":"Address of the issuer",
+    "minted_by":"Address of the user who minted the nft",
+    "colllection_uid":"A unique ID representing this collection within Sologeinc",
+    "colllection_name":"Name of the collection",
+    "description":"Description of the collection",
+    "collection_item_count": Total count of items (NFTs) in this collection - Integer,
+    "nfts":[
+       {
+          "currency":"NFT currency code",
+          "metadata":"ipfs://cid/metadata.json",
+          "content_type":"NFT content type"
+       } 
+     ],
+    "minter":"The system that minted the NFT",
+    "created":"ISO 8601 timestamp"
+  }
+  </pre>
+
+            <p>Sample collection metadata:</p>
+            <pre>
+
+  {
+     "address":"r9HMSHstaQwzEEEuVi8jK4npsXXr7mzuRK",
+     "minted_by":"ryxnAR3uaBTuVjuz899JLCFHgoYJSk1Yr",
+     "colllection_uid":"ff0c22c2-434a-45a1-b1b3-b61303d34a38",
+     "colllection_name":"Animal",
+     "collection_item_count":3,
+     "nfts":[
+        {
+           "currency":"023031516D5073334E4654000000000000000000",
+           "metadata":"ipfs://bafybeiawutbfxa6sdaax66alcwcbz2oqvc3axngzyyjk277tjsyayrrfa4/metadata.json",
+           "content_type":"image/jpeg"
+        },
+        {
+           "currency":"023031516D5363634E4654000000000000000000",
+           "metadata":"ipfs://bafybeib7qwxoepqad7xwraxk2y2xf6r3gb4xx6ntwees2flav4ty5r5pia/metadata.json",
+           "content_type":"image/jpeg"
+        },
+        {
+           "currency":"023031516D6637374E4654000000000000000000",
+           "metadata":"ipfs://bafybeihzd5dwjgsal22lauvebegyxng7umgcasw4mokbdcruepgy6pjxdm/metadata.json",
+           "content_type":"video/mp4"
+        }
+     ],
+     "description":"This is my second collection",
+     "minter":"https://sologenic.org",
+     "created":"2021-12-06  16:41:43.000"
+  }
+  </pre>
+
+            <p>Each minted NFT has a unique currency code with the following format:</p>
+            <pre>
+                "023031" + HEX(ipfs.cid.substring(0, 5) + "NFT") + "000000000000000000"
+            </pre>
+
+            <p>Each NFT has the following metadata that is uploaded to IPFS:
+            </p>
+            <pre>
+{
+    "address": "Address of the issuer",
+    "minted_by": "Minted by this address",
+    "name": "The name of NFT",
+    "category": "category name",
+    "md5hash": "Unique content MD5 hash",
+    "content_type": "Content type MIME",
+    "file_extension": "File extension of NFT",
+    "description": "Description of the NFT",
+    "external_link": "External link provided for this NFT",
+    "properties": {
+      "property": "value"
+    },
+    "stats": {
+      "property": [
+        min,
+        max
+      ]
+    },
+    "is_explicit": "true/false",
+    "standard": "XLS-14d/SOLO",
+    "blockchain": "XRPL",
+    "minter": "https://sologenic.org",
+    "created": "ISO 8601 timestamp"
+}
+  </pre>
+
+            <p>Once a collection is minted, the transfers NFT IOUs to the minter and blackholes the issuer address.
+            </p>
+            <p>The following transactions are conducted on the issuer accounts:</p>
+
+            <p>1st TX:
+            </p>
+            <pre>
+    {
+        TransactionType: "AccountSet",
+        Account: ISSUER_ADDRESS,
+        Fee: FEE,
+        SetFlag: 8,
+        Domain: toHex(
+          "ipfs://" + CID.parse(cid).toV1().toString() + "/metadata.json"
+        ),
+    }
+</pre>
+            <p>2nd TX:
+                </br>
+                (This TX happens for all NFTs in the collection)
+
+
+            </p>
+            <pre>
+                {
+                    TransactionType: "Payment",
+                    Account: ISSUER_ADDRESS,
+                    Destination: MINTER,
+                    Fee: FEE,
+                    DestinationTag: 0,
+                    Memos: [
+                      {
+                        Memo: {
+          JWT(ES256).sign(
+              {
+                metadata: CID.parse(nft.cid).toV1().toString() + "/metadata.json",
+                issuer: NFT_ISSUER,
+                minter: NFT_MINTER,
+              }
+           
+                      },
+                    ],
+                    Amount: {
+                      currency: NFT_CURRENCY,
+                      issuer: ISSUER_ADDRESS,
+                      value: 1000000000000000e-96,
+                    },
+                    SendMax: {
+                      currency: NFT_CURRENCY,,
+                      issuer: ISSUER_ADDRESS,
+                      value: 1000000000000000e-96,
+                    },
+                  }
+                }
+          
+</pre>
+
+            <p>3rd TX: </p>
+            <pre>
+                {
+                    TransactionType: "SetRegularKey",
+                    Account: ISSUER_ADDRESS,
+                    Fee: FEE,
+                    RegularKey: "rrrrrrrrrrrrrrrrrrrrBZbvji",
+                }
+          
+            </pre>
+
+            <p>4th TX:</p>
+            <pre>
+                {
+                    TransactionType: "AccountSet",
+                    Fee: FEE,
+                    Account: ISSUER_ADDRESS,
+                    SetFlag: 4,
+                }
+            
+            </pre>
+        </div>
+
+
+        <h5>XLS-20d</h5>
+        <div>
+            <p>
+                Full details: <a
+                    href="https://github.com/XRPLF/XRPL-Standards/discussions/46">https://github.com/XRPLF/XRPL-Standards/discussions/46</a>
+
+            </p>
+        </div>
+
+        <h5>Migration From XLS-14d/SOLO to XLS-20d</h5>
+        <div>
+            <p>
+                Upon release of the XLS-20d, Sologenic will allow minters to transfer their collections to the new
+                standard. A document detailing migration of the XLS-14d/SOLO to XLS-20d will be released as a separate
+                document.
+
+            </p>
+        </div>
+
+
+
+
+
+
+
+        <div class="footer">
+            Copyright © 2021 Sologenic Development Foundation. All rights reserved
+        </div>
     </main>
-  </body>
-  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
 </html>
