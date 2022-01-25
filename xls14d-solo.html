@@ -141,112 +141,111 @@
                 This address has the following metadata:
             </p>
 
-            <pre>{
-    "address":"Address of the issuer",
-    "minted_by":"Address of the user who minted the nft",
-    "colllection_uid":"A unique ID representing this collection within Sologeinc",
-    "colllection_name":"Name of the collection",
-    "description":"Description of the collection",
-    "collection_item_count": Total count of items (NFTs) in this collection - Integer,
-    "nfts":[
-       {
-          "currency":"NFT currency code",
-          "metadata":"ipfs://cid/metadata.json",
-          "content_type":"NFT content type"
-       } 
-     ],
-    "minter":"The system that minted the NFT",
-    "created":"ISO 8601 timestamp"
-  }
+            <pre>
+                {
+                    "address":"Address of the issuer",
+                    "minted_by":"Address of the user who minted the nft",
+                    "colllection_uid":"A unique ID representing this collection within Sologeinc",
+                    "colllection_name":"Name of the collection",
+                    "description":"Description of the collection",
+                    "collection_item_count": Total count of items (NFTs) in this collection - Integer,
+                    "nfts":[
+                       {
+                          "currency":"NFT currency code",
+                          "metadata":"ipfs://cid/metadata.json",
+                          "content_type":"NFT content type"
+                       } 
+                     ],
+                    "minter":"The system that minted the NFT",
+                    "created":"ISO 8601 timestamp"
+                }
   </pre>
 
             <p>Sample collection metadata:</p>
             <pre>
-
-  {
-     "address":"r9HMSHstaQwzEEEuVi8jK4npsXXr7mzuRK",
-     "minted_by":"ryxnAR3uaBTuVjuz899JLCFHgoYJSk1Yr",
-     "colllection_uid":"ff0c22c2-434a-45a1-b1b3-b61303d34a38",
-     "colllection_name":"Animal",
-     "collection_item_count":3,
-     "nfts":[
-        {
-           "currency":"023031516D5073334E4654000000000000000000",
-           "metadata":"ipfs://bafybeiawutbfxa6sdaax66alcwcbz2oqvc3axngzyyjk277tjsyayrrfa4/metadata.json",
-           "content_type":"image/jpeg"
-        },
-        {
-           "currency":"023031516D5363634E4654000000000000000000",
-           "metadata":"ipfs://bafybeib7qwxoepqad7xwraxk2y2xf6r3gb4xx6ntwees2flav4ty5r5pia/metadata.json",
-           "content_type":"image/jpeg"
-        },
-        {
-           "currency":"023031516D6637374E4654000000000000000000",
-           "metadata":"ipfs://bafybeihzd5dwjgsal22lauvebegyxng7umgcasw4mokbdcruepgy6pjxdm/metadata.json",
-           "content_type":"video/mp4"
-        }
-     ],
-     "description":"This is my second collection",
-     "minter":"https://sologenic.org",
-     "created":"2021-12-06  16:41:43.000"
-  }
+                {
+                   "address":"r9HMSHstaQwzEEEuVi8jK4npsXXr7mzuRK",
+                   "minted_by":"ryxnAR3uaBTuVjuz899JLCFHgoYJSk1Yr",
+                   "colllection_uid":"ff0c22c2-434a-45a1-b1b3-b61303d34a38",
+                   "colllection_name":"Animal",
+                   "collection_item_count":3,
+                   "nfts":[
+                      {
+                         "currency":"023031516D5073334E4654000000000000000000",
+                         "metadata":"ipfs://bafybeiawutbfxa6sdaax66alcwcbz2oqvc3axngzyyjk277tjsyayrrfa4/metadata.json",
+                         "content_type":"image/jpeg"
+                      },
+                      {
+                         "currency":"023031516D5363634E4654000000000000000000",
+                         "metadata":"ipfs://bafybeib7qwxoepqad7xwraxk2y2xf6r3gb4xx6ntwees2flav4ty5r5pia/metadata.json",
+                         "content_type":"image/jpeg"
+                      },
+                      {
+                         "currency":"023031516D6637374E4654000000000000000000",
+                         "metadata":"ipfs://bafybeihzd5dwjgsal22lauvebegyxng7umgcasw4mokbdcruepgy6pjxdm/metadata.json",
+                         "content_type":"video/mp4"
+                      }
+                   ],
+                   "description":"This is my second collection",
+                   "minter":"https://sologenic.org",
+                   "created":"2021-12-06  16:41:43.000"
+                }
   </pre>
 
             <p>Each minted NFT has a unique currency code with the following format:</p>
             <pre>
-                "023031" + HEX(ipfs.cid.substring(0, 5) + "NFT") + "000000000000000000"
+    "023031" + HEX(ipfs.cid.substring(0, 5) + "NFT") + "000000000000000000"
             </pre>
 
             <p>Each NFT has the following metadata that is uploaded to IPFS:
             </p>
             <pre>
-{
-    "address": "Address of the issuer",
-    "minted_by": "Minted by this address",
-    "name": "The name of NFT",
-    "category": "category name",
-    "md5hash": "Unique content MD5 hash",
-    "content_type": "Content type MIME",
-    "file_extension": "File extension of NFT",
-    "description": "Description of the NFT",
-    "external_link": "External link provided for this NFT",
-    "properties": {
-      "property": "value"
-    },
-    "stats": {
-      "property": [
-        min,
-        max
-      ]
-    },
-    "is_explicit": "true/false",
-    "standard": "XLS-14d/SOLO",
-    "blockchain": "XRPL",
-    "minter": "https://sologenic.org",
-    "created": "ISO 8601 timestamp"
-}
+                {
+                    "address": "Address of the issuer",
+                    "minted_by": "Minted by this address",
+                    "name": "The name of NFT",
+                    "category": "category name",
+                    "md5hash": "Unique content MD5 hash",
+                    "content_type": "Content type MIME",
+                    "file_extension": "File extension of NFT",
+                    "description": "Description of the NFT",
+                    "external_link": "External link provided for this NFT",
+                    "properties": {
+                      "property": "value"
+                    },
+                    "stats": {
+                      "property": [
+                        min,
+                        max
+                      ]
+                    },
+                    "is_explicit": "true/false",
+                    "standard": "XLS-14d/SOLO",
+                    "blockchain": "XRPL",
+                    "minter": "https://sologenic.org",
+                    "created": "ISO 8601 timestamp"
+                }
   </pre>
 
             <p>Once a collection is minted, the transfers NFT IOUs to the minter and blackholes the issuer address.
             </p>
             <p>The following transactions are conducted on the issuer accounts:</p>
 
-            <p>1st TX:
-            </p>
+            <p><strong>1st TX:</strong></p>
             <pre>
-    {
-        TransactionType: "AccountSet",
-        Account: ISSUER_ADDRESS,
-        Fee: FEE,
-        SetFlag: 8,
-        Domain: toHex(
-          "ipfs://" + CID.parse(cid).toV1().toString() + "/metadata.json"
-        ),
-    }
+                {
+                    TransactionType: "AccountSet",
+                    Account: ISSUER_ADDRESS,
+                    Fee: FEE,
+                    SetFlag: 8,
+                    Domain: toHex(
+                      "ipfs://" + CID.parse(cid).toV1().toString() + "/metadata.json"
+                    ),
+                }
 </pre>
-            <p>2nd TX:
-                </br>
-                (This TX happens for all NFTs in the collection)
+            <p></strong>2nd TX:</strong></p>
+            </br>
+            (This TX happens for all NFTs in the collection)
 
 
             </p>
@@ -260,13 +259,12 @@
                     Memos: [
                       {
                         Memo: {
-          JWT(ES256).sign(
-              {
-                metadata: CID.parse(nft.cid).toV1().toString() + "/metadata.json",
-                issuer: NFT_ISSUER,
-                minter: NFT_MINTER,
-              }
-           
+                         JWT(ES256).sign(
+                            {
+                                metadata: CID.parse(nft.cid).toV1().toString() + "/metadata.json",
+                                issuer: NFT_ISSUER,
+                                minter: NFT_MINTER,
+                            }
                       },
                     ],
                     Amount: {
@@ -284,7 +282,7 @@
           
 </pre>
 
-            <p>3rd TX: </p>
+            <p><strong>3rd TX: </strong></p>
             <pre>
                 {
                     TransactionType: "SetRegularKey",
@@ -295,7 +293,7 @@
           
             </pre>
 
-            <p>4th TX:</p>
+            <p><strong>4th TX:</strong></p>
             <pre>
                 {
                     TransactionType: "AccountSet",
@@ -328,13 +326,10 @@
         </div>
 
 
-
-
-
-
+<br><br>
 
         <div class="footer">
-            Copyright © 2021 Sologenic Development Foundation. All rights reserved
+            Copyright © 2022 Sologenic Development Foundation. All rights reserved
         </div>
     </main>
 </body>
