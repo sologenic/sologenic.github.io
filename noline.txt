@@ -1,3 +1,16 @@
+Wallet addresses with either no TrustLine or removed TrustLine to the SOLO issuer.
+
+Use Control/Command "F" and search for your wallet. 
+
+We advise all users who are in this list to establish a TrustLine as soon as possible with the following information:
+
+Issuer: rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz
+Currency: 534F4C4F00000000000000000000000000000000
+Limit: 400000000
+
+We will retry distributing the SOLO tokens to these addresses once again on Feb 4th, 2022 at 8:00 PM UTC. However, if you do not establish the TrustLine correctly by this time, you will not receive the airdrop.
+
+
 rE6oGSnjT7jtkp67rsfYj14dTCj4T7nmRb
 raDb9ug6S6XsidHxtMPeR6KQ4Pj77mk1A6
 rJLRnvthK4HWKXiZioBWT2oFEX1fBbf5Xq
