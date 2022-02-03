@@ -163,6 +163,19 @@
       ]
     },
     {
+      "entity": "Coreum",
+      "known": true,
+      "domain": "https://coreum.com",
+      "assets": [
+        {
+          "name": "CORE",
+          "currency": "434F524500000000000000000000000000000000",
+          "address": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
+          "logo": "https://docs.sologenic.com/dex/assets/mainnet/core-logo.png"
+        }
+      ]
+    },	
+    {
       "entity": "GateHub",
       "known": true,
       "domain": "https://gatehub.net",
