@@ -11,6 +11,15 @@
     },
     {
       "base": {
+        "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
+        "currency": "434F524500000000000000000000000000000000"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    },    
+    {
+      "base": {
         "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
