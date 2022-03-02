@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Sologenic Core Team" />
+    <meta name="generator" content="Jekyll v4.1.1" />
+    <title>Coreum Airdrop Check Tool</title>
+
+    <link href="https://docs.sologenic.com/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://docs.sologenic.com/assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="fixed-top">
+
+    </div>
+    <nav class="navbar navbar-expand-md fixed-top" style="margin-top:0px !important;">
+        <a href="https://coreum.com"><img src="https://www.coreum.com/assets/images/coreum-logo.png" /></a>
+    </nav>
+
+    <main role="main" class="container with-disclaimer">
+        <div class="content">
+            <br />
+
+            <br />
+
+            <div class="page-title" style="color:black;">
+                Calculate your CORE Airdrop Amount
+            </div>
+
+            <div>
+
+                Snapshot Date
+                <br />
+                <select name="airdrop" id="ledger">
+                </select>
+                <br />
+                <br />
+                Wallet Address:<br />
+                <input type="text" placeholder="Enter your address" id="account" size="50" />
+
+                <div style="min-height:96px; padding-top: 14px;">
+                    <div id="result-box" style="display: none;">
+
+                        <img src="https://sologenic.org/static/media/solo.8a368f17.png"
+                            style="width:16px; height:16px;" /> Your SOLO Holdings for <span class="ad-label"
+                            style="font-style:italic;"></span> was: <span id="solo-balance"></span><br />
+
+                        <img src="https://docs.sologenic.com/dex/assets/mainnet/core-logo.png"
+                            style="width:16px; height:16px;" /> Your <span class="ad-label"
+                            style="font-style:italic;"></span> airdrop is:
+                        <span id="result" style="font-weight:bolder;"></span> CORE <br />
+                        <div style="margin-left: 20px;font-size:12px;">(ratio: <span id="ratio"></span>)</div>
+                    </div>
+                    <div id="loading" style="display: none;">
+                        Fetching data...
+                    </div>
+                    <div id="error" style="display: none;">
+                        Error fetching data
+                    </div>
+
+                </div>
+
+                <button type="button" id="check">Check Amount</button>
+
+            </div>
+
+
+        </div>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br />
+        <div class="footer">
+            Copyright © 2021 Sologenic Development Foundation Ltd. All rights reserved
+        </div>
+    </main>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/bignumber.js@9.0.2/bignumber.min.js'></script>
+
+
+<script>
+
+    var frames = [
+        {
+            id: 1,
+            name: "December 2021",
+            ledger: "68552537",
+            ratio: 0.11487818998
+        },
+        {
+            id: 2,
+            name: "January 2022",
+            ledger: "69110627",
+            ratio: 0.11487818998
+        },
+        {
+            id: 3,
+            name: "February 2022",
+            ledger: "69710324",
+            ratio: 0.03680957956
+        },
+    ]
+
+    $(document).ready(function () {
+        var $dropdown = $("#ledger");
+        $.each(frames, function () {
+            $dropdown.append($("<option />").val(this.ledger).text(this.name));
+        });
+    });
+
+    $("#check").on("click", function () {
+        $("#result-box").hide();
+        $("#error").hide();
+        $("#loading").show();
+
+        var account = $("#account").val();
+        var index = $("#ledger option:selected").val();
+        var frame = frames.find(x => {
+            return x.ledger == index;
+        });
+        $.get('https://data.ripple.com/v2/accounts/' + account + '/balances?ledger_index=' + index,
+            function (data, textStatus, jqXHR) {  // success callback
+                // alert('status: ' + textStatus + ', data:' + data);
+                var solo_holding = data.balances.find(x => {
+                    return x.currency == "534F4C4F00000000000000000000000000000000" && x.counterparty == "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz"
+                })
+
+                var solo_holding = new BigNumber(solo_holding.value);
+                var ad = new BigNumber(solo_holding.multipliedBy(frame.ratio));
+                var final = (ad.toFixed(7, 1).valueOf()).replace(/(?:\.0+|(\.\d+?)0+)$/, "$1")
+                $("#solo-balance").text(solo_holding);
+                $("#ratio").text(frame.ratio);
+                $(".ad-label").text(frame.name);
+                $("#result").text(final);
+                $("#loading").hide();
+                $("#result-box").show();
+
+            }).fail(function () {
+                $("#loading").hide();
+                $("#result-box").hide();
+                $("#error").show();
+
+            });;
+    });
+
+</script>
+
+</html>
