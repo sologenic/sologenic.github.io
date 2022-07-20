@@ -193,6 +193,25 @@
           "logo": "https://docs.sologenic.com/dex/assets/mainnet/core-logo.png"
         }
       ]
+    },
+    {
+      "entity": "Multichain",
+      "known": true,
+      "domain": "https://multichain.org",
+      "assets": [
+        {
+          "name": "USDT",
+          "currency": "5553445400000000000000000000000000000000",
+          "address": "rDsvn6aJG4YMQdHnuJtP9NLrFp18JYTJUf",
+          "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/USDT.png"
+        },
+        {
+          "name": "USDC",
+          "currency": "5553444300000000000000000000000000000000",
+          "address": "rDsvn6aJG4YMQdHnuJtP9NLrFp18JYTJUf",
+          "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/USDC.png"
+        }
+      ]
     },	
     {
       "entity": "GateHub",
