@@ -212,7 +212,20 @@
           "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/USDC.png"
         }
       ]
-    },	
+    },
+    {
+      "entity": "Stably USD",
+      "known": true,
+      "domain": "https://stably.io",
+      "assets": [
+        {
+          "name": "USD",
+          "currency": "USD",
+          "address": "rEn9eRkX25wfGPLysUMAvZ84jAzFNpT5fL",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/90/d1a6c64dd038e8b5325442fa4471d9485a3d9052d0908c4630bf9b557d1de920.png"
+        }
+      ]
+    },
     {
       "entity": "GateHub",
       "known": true,
