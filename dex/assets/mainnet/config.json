@@ -191,6 +191,12 @@
           "currency": "434F524500000000000000000000000000000000",
           "address": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
           "logo": "https://docs.sologenic.com/dex/assets/mainnet/core-logo.png"
+        },
+        {
+          "name": "xCORE",
+          "currency": "58434F5245000000000000000000000000000000",
+          "address":"r3dVizzUAS3U29WKaaSALqkieytA2LCoRe",
+          "logo":"https://storage.googleapis.com/sg-dex-production-331211-public-uploads/xCORE-dark.png"
         }
       ]
     },
