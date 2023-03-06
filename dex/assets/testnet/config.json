@@ -47,6 +47,15 @@
     },
     {
       "base": {
+        "counterparty": "raSEP47QAwU6jsZU493znUD2iGNHDQEyvA",
+        "currency": "434F524500000000000000000000000000000000"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    },
+    {
+      "base": {
         "counterparty": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
@@ -96,6 +105,19 @@
           "name": "SOLO",
           "currency": "534F4C4F00000000000000000000000000000000",
           "address": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
+          "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
+        }
+      ]
+    },
+    {
+      "entity": "Coreum Testnet",
+      "known": true,
+      "domain": "https://coreum.com",
+      "assets": [
+        {
+          "name": "CORE",
+          "currency": "434F524500000000000000000000000000000000",
+          "address": "raSEP47QAwU6jsZU493znUD2iGNHDQEyvA",
           "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
         }
       ]
