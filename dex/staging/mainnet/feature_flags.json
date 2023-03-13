@@ -1,0 +1,98 @@
+[
+  {
+    "flag": "xls20d-standard",
+    "status": "active",
+    "flag_description": "All features regarding XRP Ledger NFT standard: XLS-20d",
+    "restricted_description": ""
+  },
+  {
+    "flag": "xls14d-standard",
+    "status": "active",
+    "flag_description": "All features regarding XRP Ledger NFT standard: XLS-14d",
+    "restricted_description": ""
+  },
+  {
+    "flag": "xls30d-standard",
+    "status": "active",
+    "flag_description": "All features regarding XRP Ledger XLS30 Ammendment: Automated Market Maker",
+    "restricted_description": ""
+  },
+  {
+    "flag": "banxa-fiat",
+    "status": "active",
+    "flag_description": "Banxa Fiat On-ramp",
+    "restricted_description": ""
+  },
+  {
+    "flag": "bridge",
+    "status": "active",
+    "flag_description": "Allbridge implementation to bridge tokens between different blockchains",
+    "restricted_description": ""
+  },
+  {
+    "flag": "mc-bridge",
+    "status": "active",
+    "flag_description": "Multichain implementation to bridge CORE tokens to Coreum",
+    "restricted_description": ""
+  },
+  {
+    "flag": "event-page",
+    "status": "inactive",
+    "flag_description": "Static page for community events. Should be disabled when there are no upcoming / ongoing events.",
+    "restricted_description": ""
+  },
+  {
+    "flag": "static-pages",
+    "status": "inactive",
+    "flag_description": "Static pages that live in NextJS project, as well. If Market Index is not available, these flag has to be ACTIVE",
+    "restricted_description": ""
+  },
+  {
+    "flag": "market-index",
+    "status": "active",
+    "flag_description": "Link directing to the Market Index",
+    "restricted_description": ""
+  },
+  {
+    "flag": "protected-content",
+    "status": "active",
+    "flag_description": "Protected Content features switch",
+    "restricted_description": ""
+  },
+  {
+    "flag": "swap-tool",
+    "status": "active",
+    "flag_description": "Swap tool features switch",
+    "restricted_description": ""
+  },
+  {
+    "flag": "issuance",
+    "status": "active",
+    "flag_description": "Issuance tool on the market index",
+    "restricted_description": ""
+  },
+  {
+    "flag": "notifications",
+    "status": "active",
+    "flag_description": "Notification system for the Sologenic Platform",
+    "restricted_description": ""
+  },
+  {
+    "flag": "trade",
+    "status": "active",
+    "flag_description": "Advanced trading page",
+    "restricted_description": ""
+  },
+  {
+    "flag": "shop",
+    "status": "active",
+    "flag_description": "Link to Sologenic Shop",
+    "restricted_description": ""
+  },
+  {
+    "flag": "nfts",
+    "status": "active",
+    "flag_description": "NFT Marketplace",
+    "restricted_description": ""
+  }
+]

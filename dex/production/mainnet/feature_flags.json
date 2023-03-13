@@ -1,0 +1,68 @@
+[
+  {
+    "flag": "xls20d-standard",
+    "status": "active",
+    "flag_description": "All features regarding XRP Ledger NFT standard: XLS-20d",
+    "restricted_description": ""
+  },
+  {
+    "flag": "xls14d-standard",
+    "status": "inactive",
+    "flag_description": "All features regarding XRP Ledger NFT standard: XLS-14d",
+    "restricted_description": ""
+  },
+  {
+    "flag": "banxa-fiat",
+    "status": "active",
+    "flag_description": "Banxa Fiat On-ramp",
+    "restricted_description": ""
+  },
+  {
+    "flag": "bridge",
+    "status": "active",
+    "flag_description": "Allbridge implementation to bridge tokens between different blockchains",
+    "restricted_description": ""
+  },
+  {
+    "flag": "event-page",
+    "status": "inactive",
+    "flag_description": "Static page for community events. Should be disabled when there are no upcoming / ongoing events.",
+    "restricted_description": ""
+  },
+  {
+    "flag": "static-pages",
+    "status": "inactive",
+    "flag_description": "Static pages that live in NextJS project, as well. If Market Index is not available, these flag has to be ACTIVE",
+    "restricted_description": ""
+  },
+  {
+    "flag": "market-index",
+    "status": "active",
+    "flag_description": "Link directing to the Market Index",
+    "restricted_description": ""
+  },
+  {
+    "flag": "protected-content",
+    "status": "inactive",
+    "flag_description": "Protected Content features switch",
+    "restricted_description": ""
+  },
+  {
+    "flag": "issuance",
+    "status": "inactive",
+    "flag_description": "Issuance tool on the market index",
+    "restricted_description": ""
+  },
+  {
+    "flag": "swap-tool",
+    "status": "active",
+    "flag_description": "Swap tool for Minter Provenance",
+    "restricted_description": ""
+  },
+  {
+    "flag": "notifications",
+    "status": "active",
+    "flag_description": "Notification system for the Sologenic Platform",
+    "restricted_description": ""
+  }
+]
