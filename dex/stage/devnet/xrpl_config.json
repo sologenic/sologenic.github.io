@@ -1,0 +1,21 @@
+{
+  "nodes": {
+    "mainnet": [
+      "xrpl.ws",
+      "s1.ripple.com",
+      "x1.sologenic.org",
+      "s2.ripple.com"
+    ],
+    "testnet": [
+      "s.altnet.rippletest.net:51233",
+      "s.devnet.rippletest.net:51233"
+    ]
+  },
+  "fee_escalation": {
+    "recommend": false,
+    "suggestion": {
+      "drops": 10000,
+      "xrp": 0.01
+    }
+  }
+}
