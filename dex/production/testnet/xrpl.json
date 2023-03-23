@@ -1,0 +1,18 @@
+{
+	"nodes": [{
+			"host": "wss://s.altnet.rippletest.net:51233",
+			"default": true
+		},
+		{
+			"host": "wss://s.altnet.rippletest.net:51233",
+			"default": false
+		}
+	],
+	"fee": {
+		"recommend": true,
+		"suggestion": {
+			"drops": 10000,
+			"xrp": 0.01
+		}
+	}
+}
