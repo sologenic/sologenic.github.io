@@ -49,7 +49,7 @@
   },
   {
     "flag": "protected-content",
-    "status": "inactive",
+    "status": "active",
     "flag_description": "Protected Content features switch",
     "restricted_description": ""
   },
