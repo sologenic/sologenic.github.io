@@ -1,0 +1,20 @@
+[
+  {
+    "tokenId": "534F4C4F00000000000000000000000000000000+rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+    "name": "Sologenic",
+    "symbol": "SOLO",
+    "logo": "https://storage.googleapis.com/market-index-public-staging/logo/rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz%2B534F4C4F00000000000000000000000000000000"
+  },
+  {
+    "tokenId": "434F524500000000000000000000000000000000+rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
+    "name": "Coreum",
+    "symbol": "CORE",
+    "logo": "https://storage.googleapis.com/market-index-public-staging/logo/rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D%2B434F524500000000000000000000000000000000"
+  },
+  {
+    "tokenId": "BTC+rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
+    "name": "Gatehub",
+    "symbol": "BTC",
+    "logo": "https://storage.googleapis.com/market-index-public-staging/logo/rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL%2BBTC"
+  }
+]
