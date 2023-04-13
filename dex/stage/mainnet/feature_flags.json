@@ -90,6 +90,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "ido",
+    "status": "active",
+    "flag_description": "IDO Launchpad",
+    "restricted_description": ""
+  },
+  {
     "flag": "nfts",
     "status": "active",
     "flag_description": "NFT Marketplace",
