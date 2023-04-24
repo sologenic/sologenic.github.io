@@ -93,7 +93,8 @@
     "flag": "ido",
     "status": "active",
     "flag_description": "IDO Launchpad",
-    "restricted_description": ""
+    "restricted_description": "",
+    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
   },
   {
     "flag": "nfts",
