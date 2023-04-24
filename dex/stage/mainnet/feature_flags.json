@@ -67,7 +67,7 @@
   },
   {
     "flag": "issuance",
-    "status": "inactive",
+    "status": "active",
     "flag_description": "Issuance tool on the market index",
     "restricted_description": ""
   },
