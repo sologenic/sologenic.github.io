@@ -77,5 +77,23 @@
     "flag_description": "IDO Launchpad",
     "restricted_description": "",
     "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
-  }
+  },
+   {
+    "flag": "trade",
+    "status": "active",
+    "flag_description": "Advanced trading page",
+    "restricted_description": ""
+  },
+  {
+    "flag": "shop",
+    "status": "active",
+    "flag_description": "Link to Sologenic Shop",
+    "restricted_description": ""
+  },
+   {
+    "flag": "nfts",
+    "status": "active",
+    "flag_description": "Sologenic NFT Marketplace",
+    "restricted_description": ""
+  },
 ]
