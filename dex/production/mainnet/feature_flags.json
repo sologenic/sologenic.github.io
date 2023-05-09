@@ -18,6 +18,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "simplex-fiat",
+    "status": "inactive",
+    "flag_description": "Simplex Fiat On-ramp",
+    "restricted_description": ""
+  },
+  {
     "flag": "bridge",
     "status": "active",
     "flag_description": "Allbridge implementation to bridge tokens between different blockchains",
