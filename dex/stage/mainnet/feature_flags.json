@@ -33,7 +33,8 @@
     "flag": "bridge",
     "status": "active",
     "flag_description": "Allbridge implementation to bridge tokens between different blockchains",
-    "restricted_description": ""
+    "restricted_description": "",
+    "new": true
   },
   {
     "flag": "mc-bridge",
