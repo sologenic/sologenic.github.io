@@ -25,17 +25,17 @@
   },
   {
     "flag": "simplex-fiat",
-    "status": "active",
+    "status": "early-access",
     "flag_description": "Simplex Fiat On-ramp",
     "restricted_description": "",
+    "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW"],
     "new": true
   },
   {
     "flag": "bridge",
     "status": "active",
     "flag_description": "Allbridge implementation to bridge tokens between different blockchains",
-    "restricted_description": "",
-    "new": true
+    "restricted_description": ""
   },
   {
     "flag": "mc-bridge",
@@ -75,10 +75,9 @@
   },
   {
     "flag": "issuance",
-    "status": "early-access",
+    "status": "active",
     "flag_description": "Issuance tool on the market index",
-    "restricted_description": "",
-    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6", "rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW", "r4nJW5T5EsBgKUmLrUJq3nPgaNnVhm5pvy", "rUjbKsjeuzb9LbXSqga7AuDmMXtDiDm7S5", "rKATE3cZffGaiBX1TrZ4hsZfXGYWhBxNg"]
+    "restricted_description": ""
   },
   {
     "flag": "notifications",
@@ -100,11 +99,10 @@
   },
   {
     "flag": "ido",
-    "status": "early-access",
+    "status": "active",
     "flag_description": "IDO Launchpad",
     "restricted_description": "",
-    "new": true,
-    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6", "rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW", "r4nJW5T5EsBgKUmLrUJq3nPgaNnVhm5pvy", "rUjbKsjeuzb9LbXSqga7AuDmMXtDiDm7S5", "rKATE3cZffGaiBX1TrZ4hsZfXGYWhBxNg"]
+    "new": true
   },
   {
     "flag": "nfts",
