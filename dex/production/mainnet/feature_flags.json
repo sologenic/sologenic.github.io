@@ -61,10 +61,9 @@
   },
   {
     "flag": "issuance",
-    "status": "early-access",
+    "status": "active",
     "flag_description": "Issuance tool on the market index",
-    "restricted_description": "",
-    "early_access": ["r4nJW5T5EsBgKUmLrUJq3nPgaNnVhm5pvy", "rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6", "rKUGEdPkbfDyu3sPEVCzVzynHpw3rvHMJz", "rUjbKsjeuzb9LbXSqga7AuDmMXtDiDm7S5", "rPB7vXTeWrQ5nxEpQbLvay8nfJUJfeecYL", "rBjbt9tVEC5EgaQ67FdAGZUd4ADEvVQZUX", "rE7Xs8fKJeDiHCXWfrEwLRDAcVKjVHM7wZ", "rNToHb8otRADnP16reronnmp9QrkNM7ZpM", "rMRo1ybMruxEkF4EgyEMpbjU95AqNnVHLF", "rpAiD7gTf9uf2zK2nqNFnvxjA6zW4NNMc6", "rJhczrYZn4Ng7gHA91HShpwPxtEFgyyQf3"]
+    "restricted_description": ""
   },
   {
     "flag": "swap-tool",
@@ -80,10 +79,10 @@
   },
   {
     "flag": "ido",
-    "status": "early-access",
+    "status": "active",
     "flag_description": "IDO Launchpad",
     "restricted_description": "",
-    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6", "rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW", "r4nJW5T5EsBgKUmLrUJq3nPgaNnVhm5pvy", "rUjbKsjeuzb9LbXSqga7AuDmMXtDiDm7S5", "rKUGEdPkbfDyu3sPEVCzVzynHpw3rvHMJz", "rPB7vXTeWrQ5nxEpQbLvay8nfJUJfeecYL", "rBjbt9tVEC5EgaQ67FdAGZUd4ADEvVQZUX", "rE7Xs8fKJeDiHCXWfrEwLRDAcVKjVHM7wZ", "rNToHb8otRADnP16reronnmp9QrkNM7ZpM", "rMRo1ybMruxEkF4EgyEMpbjU95AqNnVHLF", "rpAiD7gTf9uf2zK2nqNFnvxjA6zW4NNMc6", "rJhczrYZn4Ng7gHA91HShpwPxtEFgyyQf3"]
+    "new": true
   },
   {
     "flag": "trade",
