@@ -20,6 +20,15 @@
     }, 
     {
       "base": {
+        "counterparty": "r3dVizzUAS3U29WKaaSALqkieytA2LCoRe",
+        "currency": "58434F5245000000000000000000000000000000"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    }, 
+    {
+      "base": {
         "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
         "currency": "434F524500000000000000000000000000000000"
       },
@@ -150,16 +159,6 @@
       "base": {
         "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
         "currency": "BTC"
-      },
-      "counter": {
-        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
-        "currency": "USD"
-      }
-    },
-    {
-      "base": {
-        "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
-        "currency": "ETH"
       },
       "counter": {
         "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
