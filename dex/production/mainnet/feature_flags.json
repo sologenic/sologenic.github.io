@@ -19,9 +19,10 @@
   },
   {
     "flag": "simplex-fiat",
-    "status": "inactive",
+    "status": "early-access",
     "flag_description": "Simplex Fiat On-ramp",
-    "restricted_description": ""
+    "restricted_description": "",
+    "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW", "rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
   },
   {
     "flag": "bridge",
