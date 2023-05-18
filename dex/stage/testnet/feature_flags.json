@@ -7,7 +7,7 @@
   },
   {
     "flag": "xls14d-standard",
-    "status": "active",
+    "status": "inactive",
     "flag_description": "All features regarding XRP Ledger NFT standard: XLS-14d",
     "restricted_description": ""
   },
