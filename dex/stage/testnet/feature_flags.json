@@ -67,7 +67,7 @@
   },
   {
     "flag": "notifications",
-    "status": "inactive",
+    "status": "active",
     "flag_description": "Notification system for the Sologenic Platform",
     "restricted_description": ""
   },
