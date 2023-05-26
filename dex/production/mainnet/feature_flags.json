@@ -26,9 +26,9 @@
   },
   {
     "flag": "bridge",
-    "status": "inactive",
+    "status": "active",
     "flag_description": "Allbridge implementation to bridge tokens between different blockchains",
-    "restricted_description": "Bridge is temporary disabled due to Multichain internal issue."
+    "restricted_description": ""
   },
   {
     "flag": "mc-bridge",
