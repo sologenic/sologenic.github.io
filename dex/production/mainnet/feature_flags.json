@@ -34,7 +34,7 @@
     "flag": "mc-bridge",
     "status": "inactive",
     "flag_description": "Multichain implementation to bridge CORE tokens to Coreum",
-    "restricted_description": "Bridge is temporary disabled due to Multichain internal issue."
+    "restricted_description": "Disabled due to Multichain internal issue."
   },
   {
     "flag": "event-page",
