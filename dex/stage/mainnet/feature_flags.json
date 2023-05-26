@@ -39,7 +39,7 @@
   },
   {
     "flag": "mc-bridge",
-    "status": "active",
+    "status": "inactive",
     "flag_description": "Multichain implementation to bridge CORE tokens to Coreum",
     "restricted_description": ""
   },
