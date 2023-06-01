@@ -1,1738 +1,1740 @@
 {
-  "786e6173757330323037396b3130373930303031": {
-    "name": "Alphabet Inc Class C",
-    "symbol": "goog",
-    "mic": "xnas",
-    "isin": "us02079k1079",
-    "version": "0001"
-  },
-  "786e6173757330323037396b3330353930303031": {
-    "name": "Alphabet Inc Class A",
-    "symbol": "googl",
-    "mic": "xnas",
-    "isin": "us02079k3059",
-    "version": "0001"
-  },
-  "786e617375733032333133353130363730303031": {
-    "name": "Amazon.com Inc",
-    "symbol": "amzn",
-    "mic": "xnas",
-    "isin": "us0231351067",
-    "version": "0001"
-  },
-  "786e617375733033373833333130303530303031": {
-    "name": "Apple Inc",
-    "symbol": "aapl",
-    "mic": "xnas",
-    "isin": "us0378331005",
-    "version": "0001"
-  },
-  "786e6173757333303330336d3130323730303031": {
-    "name": "Facebook Inc Class A",
-    "symbol": "fb",
-    "mic": "xnas",
-    "isin": "us30303m1027",
-    "version": "0001"
-  },
-  "786e617375733539343931383130343530303031": {
-    "name": "Microsoft Corp",
-    "symbol": "msft",
-    "mic": "xnas",
-    "isin": "us5949181045",
-    "version": "0001"
-  },
-  "786e617375733539343937323430383330303031": {
-    "name": "MicroStrategy Inc Class A",
-    "symbol": "mstr",
-    "mic": "xnas",
-    "isin": "us5949724083",
-    "version": "0001"
-  },
-  "786e797375733038343637303130383630303031": {
-    "name": "Berkshire Hathaway Inc Class A",
-    "symbol": "brk.a",
-    "mic": "xnys",
-    "isin": "us0846701086",
-    "version": "0001"
-  },
-  "786e797375733038343637303730323630303031": {
-    "name": "Berkshire Hathaway Inc Class B",
-    "symbol": "brk.b",
-    "mic": "xnys",
-    "isin": "us0846707026",
-    "version": "0001"
-  },
-  "786e797375733436363235683130303530303031": {
-    "name": "JPMorgan Chase & Co",
-    "symbol": "jpm",
-    "mic": "xnys",
-    "isin": "us46625h1005",
-    "version": "0001"
-  },
-  "786e797375733437383136303130343630303031": {
-    "name": "Johnson & Johnson",
-    "symbol": "jnj",
-    "mic": "xnys",
-    "isin": "us4781601046",
-    "version": "0001"
-  },
-  "786e797375733734323731383130393130303031": {
-    "name": "Procter & Gamble Co",
-    "symbol": "pg",
-    "mic": "xnys",
-    "isin": "us7427181091",
-    "version": "0001"
-  },
-  "786e797375733835323233343130333630303031": {
-    "name": "Square Inc Class A",
-    "symbol": "sq",
-    "mic": "xnys",
-    "isin": "us8522341036",
-    "version": "0001"
-  },
-  "786e797375733933313134323130333930303031": {
-    "name": "Walmart Inc",
-    "symbol": "wmt",
-    "mic": "xnys",
-    "isin": "us9311421039",
-    "version": "0001"
-  },
-  "786e617375733030373234663130313230303031": {
-    "name": "Adobe Inc",
-    "symbol": "adbe",
-    "mic": "xnas",
-    "isin": "us00724f1012",
-    "version": "0001"
-  },
-  "786e617375733637303636673130343030303031": {
-    "name": "NVIDIA Corp",
-    "symbol": "nvda",
-    "mic": "xnas",
-    "isin": "us67066g1040",
-    "version": "0001"
-  },
-  "786e617375733730343530793130333830303031": {
-    "name": "PayPal Holdings Inc",
-    "symbol": "pypl",
-    "mic": "xnas",
-    "isin": "us70450y1038",
-    "version": "0001"
-  },
-  "786e617375733838313630723130313430303031": {
-    "name": "Tesla Inc",
-    "symbol": "tsla",
-    "mic": "xnas",
-    "isin": "us88160r1014",
-    "version": "0001"
-  },
-  "786e797375733036303530353130343630303031": {
-    "name": "Bank of America Corp",
-    "symbol": "bac",
-    "mic": "xnys",
-    "isin": "us0605051046",
-    "version": "0001"
-  },
-  "786e797375733235343638373130363030303031": {
-    "name": "The Walt Disney Co",
-    "symbol": "dis",
-    "mic": "xnys",
-    "isin": "us2546871060",
-    "version": "0001"
-  },
-  "786e797375733433373037363130323930303031": {
-    "name": "The Home Depot Inc",
-    "symbol": "hd",
-    "mic": "xnys",
-    "isin": "us4370761029",
-    "version": "0001"
-  },
-  "786e797375733931333234703130323130303031": {
-    "name": "United Health Group Inc",
-    "symbol": "unh",
-    "mic": "xnys",
-    "isin": "us91324p1021",
-    "version": "0001"
-  },
-  "786e797375733932333433763130343430303031": {
-    "name": "Verizon Communications Inc",
-    "symbol": "vz",
-    "mic": "xnys",
-    "isin": "us92343v1044",
-    "version": "0001"
-  },
-  "786e617363683031313434303533323430303031": {
-    "name": "Garmin Ltd",
-    "symbol": "grmn",
-    "mic": "xnas",
-    "isin": "ch0114405324",
-    "version": "0001"
-  },
-  "786e6173757332303033306e3130313930303031": {
-    "name": "Comcast Corp Class A",
-    "symbol": "cmcsa",
-    "mic": "xnas",
-    "isin": "us20030n1019",
-    "version": "0001"
-  },
-  "786e6173757332323136306b3130353130303031": {
-    "name": "Costco Wholesale Corp",
-    "symbol": "cost",
-    "mic": "xnas",
-    "isin": "us22160k1051",
-    "version": "0001"
-  },
-  "786e617375733431383035363130373230303031": {
-    "name": "Hasbro Inc",
-    "symbol": "has",
-    "mic": "xnas",
-    "isin": "us4180561072",
-    "version": "0001"
-  },
-  "786e617375733435383134303130303130303031": {
-    "name": "Intel Corp",
-    "symbol": "intc",
-    "mic": "xnas",
-    "isin": "us4581401001",
-    "version": "0001"
-  },
-  "786e6173757336343131306c3130363130303031": {
-    "name": "Netflix Inc",
-    "symbol": "nflx",
-    "mic": "xnas",
-    "isin": "us64110l1061",
-    "version": "0001"
-  },
-  "786e617375733731333434383130383130303031": {
-    "name": "PepsiCo Inc",
-    "symbol": "pep",
-    "mic": "xnas",
-    "isin": "us7134481081",
-    "version": "0001"
-  },
-  "786e797375733030323036723130323330303031": {
-    "name": "AT&T Inc",
-    "symbol": "t",
-    "mic": "xnys",
-    "isin": "us00206r1023",
-    "version": "0001"
-  },
-  "786e797375733030323832343130303030303031": {
-    "name": "Abbott Laboratories",
-    "symbol": "abt",
-    "mic": "xnys",
-    "isin": "us0028241000",
-    "version": "0001"
-  },
-  "786e797375733032353831363130393230303031": {
-    "name": "American Express Co",
-    "symbol": "axp",
-    "mic": "xnys",
-    "isin": "us0258161092",
-    "version": "0001"
-  },
-  "786e797375733139313231363130303730303031": {
-    "name": "Coca-Cola Co",
-    "symbol": "ko",
-    "mic": "xnys",
-    "isin": "us1912161007",
-    "version": "0001"
-  },
-  "786e797375733432373836363130383130303031": {
-    "name": "The Hershey Co",
-    "symbol": "hsy",
-    "mic": "xnys",
-    "isin": "us4278661081",
-    "version": "0001"
-  },
-  "786e797375733538393333793130353530303031": {
-    "name": "Merck & Co Inc",
-    "symbol": "mrk",
-    "mic": "xnys",
-    "isin": "us58933y1055",
-    "version": "0001"
-  },
-  "786e797375733731373038313130333530303031": {
-    "name": "Pfizer Inc",
-    "symbol": "pfe",
-    "mic": "xnys",
-    "isin": "us7170811035",
-    "version": "0001"
-  },
-  "786e797375733830383531333130353530303031": {
-    "name": "Charles Schwab Corp",
-    "symbol": "schw",
-    "mic": "xnys",
-    "isin": "us8085131055",
-    "version": "0001"
-  },
-  "786e617375733131313335663130313230303031": {
-    "name": "Broadcom Inc",
-    "symbol": "avgo",
-    "mic": "xnas",
-    "isin": "us11135f1012",
-    "version": "0001"
-  },
-  "786e617375733137323735723130323330303031": {
-    "name": "Cisco Systems Inc",
-    "symbol": "csco",
-    "mic": "xnas",
-    "isin": "us17275r1023",
-    "version": "0001"
-  },
-  "786e617375733734373532353130333630303031": {
-    "name": "Qualcomm Inc",
-    "symbol": "qcom",
-    "mic": "xnas",
-    "isin": "us7475251036",
-    "version": "0001"
-  },
-  "786e617375733837323539303130343030303031": {
-    "name": "T-Mobile US Inc",
-    "symbol": "tmus",
-    "mic": "xnas",
-    "isin": "us8725901040",
-    "version": "0001"
-  },
-  "786e617375733838323530383130343030303031": {
-    "name": "Texas Instruments Inc",
-    "symbol": "txn",
-    "mic": "xnas",
-    "isin": "us8825081040",
-    "version": "0001"
-  },
-  "786e797375733131303132323130383330303031": {
-    "name": "Bristol-Myers Squibb Co",
-    "symbol": "bmy",
-    "mic": "xnys",
-    "isin": "us1101221083",
-    "version": "0001"
-  },
-  "786e797375733330323331673130323230303031": {
-    "name": "Exxon Mobil Corp",
-    "symbol": "xom",
-    "mic": "xnys",
-    "isin": "us30231g1022",
-    "version": "0001"
-  },
-  "786e797375733433383531363130363630303031": {
-    "name": "Honeywell International Inc",
-    "symbol": "hon",
-    "mic": "xnys",
-    "isin": "us4385161066",
-    "version": "0001"
-  },
-  "786e797375733538303133353130313730303031": {
-    "name": "McDonald's Corp",
-    "symbol": "mcd",
-    "mic": "xnys",
-    "isin": "us5801351017",
-    "version": "0001"
-  },
-  "786e797375733931313331323130363830303031": {
-    "name": "United Parcel Service Inc",
-    "symbol": "ups",
-    "mic": "xnys",
-    "isin": "us9113121068",
-    "version": "0001"
-  },
-  "786e617375733030373930333130373830303031": {
-    "name": "Advanced Micro Devices Inc",
-    "symbol": "amd",
-    "mic": "xnas",
-    "isin": "us0079031078",
-    "version": "0001"
-  },
-  "786e617375733033313136323130303930303031": {
-    "name": "Amgen Inc",
-    "symbol": "amgn",
-    "mic": "xnas",
-    "isin": "us0311621009",
-    "version": "0001"
-  },
-  "786e617375733136313139703130383430303031": {
-    "name": "Charter Communications Inc Class A",
-    "symbol": "chtr",
-    "mic": "xnas",
-    "isin": "us16119p1084",
-    "version": "0001"
-  },
-  "786e617375733436313230323130333430303031": {
-    "name": "Intuit Inc",
-    "symbol": "intu",
-    "mic": "xnas",
-    "isin": "us4612021034",
-    "version": "0001"
-  },
-  "786e617375733835353234343130393430303031": {
-    "name": "Starbucks Corp",
-    "symbol": "sbux",
-    "mic": "xnas",
-    "isin": "us8552441094",
-    "version": "0001"
-  },
-  "786e797375733435393230303130313430303031": {
-    "name": "International Business Machines Corp",
-    "symbol": "ibm",
-    "mic": "xnys",
-    "isin": "us4592001014",
-    "version": "0001"
-  },
-  "786e797375733533323435373130383330303031": {
-    "name": "Eli Lilly and Co",
-    "symbol": "lly",
-    "mic": "xnys",
-    "isin": "us5324571083",
-    "version": "0001"
-  },
-  "786e797375733533393833303130393430303031": {
-    "name": "Lockheed Martin Corp",
-    "symbol": "lmt",
-    "mic": "xnys",
-    "isin": "us5398301094",
-    "version": "0001"
-  },
-  "786e797375733930373831383130383130303031": {
-    "name": "Union Pacific Corp",
-    "symbol": "unp",
-    "mic": "xnys",
-    "isin": "us9078181081",
-    "version": "0001"
-  },
-  "786e797375733934393734363130313530303031": {
-    "name": "Wells Fargo & Co",
-    "symbol": "wfc",
-    "mic": "xnys",
-    "isin": "us9497461015",
-    "version": "0001"
-  },
-  "786e6173757330393835376c3130383930303031": {
-    "name": "Booking Holdings Inc",
-    "symbol": "bkng",
-    "mic": "xnas",
-    "isin": "us09857l1089",
-    "version": "0001"
-  },
-  "786e617375733132353732713130353830303031": {
-    "name": "CME Group Inc Class A",
-    "symbol": "cme",
-    "mic": "xnas",
-    "isin": "us12572q1058",
-    "version": "0001"
-  },
-  "786e617375733235343730663130343930303031": {
-    "name": "Discovery Inc Series A",
-    "symbol": "disca",
-    "mic": "xnas",
-    "isin": "us25470f1049",
-    "version": "0001"
-  },
-  "786e617375733235343730663330323930303031": {
-    "name": "Discovery Inc Series C",
-    "symbol": "disck",
-    "mic": "xnas",
-    "isin": "us25470f3029",
-    "version": "0001"
-  },
-  "786e6173757332353437306d3130393930303031": {
-    "name": "DISH Network Corp Class A",
-    "symbol": "dish",
-    "mic": "xnas",
-    "isin": "us25470m1099",
-    "version": "0001"
-  },
-  "786e617375733330323434353130313130303031": {
-    "name": "FLIR Systems Inc",
-    "symbol": "flir",
-    "mic": "xnas",
-    "isin": "us3024451011",
-    "version": "0001"
-  },
-  "786e617375733331353631363130323430303031": {
-    "name": "F5 Networks Inc",
-    "symbol": "ffiv",
-    "mic": "xnas",
-    "isin": "us3156161024",
-    "version": "0001"
-  },
-  "786e617375733436313230653630323330303031": {
-    "name": "Intuitive Surgical Inc",
-    "symbol": "isrg",
-    "mic": "xnas",
-    "isin": "us46120e6023",
-    "version": "0001"
-  },
-  "786e617375733437323135703130363630303031": {
-    "name": "JD.com Inc ADS",
-    "symbol": "jd",
-    "mic": "xnas",
-    "isin": "us47215p1066",
-    "version": "0001"
-  },
-  "786e617375733630393230373130353830303031": {
-    "name": "Mondelez International Inc Class A",
-    "symbol": "mdlz",
-    "mic": "xnas",
-    "isin": "us6092071058",
-    "version": "0001"
-  },
-  "786e617375733736373239323130353030303031": {
-    "name": "Riot Blockchain Inc",
-    "symbol": "riot",
-    "mic": "xnas",
-    "isin": "us7672921050",
-    "version": "0001"
-  },
-  "786e6173757339383938306c3130313730303031": {
-    "name": "Zoom Video Communications Inc Class A",
-    "symbol": "zm",
-    "mic": "xnas",
-    "isin": "us98980l1017",
-    "version": "0001"
-  },
-  "786e797375733035333333323130323430303031": {
-    "name": "AutoZone Inc",
-    "symbol": "azo",
-    "mic": "xnys",
-    "isin": "us0533321024",
-    "version": "0001"
-  },
-  "786e797375733039323437783130313930303031": {
-    "name": "BlackRock Inc",
-    "symbol": "blk",
-    "mic": "xnys",
-    "isin": "us09247x1019",
-    "version": "0001"
-  },
-  "786e797375733039373032333130353830303031": {
-    "name": "Boeing Co",
-    "symbol": "ba",
-    "mic": "xnys",
-    "isin": "us0970231058",
-    "version": "0001"
-  },
-  "786e797375733130313133373130373730303031": {
-    "name": "Boston Scientific Corp",
-    "symbol": "bsx",
-    "mic": "xnys",
-    "isin": "us1011371077",
-    "version": "0001"
-  },
-  "786e797375733132353532333130303330303031": {
-    "name": "Cigna Corp",
-    "symbol": "ci",
-    "mic": "xnys",
-    "isin": "us1255231003",
-    "version": "0001"
-  },
-  "786e797375733133343432393130393130303031": {
-    "name": "CampbellSoup Co",
-    "symbol": "cpb",
-    "mic": "xnys",
-    "isin": "us1344291091",
-    "version": "0001"
-  },
-  "786e797375733134333133303130323730303031": {
-    "name": "CarMax Inc",
-    "symbol": "kmx",
-    "mic": "xnys",
-    "isin": "us1431301027",
-    "version": "0001"
-  },
-  "786e797375733136393635363130353930303031": {
-    "name": "Chipotle Mexican Grill Inc",
-    "symbol": "cmg",
-    "mic": "xnys",
-    "isin": "us1696561059",
-    "version": "0001"
-  },
-  "786e797375733137323936373432343230303031": {
-    "name": "Citigroup Inc",
-    "symbol": "c",
-    "mic": "xnys",
-    "isin": "us1729674242",
-    "version": "0001"
-  },
-  "786e797375733231303336703130383430303031": {
-    "name": "Constellation Brands Inc",
-    "symbol": "stz",
-    "mic": "xnys",
-    "isin": "us21036p1084",
-    "version": "0001"
-  },
-  "786e797375733234373336313730323330303031": {
-    "name": "Delta Air Lines Inc",
-    "symbol": "dal",
-    "mic": "xnys",
-    "isin": "us2473617023",
-    "version": "0001"
-  },
-  "786e797375733235363637373130353930303031": {
-    "name": "Dollar General Corp",
-    "symbol": "dg",
-    "mic": "xnys",
-    "isin": "us2566771059",
-    "version": "0001"
-  },
-  "786e797375733235373534613230313530303031": {
-    "name": "Domino's Pizza Inc",
-    "symbol": "dpz",
-    "mic": "xnys",
-    "isin": "us25754a2015",
-    "version": "0001"
-  },
-  "786e797375733334393634633130363230303031": {
-    "name": "Fortune Brands Home and Security Inc",
-    "symbol": "fbhs",
-    "mic": "xnys",
-    "isin": "us34964c1062",
-    "version": "0001"
-  },
-  "786e797375733336343736303130383330303031": {
-    "name": "GAP Inc",
-    "symbol": "gps",
-    "mic": "xnys",
-    "isin": "us3647601083",
-    "version": "0001"
-  },
-  "786e797375733336363635313130373230303031": {
-    "name": "Gartner Inc",
-    "symbol": "it",
-    "mic": "xnys",
-    "isin": "us3666511072",
-    "version": "0001"
-  },
-  "786e797375733433333030613230333330303031": {
-    "name": "Hilton Worldwide Holdings Inc",
-    "symbol": "hlt",
-    "mic": "xnys",
-    "isin": "us43300a2033",
-    "version": "0001"
-  },
-  "786e797375733434343835393130323830303031": {
-    "name": "Humana Inc",
-    "symbol": "hum",
-    "mic": "xnys",
-    "isin": "us4448591028",
-    "version": "0001"
-  },
-  "786e797375733531383433393130343430303031": {
-    "name": "Estee Lauder Companies Inc",
-    "symbol": "el",
-    "mic": "xnys",
-    "isin": "us5184391044",
-    "version": "0001"
-  },
-  "786e797375733638333839783130353430303031": {
-    "name": "Oracle Corp",
-    "symbol": "orcl",
-    "mic": "xnys",
-    "isin": "us68389x1054",
-    "version": "0001"
-  },
-  "786e797375733735353133653130313030303031": {
-    "name": "Raytheon Technologies Corp",
-    "symbol": "rtx",
-    "mic": "xnys",
-    "isin": "us75513e1010",
-    "version": "0001"
-  },
-  "786e7973757337393436366c3330323430303031": {
-    "name": "Salesforce.com Inc",
-    "symbol": "crm",
-    "mic": "xnys",
-    "isin": "us79466l3024",
-    "version": "0001"
-  },
-  "786e797375733837363132653130363430303031": {
-    "name": "Target Corp",
-    "symbol": "tgt",
-    "mic": "xnys",
-    "isin": "us87612e1064",
-    "version": "0001"
-  },
-  "786e797375733838353739793130313030303031": {
-    "name": "3m Co",
-    "symbol": "mmm",
-    "mic": "xnys",
-    "isin": "us88579y1010",
-    "version": "0001"
-  },
-  "786e617375733035333031353130333630303031": {
-    "name": "Automatic Data Processing Inc",
-    "symbol": "adp",
-    "mic": "xnas",
-    "isin": "us0530151036",
-    "version": "0001"
-  },
-  "786e617375733132363430383130333530303031": {
-    "name": "CSX Corp",
-    "symbol": "csx",
-    "mic": "xnas",
-    "isin": "us1264081035",
-    "version": "0001"
-  },
-  "786e617375733333373733383130383830303031": {
-    "name": "Fiserv Inc",
-    "symbol": "fisv",
-    "mic": "xnas",
-    "isin": "us3377381088",
-    "version": "0001"
-  },
-  "786e617375733337353535383130333630303031": {
-    "name": "Gilead Sciences Inc",
-    "symbol": "gild",
-    "mic": "xnas",
-    "isin": "us3755581036",
-    "version": "0001"
-  },
-  "786e617375733538373333723130323330303031": {
-    "name": "MercadoLibre Inc",
-    "symbol": "meli",
-    "mic": "xnas",
-    "isin": "us58733r1023",
-    "version": "0001"
-  },
-  "786e797375733134393132333130313530303031": {
-    "name": "Caterpillar Inc",
-    "symbol": "cat",
-    "mic": "xnys",
-    "isin": "us1491231015",
-    "version": "0001"
-  },
-  "786e797375733234343139393130353430303031": {
-    "name": "Deere & Co",
-    "symbol": "de",
-    "mic": "xnys",
-    "isin": "us2441991054",
-    "version": "0001"
-  },
-  "786e797375733336393630343130333330303031": {
-    "name": "General Electric Co",
-    "symbol": "ge",
-    "mic": "xnys",
-    "isin": "us3696041033",
-    "version": "0001"
-  },
-  "786e797375733834323538373130373130303031": {
-    "name": "Southern Co",
-    "symbol": "so",
-    "mic": "xnys",
-    "isin": "us8425871071",
-    "version": "0001"
-  },
-  "786e797375733930323937333330343830303031": {
-    "name": "U.S. Bancorp",
-    "symbol": "usb",
-    "mic": "xnys",
-    "isin": "us9029733048",
-    "version": "0001"
-  },
-  "786e617375733030353037763130393830303031": {
-    "name": "Activision Blizzard Inc",
-    "symbol": "atvi",
-    "mic": "xnas",
-    "isin": "us00507v1098",
-    "version": "0001"
-  },
-  "786e617375733033383232323130353130303031": {
-    "name": "Applied Materials Inc",
-    "symbol": "amat",
-    "mic": "xnas",
-    "isin": "us0382221051",
-    "version": "0001"
-  },
-  "786e617375733531323830373130383230303031": {
-    "name": "Lam Research Corp",
-    "symbol": "lrcx",
-    "mic": "xnas",
-    "isin": "us5128071082",
-    "version": "0001"
-  },
-  "786e617375733539353131323130333830303031": {
-    "name": "Micron Technology Inc",
-    "symbol": "mu",
-    "mic": "xnas",
-    "isin": "us5951121038",
-    "version": "0001"
-  },
-  "786e617375733735383836663130373530303031": {
-    "name": "Regeneron Pharmaceuticals Inc",
-    "symbol": "regn",
-    "mic": "xnas",
-    "isin": "us75886f1075",
-    "version": "0001"
-  },
-  "786e797375733032323039733130333330303031": {
-    "name": "Altria Group Inc",
-    "symbol": "mo",
-    "mic": "xnys",
-    "isin": "us02209s1033",
-    "version": "0001"
-  },
-  "786e797375733139343136323130333930303031": {
-    "name": "Colgate-Palmolive Co",
-    "symbol": "cl",
-    "mic": "xnys",
-    "isin": "us1941621039",
-    "version": "0001"
-  },
-  "786e797375733235373436753130393730303031": {
-    "name": "Dominion Energy Inc",
-    "symbol": "d",
-    "mic": "xnys",
-    "isin": "us25746u1097",
-    "version": "0001"
-  },
-  "786e797375733331343238783130363330303031": {
-    "name": "FedEx Corp",
-    "symbol": "fdx",
-    "mic": "xnys",
-    "isin": "us31428x1063",
-    "version": "0001"
-  },
-  "786e797375733338313431673130343030303031": {
-    "name": "Goldman Sachs Group Inc",
-    "symbol": "gs",
-    "mic": "xnys",
-    "isin": "us38141g1040",
-    "version": "0001"
-  },
-  "786e797375733435323330383130393330303031": {
-    "name": "IllinoisTool Works Inc",
-    "symbol": "itw",
-    "mic": "xnys",
-    "isin": "us4523081093",
-    "version": "0001"
-  },
-  "786e617375733033323635343130353130303031": {
-    "name": "Analog Devices Inc",
-    "symbol": "adi",
-    "mic": "xnas",
-    "isin": "us0326541051",
-    "version": "0001"
-  },
-  "786e617375733035323736393130363930303031": {
-    "name": "Autodesk Inc",
-    "symbol": "adsk",
-    "mic": "xnas",
-    "isin": "us0527691069",
-    "version": "0001"
-  },
-  "786e617375733239373836613130363030303031": {
-    "name": "Etsy Inc",
-    "symbol": "etsy",
-    "mic": "xnas",
-    "isin": "us29786a1060",
-    "version": "0001"
-  },
-  "786e617375733435323332373130393030303031": {
-    "name": "Illumina Inc",
-    "symbol": "ilmn",
-    "mic": "xnas",
-    "isin": "us4523271090",
-    "version": "0001"
-  },
-  "786e617375733631313734783130393030303031": {
-    "name": "Monster Beverage Corp",
-    "symbol": "mnst",
-    "mic": "xnas",
-    "isin": "us61174x1090",
-    "version": "0001"
-  },
-  "786e617375733932353332663130303330303031": {
-    "name": "Vertex Pharmaceuticals Inc",
-    "symbol": "vrtx",
-    "mic": "xnas",
-    "isin": "us92532f1003",
-    "version": "0001"
-  },
-  "786e797375733037313831333130393930303031": {
-    "name": "Baxter International Inc",
-    "symbol": "bax",
-    "mic": "xnys",
-    "isin": "us0718131099",
-    "version": "0001"
-  },
-  "786e797375733239313031313130343430303031": {
-    "name": "Emerson Electric Co",
-    "symbol": "emr",
-    "mic": "xnys",
-    "isin": "us2910111044",
-    "version": "0001"
-  },
-  "786e797375733336393535303130383630303031": {
-    "name": "General Dynamics Corp",
-    "symbol": "gd",
-    "mic": "xnys",
-    "isin": "us3695501086",
-    "version": "0001"
-  },
-  "786e797375733439343336383130333530303031": {
-    "name": "Kimberly-Clark Corp",
-    "symbol": "kmb",
-    "mic": "xnys",
-    "isin": "us4943681035",
-    "version": "0001"
-  },
-  "786e61736e6c3030303935333837383430303031": {
-    "name": "NXP Semiconductors NV",
-    "symbol": "nxpi",
-    "mic": "xnas",
-    "isin": "nl0009538784",
-    "version": "0001"
-  },
-  "786e617375733139323434363130323330303031": {
-    "name": "Cognizant Technology Solutions Corp Class A",
-    "symbol": "ctsh",
-    "mic": "xnas",
-    "isin": "us1924461023",
-    "version": "0001"
-  },
-  "786e6173757333303136316e3130313930303031": {
-    "name": "Exelon Corp",
-    "symbol": "exc",
-    "mic": "xnas",
-    "isin": "us30161n1019",
-    "version": "0001"
-  },
-  "786e617375733439323731763130303830303031": {
-    "name": "Keurig Dr Pepper Inc",
-    "symbol": "kdp",
-    "mic": "xnas",
-    "isin": "us49271v1008",
-    "version": "0001"
-  },
-  "786e617375733535303032313130393030303031": {
-    "name": "Lululemon Athletica Inc",
-    "symbol": "lulu",
-    "mic": "xnas",
-    "isin": "us5500211090",
-    "version": "0001"
-  },
-  "786e797375733032363837343738343930303031": {
-    "name": "American International Group Inc",
-    "symbol": "aig",
-    "mic": "xnys",
-    "isin": "us0268747849",
-    "version": "0001"
-  },
-  "786e797375733036343035383130303730303031": {
-    "name": "Bank of New York Mellon Corp",
-    "symbol": "bk",
-    "mic": "xnys",
-    "isin": "us0640581007",
-    "version": "0001"
-  },
-  "786e797375733231393335303130353130303031": {
-    "name": "Corning Inc",
-    "symbol": "glw",
-    "mic": "xnys",
-    "isin": "us2193501051",
-    "version": "0001"
-  },
-  "786e7973757334303433346c3130353230303031": {
-    "name": "HP Inc",
-    "symbol": "hpq",
-    "mic": "xnys",
-    "isin": "us40434l1052",
-    "version": "0001"
-  },
-  "786e797375733430363231363130313730303031": {
-    "name": "Halliburton Co",
-    "symbol": "hal",
-    "mic": "xnys",
-    "isin": "us4062161017",
-    "version": "0001"
-  },
-  "786e617375733030333635343130303330303031": {
-    "name": "Abiomed Inc",
-    "symbol": "abmd",
-    "mic": "xnas",
-    "isin": "us0036541003",
-    "version": "0001"
-  },
-  "786e617375733032333736723130323330303031": {
-    "name": "American Airlines Group Inc",
-    "symbol": "aal",
-    "mic": "xnas",
-    "isin": "us02376r1023",
-    "version": "0001"
-  },
-  "786e617375733035363735323130383530303031": {
-    "name": "Baidu Inc ADS",
-    "symbol": "bidu",
-    "mic": "xnas",
-    "isin": "us0567521085",
-    "version": "0001"
-  },
-  "786e617375733235323738783130393030303031": {
-    "name": "Diamondback Energy Inc",
-    "symbol": "fang",
-    "mic": "xnas",
-    "isin": "us25278x1090",
-    "version": "0001"
-  },
-  "786e617375733235363136333130363830303031": {
-    "name": "DocuSign Inc",
-    "symbol": "docu",
-    "mic": "xnas",
-    "isin": "us2561631068",
-    "version": "0001"
-  },
-  "786e617375733732323330343130323830303031": {
-    "name": "Pinduoduo Inc ADS",
-    "symbol": "pdd",
-    "mic": "xnas",
-    "isin": "us7223041028",
-    "version": "0001"
-  },
-  "786e617375733938313338683130313430303031": {
-    "name": "Workday Inc Class A",
-    "symbol": "wday",
-    "mic": "xnas",
-    "isin": "us98138h1014",
-    "version": "0001"
-  },
-  "786e617375733938333839623130303830303031": {
-    "name": "Xcel Energy Inc",
-    "symbol": "xel",
-    "mic": "xnas",
-    "isin": "us98389b1008",
-    "version": "0001"
-  },
-  "786e7973616e3830363835373130383630303031": {
-    "name": "Schlumberger N.V.",
-    "symbol": "slb",
-    "mic": "xnys",
-    "isin": "an8068571086",
-    "version": "0001"
-  },
-  "786e797375733030323837793130393130303031": {
-    "name": "AbbVie Inc",
-    "symbol": "abbv",
-    "mic": "xnys",
-    "isin": "us00287y1091",
-    "version": "0001"
-  },
-  "786e797375733030383436753130313630303031": {
-    "name": "Agilent Technologies Inc",
-    "symbol": "a",
-    "mic": "xnys",
-    "isin": "us00846u1016",
-    "version": "0001"
-  },
-  "786e797375733031333837323130363530303031": {
-    "name": "Alcoa Corp",
-    "symbol": "aa",
-    "mic": "xnys",
-    "isin": "us0138721065",
-    "version": "0001"
-  },
-  "786e797375733035383439383130363430303031": {
-    "name": "Ball Corp",
-    "symbol": "bll",
-    "mic": "xnys",
-    "isin": "us0584981064",
-    "version": "0001"
-  },
-  "786e797375733134303430683130353930303031": {
-    "name": "Capital One Financial Corp",
-    "symbol": "cof",
-    "mic": "xnys",
-    "isin": "us14040h1059",
-    "version": "0001"
-  },
-  "786e797375733230383235633130343530303031": {
-    "name": "ConocoPhillips",
-    "symbol": "cop",
-    "mic": "xnys",
-    "isin": "us20825c1045",
-    "version": "0001"
-  },
-  "786e797375733230393131353130343130303031": {
-    "name": "Consolidated Edison Inc",
-    "symbol": "ed",
-    "mic": "xnys",
-    "isin": "us2091151041",
-    "version": "0001"
-  },
-  "786e797375733236303030333130383030303031": {
-    "name": "Dover Corp",
-    "symbol": "dov",
-    "mic": "xnys",
-    "isin": "us2600031080",
-    "version": "0001"
-  },
-  "786e797375733237373433323130303230303031": {
-    "name": "Eastman Chemical Co",
-    "symbol": "emn",
-    "mic": "xnys",
-    "isin": "us2774321002",
-    "version": "0001"
-  },
-  "786e797375733239343432393130353130303031": {
-    "name": "Equifax Inc",
-    "symbol": "efx",
-    "mic": "xnys",
-    "isin": "us2944291051",
-    "version": "0001"
-  },
-  "786e797375733338343830323130343030303031": {
-    "name": "W.W. Grainger Inc",
-    "symbol": "gww",
-    "mic": "xnys",
-    "isin": "us3848021040",
-    "version": "0001"
-  },
-  "786e797375733432383039683130373730303031": {
-    "name": "Hess Corp",
-    "symbol": "hes",
-    "mic": "xnys",
-    "isin": "us42809h1077",
-    "version": "0001"
-  },
-  "786e797375733531373833343130373030303031": {
-    "name": "Las Vegas Sands Corp",
-    "symbol": "lvs",
-    "mic": "xnys",
-    "isin": "us5178341070",
-    "version": "0001"
-  },
-  "786e797375733539313536723130383630303031": {
-    "name": "MetLife Inc",
-    "symbol": "met",
-    "mic": "xnys",
-    "isin": "us59156r1086",
-    "version": "0001"
-  },
-  "786e797375733834323635763130353230303031": {
-    "name": "Southern Copper Corp",
-    "symbol": "scco",
-    "mic": "xnys",
-    "isin": "us84265v1052",
-    "version": "0001"
-  },
-  "786e797375733838333535363130323330303031": {
-    "name": "Thermo Fisher Scientific Inc",
-    "symbol": "tmo",
-    "mic": "xnys",
-    "isin": "us8835561023",
-    "version": "0001"
-  },
-  "786e617375733039303632783130333730303031": {
-    "name": "Biogen Inc",
-    "symbol": "biib",
-    "mic": "xnas",
-    "isin": "us09062x1037",
-    "version": "0001"
-  },
-  "786e617375733435313638643130343630303031": {
-    "name": "IDEXX Laboratories Inc",
-    "symbol": "idxx",
-    "mic": "xnas",
-    "isin": "us45168d1046",
-    "version": "0001"
-  },
-  "786e617375733530303735343130363430303031": {
-    "name": "The Kraft Heinz Co",
-    "symbol": "khc",
-    "mic": "xnas",
-    "isin": "us5007541064",
-    "version": "0001"
-  },
-  "786e617375733537313930333230323230303031": {
-    "name": "Marriott International Inc Class A",
-    "symbol": "mar",
-    "mic": "xnas",
-    "isin": "us5719032022",
-    "version": "0001"
-  },
-  "786e617375733737383239363130333830303031": {
-    "name": "Ross Stores Inc",
-    "symbol": "rost",
-    "mic": "xnas",
-    "isin": "us7782961038",
-    "version": "0001"
-  },
-  "786e7973757332353137396d3130333630303031": {
-    "name": "Devon Energy Corp",
-    "symbol": "dvn",
-    "mic": "xnys",
-    "isin": "us25179m1036",
-    "version": "0001"
-  },
-  "786e797375733334353337303836303030303031": {
-    "name": "Ford Motor Co",
-    "symbol": "f",
-    "mic": "xnys",
-    "isin": "us3453708600",
-    "version": "0001"
-  },
-  "786e797375733335343631333130313830303031": {
-    "name": "Franklin Resources Inc",
-    "symbol": "ben",
-    "mic": "xnys",
-    "isin": "us3546131018",
-    "version": "0001"
-  },
-  "786e797375733337303435763130303830303031": {
-    "name": "General Motors Co",
-    "symbol": "gm",
-    "mic": "xnys",
-    "isin": "us37045v1008",
-    "version": "0001"
-  },
-  "786e797375733537363336713130343030303031": {
-    "name": "Mastercard Inc",
-    "symbol": "ma",
-    "mic": "xnys",
-    "isin": "us57636q1040",
-    "version": "0001"
-  },
-  "786e797375733637343539393130353830303031": {
-    "name": "Occidental Petroleum Corp",
-    "symbol": "oxy",
-    "mic": "xnys",
-    "isin": "us6745991058",
-    "version": "0001"
-  },
-  "786e617375733031363235353130313630303031": {
-    "name": "Align Technology Inc",
-    "symbol": "algn",
-    "mic": "xnas",
-    "isin": "us0162551016",
-    "version": "0001"
-  },
-  "786e617375733033373431313130353430303031": {
-    "name": "Apache Corp",
-    "symbol": "apa",
-    "mic": "xnas",
-    "isin": "us0374111054",
-    "version": "0001"
-  },
-  "786e617375733137323930383130353930303031": {
-    "name": "Cintas Corp",
-    "symbol": "ctas",
-    "mic": "xnas",
-    "isin": "us1729081059",
-    "version": "0001"
-  },
-  "786e617375733438323438303130303930303031": {
-    "name": "KLA Corp",
-    "symbol": "klac",
-    "mic": "xnas",
-    "isin": "us4824801009",
-    "version": "0001"
-  },
-  "786e6173757336303737306b3130373930303031": {
-    "name": "Moderna Inc",
-    "symbol": "mrna",
-    "mic": "xnas",
-    "isin": "us60770k1079",
-    "version": "0001"
-  },
-  "786e617375733933313432373130383430303031": {
-    "name": "Walgreens Boots Alliance Inc",
-    "symbol": "wba",
-    "mic": "xnas",
-    "isin": "us9314271084",
-    "version": "0001"
-  },
-  "786e797375733030373531793130363430303031": {
-    "name": "Advance Auto Parts Inc",
-    "symbol": "aap",
-    "mic": "xnys",
-    "isin": "us00751y1064",
-    "version": "0001"
-  },
-  "786e797375733039303537323230373230303031": {
-    "name": "Bio-Rad Laboratories Inc Class A",
-    "symbol": "bio",
-    "mic": "xnys",
-    "isin": "us0905722072",
-    "version": "0001"
-  },
-  "786e797375733132363635303130303630303031": {
-    "name": "CVS Health Corp",
-    "symbol": "cvs",
-    "mic": "xnys",
-    "isin": "us1266501006",
-    "version": "0001"
-  },
-  "786e797375733236303535373130333130303031": {
-    "name": "Dow Inc",
-    "symbol": "dow",
-    "mic": "xnys",
-    "isin": "us2605571031",
-    "version": "0001"
-  },
-  "786e797375733534383636313130373330303031": {
-    "name": "Lowe's Companies Inc",
-    "symbol": "low",
-    "mic": "xnys",
-    "isin": "us5486611073",
-    "version": "0001"
-  },
-  "786e797375733631373434363434383630303031": {
-    "name": "Morgan Stanley",
-    "symbol": "ms",
-    "mic": "xnys",
-    "isin": "us6174464486",
-    "version": "0001"
-  },
-  "786e797375733635313633393130363630303031": {
-    "name": "Newmont Corp",
-    "symbol": "nem",
-    "mic": "xnys",
-    "isin": "us6516391066",
-    "version": "0001"
-  },
-  "786e797375733635343130363130333130303031": {
-    "name": "Nike Inc",
-    "symbol": "nke",
-    "mic": "xnys",
-    "isin": "us6541061031",
-    "version": "0001"
-  },
-  "786e797375733734343332303130323230303031": {
-    "name": "Prudential Financial Inc",
-    "symbol": "pru",
-    "mic": "xnys",
-    "isin": "us7443201022",
-    "version": "0001"
-  },
-  "786e797375733932383236633833393430303031": {
-    "name": "Visa Inc",
-    "symbol": "v",
-    "mic": "xnys",
-    "isin": "us92826c8394",
-    "version": "0001"
-  },
-  "786e617375733237383634323130333030303031": {
-    "name": "eBay Inc",
-    "symbol": "ebay",
-    "mic": "xnas",
-    "isin": "us2786421030",
-    "version": "0001"
-  },
-  "786e617375733238353531323130393930303031": {
-    "name": "Electronic Arts Inc",
-    "symbol": "ea",
-    "mic": "xnas",
-    "isin": "us2855121099",
-    "version": "0001"
-  },
-  "786e617375733637313033683130373730303031": {
-    "name": "O'Reilly Automative Inc",
-    "symbol": "orly",
-    "mic": "xnas",
-    "isin": "us67103h1077",
-    "version": "0001"
-  },
-  "786e617375733730343332363130373930303031": {
-    "name": "Paychex Inc",
-    "symbol": "payx",
-    "mic": "xnas",
-    "isin": "us7043261079",
-    "version": "0001"
-  },
-  "786e617375733837313630373130373630303031": {
-    "name": "SynopsysInc",
-    "symbol": "snps",
-    "mic": "xnas",
-    "isin": "us8716071076",
-    "version": "0001"
-  },
-  "786e797375733633373037313130313130303031": {
-    "name": "National Oilwell Varco Inc",
-    "symbol": "nov",
-    "mic": "xnys",
-    "isin": "us6370711011",
-    "version": "0001"
-  },
-  "786e797375733639333437353130353730303031": {
-    "name": "PNC Financial Services Group Inc",
-    "symbol": "pnc",
-    "mic": "xnys",
-    "isin": "us6934751057",
-    "version": "0001"
-  },
-  "786e797375733731383137323130393030303031": {
-    "name": "Philip Morris International Inc",
-    "symbol": "pm",
-    "mic": "xnys",
-    "isin": "us7181721090",
-    "version": "0001"
-  },
-  "786e797375733832383830363130393130303031": {
-    "name": "Simon Property Group Inc",
-    "symbol": "spg",
-    "mic": "xnys",
-    "isin": "us8288061091",
-    "version": "0001"
-  },
-  "786e797375733839343137653130393130303031": {
-    "name": "The Travelers Companies Inc",
-    "symbol": "trv",
-    "mic": "xnys",
-    "isin": "us89417e1091",
-    "version": "0001"
-  },
-  "786e617375733132373338373130383730303031": {
-    "name": "Cadence Design Systems Inc",
-    "symbol": "cdns",
-    "mic": "xnas",
-    "isin": "us1273871087",
-    "version": "0001"
-  },
-  "786e617375733235323133313130373430303031": {
-    "name": "DexCom Inc",
-    "symbol": "dxcm",
-    "mic": "xnas",
-    "isin": "us2521311074",
-    "version": "0001"
-  },
-  "786e617375733634313130773130323730303031": {
-    "name": "NetEase Inc ADS",
-    "symbol": "ntes",
-    "mic": "xnas",
-    "isin": "us64110w1027",
-    "version": "0001"
-  },
-  "786e617375733932333435793130363430303031": {
-    "name": "Verisk Analytics Inc",
-    "symbol": "vrsk",
-    "mic": "xnas",
-    "isin": "us92345y1064",
-    "version": "0001"
-  },
-  "786e617375736e30373035393231303030303031": {
-    "name": "ASML Holding N.V. New York Registry Shares",
-    "symbol": "asml",
-    "mic": "xnas",
-    "isin": "usn070592100",
-    "version": "0001"
-  },
-  "786e797375733236343431633230343430303031": {
-    "name": "Duke Energy Corp",
-    "symbol": "duk",
-    "mic": "xnys",
-    "isin": "us26441c2044",
-    "version": "0001"
-  },
-  "786e7973757332363631346e3130323830303031": {
-    "name": "DuPont de Nemours Inc",
-    "symbol": "dd",
-    "mic": "xnys",
-    "isin": "us26614n1028",
-    "version": "0001"
-  },
-  "786e797375733236383735703130313230303031": {
-    "name": "EOG ResourcesInc",
-    "symbol": "eog",
-    "mic": "xnys",
-    "isin": "us26875p1012",
-    "version": "0001"
-  },
-  "786e797375733335363731643835373030303031": {
-    "name": "Freeport-McMoRan Inc",
-    "symbol": "fcx",
-    "mic": "xnys",
-    "isin": "us35671d8570",
-    "version": "0001"
-  },
-  "786e797375733337303333343130343630303031": {
-    "name": "General Mills Inc",
-    "symbol": "gis",
-    "mic": "xnys",
-    "isin": "us3703341046",
-    "version": "0001"
-  },
-  "786e617375733234393036703130393330303031": {
-    "name": "Dentsply Sirona Inc",
-    "symbol": "xray",
-    "mic": "xnas",
-    "isin": "us24906p1093",
-    "version": "0001"
-  },
-  "786e617375733539353031373130343230303031": {
-    "name": "Microchip Technology Inc",
-    "symbol": "mchp",
-    "mic": "xnas",
-    "isin": "us5950171042",
-    "version": "0001"
-  },
-  "786e617375733639333731383130383830303031": {
-    "name": "PACCAR Inc",
-    "symbol": "pcar",
-    "mic": "xnas",
-    "isin": "us6937181088",
-    "version": "0001"
-  },
-  "786e617375733831313831633130343530303031": {
-    "name": "Seagen Inc",
-    "symbol": "sgen",
-    "mic": "xnas",
-    "isin": "us81181c1045",
-    "version": "0001"
-  },
-  "786e617375733834383633373130343530303031": {
-    "name": "Splunk Inc",
-    "symbol": "splk",
-    "mic": "xnas",
-    "isin": "us8486371045",
-    "version": "0001"
-  },
-  "786e617375733938333931393130313530303031": {
-    "name": "Xilinx Inc",
-    "symbol": "xlnx",
-    "mic": "xnas",
-    "isin": "us9839191015",
-    "version": "0001"
-  },
-  "786e7973696530306234626e6d79333430303031": {
-    "name": "Accenture plc Class A",
-    "symbol": "acn",
-    "mic": "xnys",
-    "isin": "ie00b4bnmy34",
-    "version": "0001"
-  },
-  "786e79736965303062746e317931313530303031": {
-    "name": "Medtronic plc",
-    "symbol": "mdt",
-    "mic": "xnys",
-    "isin": "ie00btn1y115",
-    "version": "0001"
-  },
-  "786e797369653030627a31327770383230303031": {
-    "name": "Linde plc",
-    "symbol": "lin",
-    "mic": "xnys",
-    "isin": "ie00bz12wp82",
-    "version": "0001"
-  },
-  "786e797375733032303030323130313430303031": {
-    "name": "Allstate Corp",
-    "symbol": "all",
-    "mic": "xnys",
-    "isin": "us0200021014",
-    "version": "0001"
-  },
-  "786e797375733035373232673130303430303031": {
-    "name": "Baker Hughes Co Class A",
-    "symbol": "bkr",
-    "mic": "xnys",
-    "isin": "us05722g1004",
-    "version": "0001"
-  },
-  "786e797375733136363736343130303530303031": {
-    "name": "Chevron Corp",
-    "symbol": "cvx",
-    "mic": "xnys",
-    "isin": "us1667641005",
-    "version": "0001"
-  },
-  "786e797375733233353835313130323830303031": {
-    "name": "DanaherCorp",
-    "symbol": "dhr",
-    "mic": "xnys",
-    "isin": "us2358511028",
-    "version": "0001"
-  },
-  "786e797375733233373139343130353330303031": {
-    "name": "Darden Restaurants Inc",
-    "symbol": "dri",
-    "mic": "xnys",
-    "isin": "us2371941053",
-    "version": "0001"
-  },
-  "786e797375733439343536623130313730303031": {
-    "name": "Kinder Morgan Inc",
-    "symbol": "kmi",
-    "mic": "xnys",
-    "isin": "us49456b1017",
-    "version": "0001"
-  },
-  "786e797375733635333339663130313230303031": {
-    "name": "NextEra Energy Inc",
-    "symbol": "nee",
-    "mic": "xnys",
-    "isin": "us65339f1012",
-    "version": "0001"
-  },
-  "786e797375733938383439383130313330303031": {
-    "name": "Yum Brands Inc",
-    "symbol": "yum",
-    "mic": "xnys",
-    "isin": "us9884981013",
-    "version": "0001"
-  },
-  "786e617375733031353335313130393430303031": {
-    "name": "Alexion Pharmaceuticals Inc",
-    "symbol": "alxn",
-    "mic": "xnas",
-    "isin": "us0153511094",
-    "version": "0001"
-  },
-  "786e617375733033363632713130353830303031": {
-    "name": "Ansys Inc",
-    "symbol": "anss",
-    "mic": "xnas",
-    "isin": "us03662q1058",
-    "version": "0001"
-  },
-  "786e617375733135363738323130343630303031": {
-    "name": "Cerner Corp",
-    "symbol": "cern",
-    "mic": "xnas",
-    "isin": "us1567821046",
-    "version": "0001"
-  },
-  "786e617375733231373230343130363130303031": {
-    "name": "Copart Inc",
-    "symbol": "cprt",
-    "mic": "xnas",
-    "isin": "us2172041061",
-    "version": "0001"
-  },
-  "786e617375733235363734363130383030303031": {
-    "name": "Dollar Tree Inc",
-    "symbol": "dltr",
-    "mic": "xnas",
-    "isin": "us2567461080",
-    "version": "0001"
-  },
-  "786e617375733331313930303130343430303031": {
-    "name": "Fastenal Co",
-    "symbol": "fast",
-    "mic": "xnas",
-    "isin": "us3119001044",
-    "version": "0001"
-  },
-  "786e6173757335373737326b3130313630303031": {
-    "name": "Maxim Integrated Products Inc",
-    "symbol": "mxim",
-    "mic": "xnas",
-    "isin": "us57772k1016",
-    "version": "0001"
-  },
-  "786e617375733832393638623130333530303031": {
-    "name": "Sirius XM Holdings Inc",
-    "symbol": "siri",
-    "mic": "xnas",
-    "isin": "us82968b1035",
-    "version": "0001"
-  },
-  "786e6173757338333038386d3130323730303031": {
-    "name": "Skyworks Solutions Inc",
-    "symbol": "swks",
-    "mic": "xnas",
-    "isin": "us83088m1027",
-    "version": "0001"
-  },
-  "786e617375733932333433653130323930303031": {
-    "name": "VeriSign Inc",
-    "symbol": "vrsn",
-    "mic": "xnas",
-    "isin": "us92343e1029",
-    "version": "0001"
-  },
-  "786e797375733033303237783130303030303031": {
-    "name": "American Tower Corp",
-    "symbol": "amt",
-    "mic": "xnys",
-    "isin": "us03027x1000",
-    "version": "0001"
-  },
-  "786e6173696c3030313038323431313330303031": {
-    "name": "Check Point Software Technologies Ltd",
-    "symbol": "chkp",
-    "mic": "xnas",
-    "isin": "il0010824113",
-    "version": "0001"
-  },
-  "786e617375733039303631673130313330303031": {
-    "name": "BioMarin Pharmaceutical Inc",
-    "symbol": "bmrn",
-    "mic": "xnas",
-    "isin": "us09061g1013",
-    "version": "0001"
-  },
-  "786e617375733132353134673130383530303031": {
-    "name": "CDW Corp",
-    "symbol": "cdw",
-    "mic": "xnas",
-    "isin": "us12514g1085",
-    "version": "0001"
-  },
-  "786e617375733137373337363130303230303031": {
-    "name": "Citrix Systems Inc",
-    "symbol": "ctxs",
-    "mic": "xnas",
-    "isin": "us1773761002",
-    "version": "0001"
-  },
-  "786e617375733330323132703330333830303031": {
-    "name": "Expedia Group Inc",
-    "symbol": "expe",
-    "mic": "xnas",
-    "isin": "us30212p3038",
-    "version": "0001"
-  },
-  "786e6173757333353133376c3130353230303031": {
-    "name": "Fox Corp Class A",
-    "symbol": "foxa",
-    "mic": "xnas",
-    "isin": "us35137l1052",
-    "version": "0001"
-  },
-  "786e617375733435333337633130323730303031": {
-    "name": "Incyte Corp",
-    "symbol": "incy",
-    "mic": "xnas",
-    "isin": "us45337c1027",
-    "version": "0001"
-  },
-  "786e617375733837343035343130393430303031": {
-    "name": "Take-Two Interactive Software Inc",
-    "symbol": "ttwo",
-    "mic": "xnas",
-    "isin": "us8740541094",
-    "version": "0001"
-  },
-  "786e617375733839363737713130373630303031": {
-    "name": "Trip.com Group Ltd ADS",
-    "symbol": "tcom",
-    "mic": "xnas",
-    "isin": "us89677q1076",
-    "version": "0001"
-  },
-  "786e617375733930333834733330333130303031": {
-    "name": "Ulta Beauty Inc",
-    "symbol": "ulta",
-    "mic": "xnas",
-    "isin": "us90384s3031",
-    "version": "0001"
-  },
-  "786e617367623030623877363736363230303031": {
-    "name": "Liberty Global plc Class A",
-    "symbol": "lbtya",
-    "mic": "xnas",
-    "isin": "gb00b8w67662",
-    "version": "0001"
-  },
-  "786e617367623030623877363762313930303031": {
-    "name": "Liberty Global plc Class C",
-    "symbol": "lbtyk",
-    "mic": "xnas",
-    "isin": "gb00b8w67b19",
-    "version": "0001"
-  },
-  "786e6173757333353133376c3230343330303031": {
-    "name": "Fox Corp Class B",
-    "symbol": "fox",
-    "mic": "xnas",
-    "isin": "us35137l2043",
-    "version": "0001"
+  "registry": {
+    "786e6173757330323037396b3130373930303031": {
+      "name": "Alphabet Inc Class C",
+      "symbol": "goog",
+      "mic": "xnas",
+      "isin": "us02079k1079",
+      "version": "0001"
+    },
+    "786e6173757330323037396b3330353930303031": {
+      "name": "Alphabet Inc Class A",
+      "symbol": "googl",
+      "mic": "xnas",
+      "isin": "us02079k3059",
+      "version": "0001"
+    },
+    "786e617375733032333133353130363730303031": {
+      "name": "Amazon.com Inc",
+      "symbol": "amzn",
+      "mic": "xnas",
+      "isin": "us0231351067",
+      "version": "0001"
+    },
+    "786e617375733033373833333130303530303031": {
+      "name": "Apple Inc",
+      "symbol": "aapl",
+      "mic": "xnas",
+      "isin": "us0378331005",
+      "version": "0001"
+    },
+    "786e6173757333303330336d3130323730303031": {
+      "name": "Facebook Inc Class A",
+      "symbol": "fb",
+      "mic": "xnas",
+      "isin": "us30303m1027",
+      "version": "0001"
+    },
+    "786e617375733539343931383130343530303031": {
+      "name": "Microsoft Corp",
+      "symbol": "msft",
+      "mic": "xnas",
+      "isin": "us5949181045",
+      "version": "0001"
+    },
+    "786e617375733539343937323430383330303031": {
+      "name": "MicroStrategy Inc Class A",
+      "symbol": "mstr",
+      "mic": "xnas",
+      "isin": "us5949724083",
+      "version": "0001"
+    },
+    "786e797375733038343637303130383630303031": {
+      "name": "Berkshire Hathaway Inc Class A",
+      "symbol": "brk.a",
+      "mic": "xnys",
+      "isin": "us0846701086",
+      "version": "0001"
+    },
+    "786e797375733038343637303730323630303031": {
+      "name": "Berkshire Hathaway Inc Class B",
+      "symbol": "brk.b",
+      "mic": "xnys",
+      "isin": "us0846707026",
+      "version": "0001"
+    },
+    "786e797375733436363235683130303530303031": {
+      "name": "JPMorgan Chase & Co",
+      "symbol": "jpm",
+      "mic": "xnys",
+      "isin": "us46625h1005",
+      "version": "0001"
+    },
+    "786e797375733437383136303130343630303031": {
+      "name": "Johnson & Johnson",
+      "symbol": "jnj",
+      "mic": "xnys",
+      "isin": "us4781601046",
+      "version": "0001"
+    },
+    "786e797375733734323731383130393130303031": {
+      "name": "Procter & Gamble Co",
+      "symbol": "pg",
+      "mic": "xnys",
+      "isin": "us7427181091",
+      "version": "0001"
+    },
+    "786e797375733835323233343130333630303031": {
+      "name": "Square Inc Class A",
+      "symbol": "sq",
+      "mic": "xnys",
+      "isin": "us8522341036",
+      "version": "0001"
+    },
+    "786e797375733933313134323130333930303031": {
+      "name": "Walmart Inc",
+      "symbol": "wmt",
+      "mic": "xnys",
+      "isin": "us9311421039",
+      "version": "0001"
+    },
+    "786e617375733030373234663130313230303031": {
+      "name": "Adobe Inc",
+      "symbol": "adbe",
+      "mic": "xnas",
+      "isin": "us00724f1012",
+      "version": "0001"
+    },
+    "786e617375733637303636673130343030303031": {
+      "name": "NVIDIA Corp",
+      "symbol": "nvda",
+      "mic": "xnas",
+      "isin": "us67066g1040",
+      "version": "0001"
+    },
+    "786e617375733730343530793130333830303031": {
+      "name": "PayPal Holdings Inc",
+      "symbol": "pypl",
+      "mic": "xnas",
+      "isin": "us70450y1038",
+      "version": "0001"
+    },
+    "786e617375733838313630723130313430303031": {
+      "name": "Tesla Inc",
+      "symbol": "tsla",
+      "mic": "xnas",
+      "isin": "us88160r1014",
+      "version": "0001"
+    },
+    "786e797375733036303530353130343630303031": {
+      "name": "Bank of America Corp",
+      "symbol": "bac",
+      "mic": "xnys",
+      "isin": "us0605051046",
+      "version": "0001"
+    },
+    "786e797375733235343638373130363030303031": {
+      "name": "The Walt Disney Co",
+      "symbol": "dis",
+      "mic": "xnys",
+      "isin": "us2546871060",
+      "version": "0001"
+    },
+    "786e797375733433373037363130323930303031": {
+      "name": "The Home Depot Inc",
+      "symbol": "hd",
+      "mic": "xnys",
+      "isin": "us4370761029",
+      "version": "0001"
+    },
+    "786e797375733931333234703130323130303031": {
+      "name": "United Health Group Inc",
+      "symbol": "unh",
+      "mic": "xnys",
+      "isin": "us91324p1021",
+      "version": "0001"
+    },
+    "786e797375733932333433763130343430303031": {
+      "name": "Verizon Communications Inc",
+      "symbol": "vz",
+      "mic": "xnys",
+      "isin": "us92343v1044",
+      "version": "0001"
+    },
+    "786e617363683031313434303533323430303031": {
+      "name": "Garmin Ltd",
+      "symbol": "grmn",
+      "mic": "xnas",
+      "isin": "ch0114405324",
+      "version": "0001"
+    },
+    "786e6173757332303033306e3130313930303031": {
+      "name": "Comcast Corp Class A",
+      "symbol": "cmcsa",
+      "mic": "xnas",
+      "isin": "us20030n1019",
+      "version": "0001"
+    },
+    "786e6173757332323136306b3130353130303031": {
+      "name": "Costco Wholesale Corp",
+      "symbol": "cost",
+      "mic": "xnas",
+      "isin": "us22160k1051",
+      "version": "0001"
+    },
+    "786e617375733431383035363130373230303031": {
+      "name": "Hasbro Inc",
+      "symbol": "has",
+      "mic": "xnas",
+      "isin": "us4180561072",
+      "version": "0001"
+    },
+    "786e617375733435383134303130303130303031": {
+      "name": "Intel Corp",
+      "symbol": "intc",
+      "mic": "xnas",
+      "isin": "us4581401001",
+      "version": "0001"
+    },
+    "786e6173757336343131306c3130363130303031": {
+      "name": "Netflix Inc",
+      "symbol": "nflx",
+      "mic": "xnas",
+      "isin": "us64110l1061",
+      "version": "0001"
+    },
+    "786e617375733731333434383130383130303031": {
+      "name": "PepsiCo Inc",
+      "symbol": "pep",
+      "mic": "xnas",
+      "isin": "us7134481081",
+      "version": "0001"
+    },
+    "786e797375733030323036723130323330303031": {
+      "name": "AT&T Inc",
+      "symbol": "t",
+      "mic": "xnys",
+      "isin": "us00206r1023",
+      "version": "0001"
+    },
+    "786e797375733030323832343130303030303031": {
+      "name": "Abbott Laboratories",
+      "symbol": "abt",
+      "mic": "xnys",
+      "isin": "us0028241000",
+      "version": "0001"
+    },
+    "786e797375733032353831363130393230303031": {
+      "name": "American Express Co",
+      "symbol": "axp",
+      "mic": "xnys",
+      "isin": "us0258161092",
+      "version": "0001"
+    },
+    "786e797375733139313231363130303730303031": {
+      "name": "Coca-Cola Co",
+      "symbol": "ko",
+      "mic": "xnys",
+      "isin": "us1912161007",
+      "version": "0001"
+    },
+    "786e797375733432373836363130383130303031": {
+      "name": "The Hershey Co",
+      "symbol": "hsy",
+      "mic": "xnys",
+      "isin": "us4278661081",
+      "version": "0001"
+    },
+    "786e797375733538393333793130353530303031": {
+      "name": "Merck & Co Inc",
+      "symbol": "mrk",
+      "mic": "xnys",
+      "isin": "us58933y1055",
+      "version": "0001"
+    },
+    "786e797375733731373038313130333530303031": {
+      "name": "Pfizer Inc",
+      "symbol": "pfe",
+      "mic": "xnys",
+      "isin": "us7170811035",
+      "version": "0001"
+    },
+    "786e797375733830383531333130353530303031": {
+      "name": "Charles Schwab Corp",
+      "symbol": "schw",
+      "mic": "xnys",
+      "isin": "us8085131055",
+      "version": "0001"
+    },
+    "786e617375733131313335663130313230303031": {
+      "name": "Broadcom Inc",
+      "symbol": "avgo",
+      "mic": "xnas",
+      "isin": "us11135f1012",
+      "version": "0001"
+    },
+    "786e617375733137323735723130323330303031": {
+      "name": "Cisco Systems Inc",
+      "symbol": "csco",
+      "mic": "xnas",
+      "isin": "us17275r1023",
+      "version": "0001"
+    },
+    "786e617375733734373532353130333630303031": {
+      "name": "Qualcomm Inc",
+      "symbol": "qcom",
+      "mic": "xnas",
+      "isin": "us7475251036",
+      "version": "0001"
+    },
+    "786e617375733837323539303130343030303031": {
+      "name": "T-Mobile US Inc",
+      "symbol": "tmus",
+      "mic": "xnas",
+      "isin": "us8725901040",
+      "version": "0001"
+    },
+    "786e617375733838323530383130343030303031": {
+      "name": "Texas Instruments Inc",
+      "symbol": "txn",
+      "mic": "xnas",
+      "isin": "us8825081040",
+      "version": "0001"
+    },
+    "786e797375733131303132323130383330303031": {
+      "name": "Bristol-Myers Squibb Co",
+      "symbol": "bmy",
+      "mic": "xnys",
+      "isin": "us1101221083",
+      "version": "0001"
+    },
+    "786e797375733330323331673130323230303031": {
+      "name": "Exxon Mobil Corp",
+      "symbol": "xom",
+      "mic": "xnys",
+      "isin": "us30231g1022",
+      "version": "0001"
+    },
+    "786e797375733433383531363130363630303031": {
+      "name": "Honeywell International Inc",
+      "symbol": "hon",
+      "mic": "xnys",
+      "isin": "us4385161066",
+      "version": "0001"
+    },
+    "786e797375733538303133353130313730303031": {
+      "name": "McDonald's Corp",
+      "symbol": "mcd",
+      "mic": "xnys",
+      "isin": "us5801351017",
+      "version": "0001"
+    },
+    "786e797375733931313331323130363830303031": {
+      "name": "United Parcel Service Inc",
+      "symbol": "ups",
+      "mic": "xnys",
+      "isin": "us9113121068",
+      "version": "0001"
+    },
+    "786e617375733030373930333130373830303031": {
+      "name": "Advanced Micro Devices Inc",
+      "symbol": "amd",
+      "mic": "xnas",
+      "isin": "us0079031078",
+      "version": "0001"
+    },
+    "786e617375733033313136323130303930303031": {
+      "name": "Amgen Inc",
+      "symbol": "amgn",
+      "mic": "xnas",
+      "isin": "us0311621009",
+      "version": "0001"
+    },
+    "786e617375733136313139703130383430303031": {
+      "name": "Charter Communications Inc Class A",
+      "symbol": "chtr",
+      "mic": "xnas",
+      "isin": "us16119p1084",
+      "version": "0001"
+    },
+    "786e617375733436313230323130333430303031": {
+      "name": "Intuit Inc",
+      "symbol": "intu",
+      "mic": "xnas",
+      "isin": "us4612021034",
+      "version": "0001"
+    },
+    "786e617375733835353234343130393430303031": {
+      "name": "Starbucks Corp",
+      "symbol": "sbux",
+      "mic": "xnas",
+      "isin": "us8552441094",
+      "version": "0001"
+    },
+    "786e797375733435393230303130313430303031": {
+      "name": "International Business Machines Corp",
+      "symbol": "ibm",
+      "mic": "xnys",
+      "isin": "us4592001014",
+      "version": "0001"
+    },
+    "786e797375733533323435373130383330303031": {
+      "name": "Eli Lilly and Co",
+      "symbol": "lly",
+      "mic": "xnys",
+      "isin": "us5324571083",
+      "version": "0001"
+    },
+    "786e797375733533393833303130393430303031": {
+      "name": "Lockheed Martin Corp",
+      "symbol": "lmt",
+      "mic": "xnys",
+      "isin": "us5398301094",
+      "version": "0001"
+    },
+    "786e797375733930373831383130383130303031": {
+      "name": "Union Pacific Corp",
+      "symbol": "unp",
+      "mic": "xnys",
+      "isin": "us9078181081",
+      "version": "0001"
+    },
+    "786e797375733934393734363130313530303031": {
+      "name": "Wells Fargo & Co",
+      "symbol": "wfc",
+      "mic": "xnys",
+      "isin": "us9497461015",
+      "version": "0001"
+    },
+    "786e6173757330393835376c3130383930303031": {
+      "name": "Booking Holdings Inc",
+      "symbol": "bkng",
+      "mic": "xnas",
+      "isin": "us09857l1089",
+      "version": "0001"
+    },
+    "786e617375733132353732713130353830303031": {
+      "name": "CME Group Inc Class A",
+      "symbol": "cme",
+      "mic": "xnas",
+      "isin": "us12572q1058",
+      "version": "0001"
+    },
+    "786e617375733235343730663130343930303031": {
+      "name": "Discovery Inc Series A",
+      "symbol": "disca",
+      "mic": "xnas",
+      "isin": "us25470f1049",
+      "version": "0001"
+    },
+    "786e617375733235343730663330323930303031": {
+      "name": "Discovery Inc Series C",
+      "symbol": "disck",
+      "mic": "xnas",
+      "isin": "us25470f3029",
+      "version": "0001"
+    },
+    "786e6173757332353437306d3130393930303031": {
+      "name": "DISH Network Corp Class A",
+      "symbol": "dish",
+      "mic": "xnas",
+      "isin": "us25470m1099",
+      "version": "0001"
+    },
+    "786e617375733330323434353130313130303031": {
+      "name": "FLIR Systems Inc",
+      "symbol": "flir",
+      "mic": "xnas",
+      "isin": "us3024451011",
+      "version": "0001"
+    },
+    "786e617375733331353631363130323430303031": {
+      "name": "F5 Networks Inc",
+      "symbol": "ffiv",
+      "mic": "xnas",
+      "isin": "us3156161024",
+      "version": "0001"
+    },
+    "786e617375733436313230653630323330303031": {
+      "name": "Intuitive Surgical Inc",
+      "symbol": "isrg",
+      "mic": "xnas",
+      "isin": "us46120e6023",
+      "version": "0001"
+    },
+    "786e617375733437323135703130363630303031": {
+      "name": "JD.com Inc ADS",
+      "symbol": "jd",
+      "mic": "xnas",
+      "isin": "us47215p1066",
+      "version": "0001"
+    },
+    "786e617375733630393230373130353830303031": {
+      "name": "Mondelez International Inc Class A",
+      "symbol": "mdlz",
+      "mic": "xnas",
+      "isin": "us6092071058",
+      "version": "0001"
+    },
+    "786e617375733736373239323130353030303031": {
+      "name": "Riot Blockchain Inc",
+      "symbol": "riot",
+      "mic": "xnas",
+      "isin": "us7672921050",
+      "version": "0001"
+    },
+    "786e6173757339383938306c3130313730303031": {
+      "name": "Zoom Video Communications Inc Class A",
+      "symbol": "zm",
+      "mic": "xnas",
+      "isin": "us98980l1017",
+      "version": "0001"
+    },
+    "786e797375733035333333323130323430303031": {
+      "name": "AutoZone Inc",
+      "symbol": "azo",
+      "mic": "xnys",
+      "isin": "us0533321024",
+      "version": "0001"
+    },
+    "786e797375733039323437783130313930303031": {
+      "name": "BlackRock Inc",
+      "symbol": "blk",
+      "mic": "xnys",
+      "isin": "us09247x1019",
+      "version": "0001"
+    },
+    "786e797375733039373032333130353830303031": {
+      "name": "Boeing Co",
+      "symbol": "ba",
+      "mic": "xnys",
+      "isin": "us0970231058",
+      "version": "0001"
+    },
+    "786e797375733130313133373130373730303031": {
+      "name": "Boston Scientific Corp",
+      "symbol": "bsx",
+      "mic": "xnys",
+      "isin": "us1011371077",
+      "version": "0001"
+    },
+    "786e797375733132353532333130303330303031": {
+      "name": "Cigna Corp",
+      "symbol": "ci",
+      "mic": "xnys",
+      "isin": "us1255231003",
+      "version": "0001"
+    },
+    "786e797375733133343432393130393130303031": {
+      "name": "CampbellSoup Co",
+      "symbol": "cpb",
+      "mic": "xnys",
+      "isin": "us1344291091",
+      "version": "0001"
+    },
+    "786e797375733134333133303130323730303031": {
+      "name": "CarMax Inc",
+      "symbol": "kmx",
+      "mic": "xnys",
+      "isin": "us1431301027",
+      "version": "0001"
+    },
+    "786e797375733136393635363130353930303031": {
+      "name": "Chipotle Mexican Grill Inc",
+      "symbol": "cmg",
+      "mic": "xnys",
+      "isin": "us1696561059",
+      "version": "0001"
+    },
+    "786e797375733137323936373432343230303031": {
+      "name": "Citigroup Inc",
+      "symbol": "c",
+      "mic": "xnys",
+      "isin": "us1729674242",
+      "version": "0001"
+    },
+    "786e797375733231303336703130383430303031": {
+      "name": "Constellation Brands Inc",
+      "symbol": "stz",
+      "mic": "xnys",
+      "isin": "us21036p1084",
+      "version": "0001"
+    },
+    "786e797375733234373336313730323330303031": {
+      "name": "Delta Air Lines Inc",
+      "symbol": "dal",
+      "mic": "xnys",
+      "isin": "us2473617023",
+      "version": "0001"
+    },
+    "786e797375733235363637373130353930303031": {
+      "name": "Dollar General Corp",
+      "symbol": "dg",
+      "mic": "xnys",
+      "isin": "us2566771059",
+      "version": "0001"
+    },
+    "786e797375733235373534613230313530303031": {
+      "name": "Domino's Pizza Inc",
+      "symbol": "dpz",
+      "mic": "xnys",
+      "isin": "us25754a2015",
+      "version": "0001"
+    },
+    "786e797375733334393634633130363230303031": {
+      "name": "Fortune Brands Home and Security Inc",
+      "symbol": "fbhs",
+      "mic": "xnys",
+      "isin": "us34964c1062",
+      "version": "0001"
+    },
+    "786e797375733336343736303130383330303031": {
+      "name": "GAP Inc",
+      "symbol": "gps",
+      "mic": "xnys",
+      "isin": "us3647601083",
+      "version": "0001"
+    },
+    "786e797375733336363635313130373230303031": {
+      "name": "Gartner Inc",
+      "symbol": "it",
+      "mic": "xnys",
+      "isin": "us3666511072",
+      "version": "0001"
+    },
+    "786e797375733433333030613230333330303031": {
+      "name": "Hilton Worldwide Holdings Inc",
+      "symbol": "hlt",
+      "mic": "xnys",
+      "isin": "us43300a2033",
+      "version": "0001"
+    },
+    "786e797375733434343835393130323830303031": {
+      "name": "Humana Inc",
+      "symbol": "hum",
+      "mic": "xnys",
+      "isin": "us4448591028",
+      "version": "0001"
+    },
+    "786e797375733531383433393130343430303031": {
+      "name": "Estee Lauder Companies Inc",
+      "symbol": "el",
+      "mic": "xnys",
+      "isin": "us5184391044",
+      "version": "0001"
+    },
+    "786e797375733638333839783130353430303031": {
+      "name": "Oracle Corp",
+      "symbol": "orcl",
+      "mic": "xnys",
+      "isin": "us68389x1054",
+      "version": "0001"
+    },
+    "786e797375733735353133653130313030303031": {
+      "name": "Raytheon Technologies Corp",
+      "symbol": "rtx",
+      "mic": "xnys",
+      "isin": "us75513e1010",
+      "version": "0001"
+    },
+    "786e7973757337393436366c3330323430303031": {
+      "name": "Salesforce.com Inc",
+      "symbol": "crm",
+      "mic": "xnys",
+      "isin": "us79466l3024",
+      "version": "0001"
+    },
+    "786e797375733837363132653130363430303031": {
+      "name": "Target Corp",
+      "symbol": "tgt",
+      "mic": "xnys",
+      "isin": "us87612e1064",
+      "version": "0001"
+    },
+    "786e797375733838353739793130313030303031": {
+      "name": "3m Co",
+      "symbol": "mmm",
+      "mic": "xnys",
+      "isin": "us88579y1010",
+      "version": "0001"
+    },
+    "786e617375733035333031353130333630303031": {
+      "name": "Automatic Data Processing Inc",
+      "symbol": "adp",
+      "mic": "xnas",
+      "isin": "us0530151036",
+      "version": "0001"
+    },
+    "786e617375733132363430383130333530303031": {
+      "name": "CSX Corp",
+      "symbol": "csx",
+      "mic": "xnas",
+      "isin": "us1264081035",
+      "version": "0001"
+    },
+    "786e617375733333373733383130383830303031": {
+      "name": "Fiserv Inc",
+      "symbol": "fisv",
+      "mic": "xnas",
+      "isin": "us3377381088",
+      "version": "0001"
+    },
+    "786e617375733337353535383130333630303031": {
+      "name": "Gilead Sciences Inc",
+      "symbol": "gild",
+      "mic": "xnas",
+      "isin": "us3755581036",
+      "version": "0001"
+    },
+    "786e617375733538373333723130323330303031": {
+      "name": "MercadoLibre Inc",
+      "symbol": "meli",
+      "mic": "xnas",
+      "isin": "us58733r1023",
+      "version": "0001"
+    },
+    "786e797375733134393132333130313530303031": {
+      "name": "Caterpillar Inc",
+      "symbol": "cat",
+      "mic": "xnys",
+      "isin": "us1491231015",
+      "version": "0001"
+    },
+    "786e797375733234343139393130353430303031": {
+      "name": "Deere & Co",
+      "symbol": "de",
+      "mic": "xnys",
+      "isin": "us2441991054",
+      "version": "0001"
+    },
+    "786e797375733336393630343130333330303031": {
+      "name": "General Electric Co",
+      "symbol": "ge",
+      "mic": "xnys",
+      "isin": "us3696041033",
+      "version": "0001"
+    },
+    "786e797375733834323538373130373130303031": {
+      "name": "Southern Co",
+      "symbol": "so",
+      "mic": "xnys",
+      "isin": "us8425871071",
+      "version": "0001"
+    },
+    "786e797375733930323937333330343830303031": {
+      "name": "U.S. Bancorp",
+      "symbol": "usb",
+      "mic": "xnys",
+      "isin": "us9029733048",
+      "version": "0001"
+    },
+    "786e617375733030353037763130393830303031": {
+      "name": "Activision Blizzard Inc",
+      "symbol": "atvi",
+      "mic": "xnas",
+      "isin": "us00507v1098",
+      "version": "0001"
+    },
+    "786e617375733033383232323130353130303031": {
+      "name": "Applied Materials Inc",
+      "symbol": "amat",
+      "mic": "xnas",
+      "isin": "us0382221051",
+      "version": "0001"
+    },
+    "786e617375733531323830373130383230303031": {
+      "name": "Lam Research Corp",
+      "symbol": "lrcx",
+      "mic": "xnas",
+      "isin": "us5128071082",
+      "version": "0001"
+    },
+    "786e617375733539353131323130333830303031": {
+      "name": "Micron Technology Inc",
+      "symbol": "mu",
+      "mic": "xnas",
+      "isin": "us5951121038",
+      "version": "0001"
+    },
+    "786e617375733735383836663130373530303031": {
+      "name": "Regeneron Pharmaceuticals Inc",
+      "symbol": "regn",
+      "mic": "xnas",
+      "isin": "us75886f1075",
+      "version": "0001"
+    },
+    "786e797375733032323039733130333330303031": {
+      "name": "Altria Group Inc",
+      "symbol": "mo",
+      "mic": "xnys",
+      "isin": "us02209s1033",
+      "version": "0001"
+    },
+    "786e797375733139343136323130333930303031": {
+      "name": "Colgate-Palmolive Co",
+      "symbol": "cl",
+      "mic": "xnys",
+      "isin": "us1941621039",
+      "version": "0001"
+    },
+    "786e797375733235373436753130393730303031": {
+      "name": "Dominion Energy Inc",
+      "symbol": "d",
+      "mic": "xnys",
+      "isin": "us25746u1097",
+      "version": "0001"
+    },
+    "786e797375733331343238783130363330303031": {
+      "name": "FedEx Corp",
+      "symbol": "fdx",
+      "mic": "xnys",
+      "isin": "us31428x1063",
+      "version": "0001"
+    },
+    "786e797375733338313431673130343030303031": {
+      "name": "Goldman Sachs Group Inc",
+      "symbol": "gs",
+      "mic": "xnys",
+      "isin": "us38141g1040",
+      "version": "0001"
+    },
+    "786e797375733435323330383130393330303031": {
+      "name": "IllinoisTool Works Inc",
+      "symbol": "itw",
+      "mic": "xnys",
+      "isin": "us4523081093",
+      "version": "0001"
+    },
+    "786e617375733033323635343130353130303031": {
+      "name": "Analog Devices Inc",
+      "symbol": "adi",
+      "mic": "xnas",
+      "isin": "us0326541051",
+      "version": "0001"
+    },
+    "786e617375733035323736393130363930303031": {
+      "name": "Autodesk Inc",
+      "symbol": "adsk",
+      "mic": "xnas",
+      "isin": "us0527691069",
+      "version": "0001"
+    },
+    "786e617375733239373836613130363030303031": {
+      "name": "Etsy Inc",
+      "symbol": "etsy",
+      "mic": "xnas",
+      "isin": "us29786a1060",
+      "version": "0001"
+    },
+    "786e617375733435323332373130393030303031": {
+      "name": "Illumina Inc",
+      "symbol": "ilmn",
+      "mic": "xnas",
+      "isin": "us4523271090",
+      "version": "0001"
+    },
+    "786e617375733631313734783130393030303031": {
+      "name": "Monster Beverage Corp",
+      "symbol": "mnst",
+      "mic": "xnas",
+      "isin": "us61174x1090",
+      "version": "0001"
+    },
+    "786e617375733932353332663130303330303031": {
+      "name": "Vertex Pharmaceuticals Inc",
+      "symbol": "vrtx",
+      "mic": "xnas",
+      "isin": "us92532f1003",
+      "version": "0001"
+    },
+    "786e797375733037313831333130393930303031": {
+      "name": "Baxter International Inc",
+      "symbol": "bax",
+      "mic": "xnys",
+      "isin": "us0718131099",
+      "version": "0001"
+    },
+    "786e797375733239313031313130343430303031": {
+      "name": "Emerson Electric Co",
+      "symbol": "emr",
+      "mic": "xnys",
+      "isin": "us2910111044",
+      "version": "0001"
+    },
+    "786e797375733336393535303130383630303031": {
+      "name": "General Dynamics Corp",
+      "symbol": "gd",
+      "mic": "xnys",
+      "isin": "us3695501086",
+      "version": "0001"
+    },
+    "786e797375733439343336383130333530303031": {
+      "name": "Kimberly-Clark Corp",
+      "symbol": "kmb",
+      "mic": "xnys",
+      "isin": "us4943681035",
+      "version": "0001"
+    },
+    "786e61736e6c3030303935333837383430303031": {
+      "name": "NXP Semiconductors NV",
+      "symbol": "nxpi",
+      "mic": "xnas",
+      "isin": "nl0009538784",
+      "version": "0001"
+    },
+    "786e617375733139323434363130323330303031": {
+      "name": "Cognizant Technology Solutions Corp Class A",
+      "symbol": "ctsh",
+      "mic": "xnas",
+      "isin": "us1924461023",
+      "version": "0001"
+    },
+    "786e6173757333303136316e3130313930303031": {
+      "name": "Exelon Corp",
+      "symbol": "exc",
+      "mic": "xnas",
+      "isin": "us30161n1019",
+      "version": "0001"
+    },
+    "786e617375733439323731763130303830303031": {
+      "name": "Keurig Dr Pepper Inc",
+      "symbol": "kdp",
+      "mic": "xnas",
+      "isin": "us49271v1008",
+      "version": "0001"
+    },
+    "786e617375733535303032313130393030303031": {
+      "name": "Lululemon Athletica Inc",
+      "symbol": "lulu",
+      "mic": "xnas",
+      "isin": "us5500211090",
+      "version": "0001"
+    },
+    "786e797375733032363837343738343930303031": {
+      "name": "American International Group Inc",
+      "symbol": "aig",
+      "mic": "xnys",
+      "isin": "us0268747849",
+      "version": "0001"
+    },
+    "786e797375733036343035383130303730303031": {
+      "name": "Bank of New York Mellon Corp",
+      "symbol": "bk",
+      "mic": "xnys",
+      "isin": "us0640581007",
+      "version": "0001"
+    },
+    "786e797375733231393335303130353130303031": {
+      "name": "Corning Inc",
+      "symbol": "glw",
+      "mic": "xnys",
+      "isin": "us2193501051",
+      "version": "0001"
+    },
+    "786e7973757334303433346c3130353230303031": {
+      "name": "HP Inc",
+      "symbol": "hpq",
+      "mic": "xnys",
+      "isin": "us40434l1052",
+      "version": "0001"
+    },
+    "786e797375733430363231363130313730303031": {
+      "name": "Halliburton Co",
+      "symbol": "hal",
+      "mic": "xnys",
+      "isin": "us4062161017",
+      "version": "0001"
+    },
+    "786e617375733030333635343130303330303031": {
+      "name": "Abiomed Inc",
+      "symbol": "abmd",
+      "mic": "xnas",
+      "isin": "us0036541003",
+      "version": "0001"
+    },
+    "786e617375733032333736723130323330303031": {
+      "name": "American Airlines Group Inc",
+      "symbol": "aal",
+      "mic": "xnas",
+      "isin": "us02376r1023",
+      "version": "0001"
+    },
+    "786e617375733035363735323130383530303031": {
+      "name": "Baidu Inc ADS",
+      "symbol": "bidu",
+      "mic": "xnas",
+      "isin": "us0567521085",
+      "version": "0001"
+    },
+    "786e617375733235323738783130393030303031": {
+      "name": "Diamondback Energy Inc",
+      "symbol": "fang",
+      "mic": "xnas",
+      "isin": "us25278x1090",
+      "version": "0001"
+    },
+    "786e617375733235363136333130363830303031": {
+      "name": "DocuSign Inc",
+      "symbol": "docu",
+      "mic": "xnas",
+      "isin": "us2561631068",
+      "version": "0001"
+    },
+    "786e617375733732323330343130323830303031": {
+      "name": "Pinduoduo Inc ADS",
+      "symbol": "pdd",
+      "mic": "xnas",
+      "isin": "us7223041028",
+      "version": "0001"
+    },
+    "786e617375733938313338683130313430303031": {
+      "name": "Workday Inc Class A",
+      "symbol": "wday",
+      "mic": "xnas",
+      "isin": "us98138h1014",
+      "version": "0001"
+    },
+    "786e617375733938333839623130303830303031": {
+      "name": "Xcel Energy Inc",
+      "symbol": "xel",
+      "mic": "xnas",
+      "isin": "us98389b1008",
+      "version": "0001"
+    },
+    "786e7973616e3830363835373130383630303031": {
+      "name": "Schlumberger N.V.",
+      "symbol": "slb",
+      "mic": "xnys",
+      "isin": "an8068571086",
+      "version": "0001"
+    },
+    "786e797375733030323837793130393130303031": {
+      "name": "AbbVie Inc",
+      "symbol": "abbv",
+      "mic": "xnys",
+      "isin": "us00287y1091",
+      "version": "0001"
+    },
+    "786e797375733030383436753130313630303031": {
+      "name": "Agilent Technologies Inc",
+      "symbol": "a",
+      "mic": "xnys",
+      "isin": "us00846u1016",
+      "version": "0001"
+    },
+    "786e797375733031333837323130363530303031": {
+      "name": "Alcoa Corp",
+      "symbol": "aa",
+      "mic": "xnys",
+      "isin": "us0138721065",
+      "version": "0001"
+    },
+    "786e797375733035383439383130363430303031": {
+      "name": "Ball Corp",
+      "symbol": "bll",
+      "mic": "xnys",
+      "isin": "us0584981064",
+      "version": "0001"
+    },
+    "786e797375733134303430683130353930303031": {
+      "name": "Capital One Financial Corp",
+      "symbol": "cof",
+      "mic": "xnys",
+      "isin": "us14040h1059",
+      "version": "0001"
+    },
+    "786e797375733230383235633130343530303031": {
+      "name": "ConocoPhillips",
+      "symbol": "cop",
+      "mic": "xnys",
+      "isin": "us20825c1045",
+      "version": "0001"
+    },
+    "786e797375733230393131353130343130303031": {
+      "name": "Consolidated Edison Inc",
+      "symbol": "ed",
+      "mic": "xnys",
+      "isin": "us2091151041",
+      "version": "0001"
+    },
+    "786e797375733236303030333130383030303031": {
+      "name": "Dover Corp",
+      "symbol": "dov",
+      "mic": "xnys",
+      "isin": "us2600031080",
+      "version": "0001"
+    },
+    "786e797375733237373433323130303230303031": {
+      "name": "Eastman Chemical Co",
+      "symbol": "emn",
+      "mic": "xnys",
+      "isin": "us2774321002",
+      "version": "0001"
+    },
+    "786e797375733239343432393130353130303031": {
+      "name": "Equifax Inc",
+      "symbol": "efx",
+      "mic": "xnys",
+      "isin": "us2944291051",
+      "version": "0001"
+    },
+    "786e797375733338343830323130343030303031": {
+      "name": "W.W. Grainger Inc",
+      "symbol": "gww",
+      "mic": "xnys",
+      "isin": "us3848021040",
+      "version": "0001"
+    },
+    "786e797375733432383039683130373730303031": {
+      "name": "Hess Corp",
+      "symbol": "hes",
+      "mic": "xnys",
+      "isin": "us42809h1077",
+      "version": "0001"
+    },
+    "786e797375733531373833343130373030303031": {
+      "name": "Las Vegas Sands Corp",
+      "symbol": "lvs",
+      "mic": "xnys",
+      "isin": "us5178341070",
+      "version": "0001"
+    },
+    "786e797375733539313536723130383630303031": {
+      "name": "MetLife Inc",
+      "symbol": "met",
+      "mic": "xnys",
+      "isin": "us59156r1086",
+      "version": "0001"
+    },
+    "786e797375733834323635763130353230303031": {
+      "name": "Southern Copper Corp",
+      "symbol": "scco",
+      "mic": "xnys",
+      "isin": "us84265v1052",
+      "version": "0001"
+    },
+    "786e797375733838333535363130323330303031": {
+      "name": "Thermo Fisher Scientific Inc",
+      "symbol": "tmo",
+      "mic": "xnys",
+      "isin": "us8835561023",
+      "version": "0001"
+    },
+    "786e617375733039303632783130333730303031": {
+      "name": "Biogen Inc",
+      "symbol": "biib",
+      "mic": "xnas",
+      "isin": "us09062x1037",
+      "version": "0001"
+    },
+    "786e617375733435313638643130343630303031": {
+      "name": "IDEXX Laboratories Inc",
+      "symbol": "idxx",
+      "mic": "xnas",
+      "isin": "us45168d1046",
+      "version": "0001"
+    },
+    "786e617375733530303735343130363430303031": {
+      "name": "The Kraft Heinz Co",
+      "symbol": "khc",
+      "mic": "xnas",
+      "isin": "us5007541064",
+      "version": "0001"
+    },
+    "786e617375733537313930333230323230303031": {
+      "name": "Marriott International Inc Class A",
+      "symbol": "mar",
+      "mic": "xnas",
+      "isin": "us5719032022",
+      "version": "0001"
+    },
+    "786e617375733737383239363130333830303031": {
+      "name": "Ross Stores Inc",
+      "symbol": "rost",
+      "mic": "xnas",
+      "isin": "us7782961038",
+      "version": "0001"
+    },
+    "786e7973757332353137396d3130333630303031": {
+      "name": "Devon Energy Corp",
+      "symbol": "dvn",
+      "mic": "xnys",
+      "isin": "us25179m1036",
+      "version": "0001"
+    },
+    "786e797375733334353337303836303030303031": {
+      "name": "Ford Motor Co",
+      "symbol": "f",
+      "mic": "xnys",
+      "isin": "us3453708600",
+      "version": "0001"
+    },
+    "786e797375733335343631333130313830303031": {
+      "name": "Franklin Resources Inc",
+      "symbol": "ben",
+      "mic": "xnys",
+      "isin": "us3546131018",
+      "version": "0001"
+    },
+    "786e797375733337303435763130303830303031": {
+      "name": "General Motors Co",
+      "symbol": "gm",
+      "mic": "xnys",
+      "isin": "us37045v1008",
+      "version": "0001"
+    },
+    "786e797375733537363336713130343030303031": {
+      "name": "Mastercard Inc",
+      "symbol": "ma",
+      "mic": "xnys",
+      "isin": "us57636q1040",
+      "version": "0001"
+    },
+    "786e797375733637343539393130353830303031": {
+      "name": "Occidental Petroleum Corp",
+      "symbol": "oxy",
+      "mic": "xnys",
+      "isin": "us6745991058",
+      "version": "0001"
+    },
+    "786e617375733031363235353130313630303031": {
+      "name": "Align Technology Inc",
+      "symbol": "algn",
+      "mic": "xnas",
+      "isin": "us0162551016",
+      "version": "0001"
+    },
+    "786e617375733033373431313130353430303031": {
+      "name": "Apache Corp",
+      "symbol": "apa",
+      "mic": "xnas",
+      "isin": "us0374111054",
+      "version": "0001"
+    },
+    "786e617375733137323930383130353930303031": {
+      "name": "Cintas Corp",
+      "symbol": "ctas",
+      "mic": "xnas",
+      "isin": "us1729081059",
+      "version": "0001"
+    },
+    "786e617375733438323438303130303930303031": {
+      "name": "KLA Corp",
+      "symbol": "klac",
+      "mic": "xnas",
+      "isin": "us4824801009",
+      "version": "0001"
+    },
+    "786e6173757336303737306b3130373930303031": {
+      "name": "Moderna Inc",
+      "symbol": "mrna",
+      "mic": "xnas",
+      "isin": "us60770k1079",
+      "version": "0001"
+    },
+    "786e617375733933313432373130383430303031": {
+      "name": "Walgreens Boots Alliance Inc",
+      "symbol": "wba",
+      "mic": "xnas",
+      "isin": "us9314271084",
+      "version": "0001"
+    },
+    "786e797375733030373531793130363430303031": {
+      "name": "Advance Auto Parts Inc",
+      "symbol": "aap",
+      "mic": "xnys",
+      "isin": "us00751y1064",
+      "version": "0001"
+    },
+    "786e797375733039303537323230373230303031": {
+      "name": "Bio-Rad Laboratories Inc Class A",
+      "symbol": "bio",
+      "mic": "xnys",
+      "isin": "us0905722072",
+      "version": "0001"
+    },
+    "786e797375733132363635303130303630303031": {
+      "name": "CVS Health Corp",
+      "symbol": "cvs",
+      "mic": "xnys",
+      "isin": "us1266501006",
+      "version": "0001"
+    },
+    "786e797375733236303535373130333130303031": {
+      "name": "Dow Inc",
+      "symbol": "dow",
+      "mic": "xnys",
+      "isin": "us2605571031",
+      "version": "0001"
+    },
+    "786e797375733534383636313130373330303031": {
+      "name": "Lowe's Companies Inc",
+      "symbol": "low",
+      "mic": "xnys",
+      "isin": "us5486611073",
+      "version": "0001"
+    },
+    "786e797375733631373434363434383630303031": {
+      "name": "Morgan Stanley",
+      "symbol": "ms",
+      "mic": "xnys",
+      "isin": "us6174464486",
+      "version": "0001"
+    },
+    "786e797375733635313633393130363630303031": {
+      "name": "Newmont Corp",
+      "symbol": "nem",
+      "mic": "xnys",
+      "isin": "us6516391066",
+      "version": "0001"
+    },
+    "786e797375733635343130363130333130303031": {
+      "name": "Nike Inc",
+      "symbol": "nke",
+      "mic": "xnys",
+      "isin": "us6541061031",
+      "version": "0001"
+    },
+    "786e797375733734343332303130323230303031": {
+      "name": "Prudential Financial Inc",
+      "symbol": "pru",
+      "mic": "xnys",
+      "isin": "us7443201022",
+      "version": "0001"
+    },
+    "786e797375733932383236633833393430303031": {
+      "name": "Visa Inc",
+      "symbol": "v",
+      "mic": "xnys",
+      "isin": "us92826c8394",
+      "version": "0001"
+    },
+    "786e617375733237383634323130333030303031": {
+      "name": "eBay Inc",
+      "symbol": "ebay",
+      "mic": "xnas",
+      "isin": "us2786421030",
+      "version": "0001"
+    },
+    "786e617375733238353531323130393930303031": {
+      "name": "Electronic Arts Inc",
+      "symbol": "ea",
+      "mic": "xnas",
+      "isin": "us2855121099",
+      "version": "0001"
+    },
+    "786e617375733637313033683130373730303031": {
+      "name": "O'Reilly Automative Inc",
+      "symbol": "orly",
+      "mic": "xnas",
+      "isin": "us67103h1077",
+      "version": "0001"
+    },
+    "786e617375733730343332363130373930303031": {
+      "name": "Paychex Inc",
+      "symbol": "payx",
+      "mic": "xnas",
+      "isin": "us7043261079",
+      "version": "0001"
+    },
+    "786e617375733837313630373130373630303031": {
+      "name": "SynopsysInc",
+      "symbol": "snps",
+      "mic": "xnas",
+      "isin": "us8716071076",
+      "version": "0001"
+    },
+    "786e797375733633373037313130313130303031": {
+      "name": "National Oilwell Varco Inc",
+      "symbol": "nov",
+      "mic": "xnys",
+      "isin": "us6370711011",
+      "version": "0001"
+    },
+    "786e797375733639333437353130353730303031": {
+      "name": "PNC Financial Services Group Inc",
+      "symbol": "pnc",
+      "mic": "xnys",
+      "isin": "us6934751057",
+      "version": "0001"
+    },
+    "786e797375733731383137323130393030303031": {
+      "name": "Philip Morris International Inc",
+      "symbol": "pm",
+      "mic": "xnys",
+      "isin": "us7181721090",
+      "version": "0001"
+    },
+    "786e797375733832383830363130393130303031": {
+      "name": "Simon Property Group Inc",
+      "symbol": "spg",
+      "mic": "xnys",
+      "isin": "us8288061091",
+      "version": "0001"
+    },
+    "786e797375733839343137653130393130303031": {
+      "name": "The Travelers Companies Inc",
+      "symbol": "trv",
+      "mic": "xnys",
+      "isin": "us89417e1091",
+      "version": "0001"
+    },
+    "786e617375733132373338373130383730303031": {
+      "name": "Cadence Design Systems Inc",
+      "symbol": "cdns",
+      "mic": "xnas",
+      "isin": "us1273871087",
+      "version": "0001"
+    },
+    "786e617375733235323133313130373430303031": {
+      "name": "DexCom Inc",
+      "symbol": "dxcm",
+      "mic": "xnas",
+      "isin": "us2521311074",
+      "version": "0001"
+    },
+    "786e617375733634313130773130323730303031": {
+      "name": "NetEase Inc ADS",
+      "symbol": "ntes",
+      "mic": "xnas",
+      "isin": "us64110w1027",
+      "version": "0001"
+    },
+    "786e617375733932333435793130363430303031": {
+      "name": "Verisk Analytics Inc",
+      "symbol": "vrsk",
+      "mic": "xnas",
+      "isin": "us92345y1064",
+      "version": "0001"
+    },
+    "786e617375736e30373035393231303030303031": {
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "symbol": "asml",
+      "mic": "xnas",
+      "isin": "usn070592100",
+      "version": "0001"
+    },
+    "786e797375733236343431633230343430303031": {
+      "name": "Duke Energy Corp",
+      "symbol": "duk",
+      "mic": "xnys",
+      "isin": "us26441c2044",
+      "version": "0001"
+    },
+    "786e7973757332363631346e3130323830303031": {
+      "name": "DuPont de Nemours Inc",
+      "symbol": "dd",
+      "mic": "xnys",
+      "isin": "us26614n1028",
+      "version": "0001"
+    },
+    "786e797375733236383735703130313230303031": {
+      "name": "EOG ResourcesInc",
+      "symbol": "eog",
+      "mic": "xnys",
+      "isin": "us26875p1012",
+      "version": "0001"
+    },
+    "786e797375733335363731643835373030303031": {
+      "name": "Freeport-McMoRan Inc",
+      "symbol": "fcx",
+      "mic": "xnys",
+      "isin": "us35671d8570",
+      "version": "0001"
+    },
+    "786e797375733337303333343130343630303031": {
+      "name": "General Mills Inc",
+      "symbol": "gis",
+      "mic": "xnys",
+      "isin": "us3703341046",
+      "version": "0001"
+    },
+    "786e617375733234393036703130393330303031": {
+      "name": "Dentsply Sirona Inc",
+      "symbol": "xray",
+      "mic": "xnas",
+      "isin": "us24906p1093",
+      "version": "0001"
+    },
+    "786e617375733539353031373130343230303031": {
+      "name": "Microchip Technology Inc",
+      "symbol": "mchp",
+      "mic": "xnas",
+      "isin": "us5950171042",
+      "version": "0001"
+    },
+    "786e617375733639333731383130383830303031": {
+      "name": "PACCAR Inc",
+      "symbol": "pcar",
+      "mic": "xnas",
+      "isin": "us6937181088",
+      "version": "0001"
+    },
+    "786e617375733831313831633130343530303031": {
+      "name": "Seagen Inc",
+      "symbol": "sgen",
+      "mic": "xnas",
+      "isin": "us81181c1045",
+      "version": "0001"
+    },
+    "786e617375733834383633373130343530303031": {
+      "name": "Splunk Inc",
+      "symbol": "splk",
+      "mic": "xnas",
+      "isin": "us8486371045",
+      "version": "0001"
+    },
+    "786e617375733938333931393130313530303031": {
+      "name": "Xilinx Inc",
+      "symbol": "xlnx",
+      "mic": "xnas",
+      "isin": "us9839191015",
+      "version": "0001"
+    },
+    "786e7973696530306234626e6d79333430303031": {
+      "name": "Accenture plc Class A",
+      "symbol": "acn",
+      "mic": "xnys",
+      "isin": "ie00b4bnmy34",
+      "version": "0001"
+    },
+    "786e79736965303062746e317931313530303031": {
+      "name": "Medtronic plc",
+      "symbol": "mdt",
+      "mic": "xnys",
+      "isin": "ie00btn1y115",
+      "version": "0001"
+    },
+    "786e797369653030627a31327770383230303031": {
+      "name": "Linde plc",
+      "symbol": "lin",
+      "mic": "xnys",
+      "isin": "ie00bz12wp82",
+      "version": "0001"
+    },
+    "786e797375733032303030323130313430303031": {
+      "name": "Allstate Corp",
+      "symbol": "all",
+      "mic": "xnys",
+      "isin": "us0200021014",
+      "version": "0001"
+    },
+    "786e797375733035373232673130303430303031": {
+      "name": "Baker Hughes Co Class A",
+      "symbol": "bkr",
+      "mic": "xnys",
+      "isin": "us05722g1004",
+      "version": "0001"
+    },
+    "786e797375733136363736343130303530303031": {
+      "name": "Chevron Corp",
+      "symbol": "cvx",
+      "mic": "xnys",
+      "isin": "us1667641005",
+      "version": "0001"
+    },
+    "786e797375733233353835313130323830303031": {
+      "name": "DanaherCorp",
+      "symbol": "dhr",
+      "mic": "xnys",
+      "isin": "us2358511028",
+      "version": "0001"
+    },
+    "786e797375733233373139343130353330303031": {
+      "name": "Darden Restaurants Inc",
+      "symbol": "dri",
+      "mic": "xnys",
+      "isin": "us2371941053",
+      "version": "0001"
+    },
+    "786e797375733439343536623130313730303031": {
+      "name": "Kinder Morgan Inc",
+      "symbol": "kmi",
+      "mic": "xnys",
+      "isin": "us49456b1017",
+      "version": "0001"
+    },
+    "786e797375733635333339663130313230303031": {
+      "name": "NextEra Energy Inc",
+      "symbol": "nee",
+      "mic": "xnys",
+      "isin": "us65339f1012",
+      "version": "0001"
+    },
+    "786e797375733938383439383130313330303031": {
+      "name": "Yum Brands Inc",
+      "symbol": "yum",
+      "mic": "xnys",
+      "isin": "us9884981013",
+      "version": "0001"
+    },
+    "786e617375733031353335313130393430303031": {
+      "name": "Alexion Pharmaceuticals Inc",
+      "symbol": "alxn",
+      "mic": "xnas",
+      "isin": "us0153511094",
+      "version": "0001"
+    },
+    "786e617375733033363632713130353830303031": {
+      "name": "Ansys Inc",
+      "symbol": "anss",
+      "mic": "xnas",
+      "isin": "us03662q1058",
+      "version": "0001"
+    },
+    "786e617375733135363738323130343630303031": {
+      "name": "Cerner Corp",
+      "symbol": "cern",
+      "mic": "xnas",
+      "isin": "us1567821046",
+      "version": "0001"
+    },
+    "786e617375733231373230343130363130303031": {
+      "name": "Copart Inc",
+      "symbol": "cprt",
+      "mic": "xnas",
+      "isin": "us2172041061",
+      "version": "0001"
+    },
+    "786e617375733235363734363130383030303031": {
+      "name": "Dollar Tree Inc",
+      "symbol": "dltr",
+      "mic": "xnas",
+      "isin": "us2567461080",
+      "version": "0001"
+    },
+    "786e617375733331313930303130343430303031": {
+      "name": "Fastenal Co",
+      "symbol": "fast",
+      "mic": "xnas",
+      "isin": "us3119001044",
+      "version": "0001"
+    },
+    "786e6173757335373737326b3130313630303031": {
+      "name": "Maxim Integrated Products Inc",
+      "symbol": "mxim",
+      "mic": "xnas",
+      "isin": "us57772k1016",
+      "version": "0001"
+    },
+    "786e617375733832393638623130333530303031": {
+      "name": "Sirius XM Holdings Inc",
+      "symbol": "siri",
+      "mic": "xnas",
+      "isin": "us82968b1035",
+      "version": "0001"
+    },
+    "786e6173757338333038386d3130323730303031": {
+      "name": "Skyworks Solutions Inc",
+      "symbol": "swks",
+      "mic": "xnas",
+      "isin": "us83088m1027",
+      "version": "0001"
+    },
+    "786e617375733932333433653130323930303031": {
+      "name": "VeriSign Inc",
+      "symbol": "vrsn",
+      "mic": "xnas",
+      "isin": "us92343e1029",
+      "version": "0001"
+    },
+    "786e797375733033303237783130303030303031": {
+      "name": "American Tower Corp",
+      "symbol": "amt",
+      "mic": "xnys",
+      "isin": "us03027x1000",
+      "version": "0001"
+    },
+    "786e6173696c3030313038323431313330303031": {
+      "name": "Check Point Software Technologies Ltd",
+      "symbol": "chkp",
+      "mic": "xnas",
+      "isin": "il0010824113",
+      "version": "0001"
+    },
+    "786e617375733039303631673130313330303031": {
+      "name": "BioMarin Pharmaceutical Inc",
+      "symbol": "bmrn",
+      "mic": "xnas",
+      "isin": "us09061g1013",
+      "version": "0001"
+    },
+    "786e617375733132353134673130383530303031": {
+      "name": "CDW Corp",
+      "symbol": "cdw",
+      "mic": "xnas",
+      "isin": "us12514g1085",
+      "version": "0001"
+    },
+    "786e617375733137373337363130303230303031": {
+      "name": "Citrix Systems Inc",
+      "symbol": "ctxs",
+      "mic": "xnas",
+      "isin": "us1773761002",
+      "version": "0001"
+    },
+    "786e617375733330323132703330333830303031": {
+      "name": "Expedia Group Inc",
+      "symbol": "expe",
+      "mic": "xnas",
+      "isin": "us30212p3038",
+      "version": "0001"
+    },
+    "786e6173757333353133376c3130353230303031": {
+      "name": "Fox Corp Class A",
+      "symbol": "foxa",
+      "mic": "xnas",
+      "isin": "us35137l1052",
+      "version": "0001"
+    },
+    "786e617375733435333337633130323730303031": {
+      "name": "Incyte Corp",
+      "symbol": "incy",
+      "mic": "xnas",
+      "isin": "us45337c1027",
+      "version": "0001"
+    },
+    "786e617375733837343035343130393430303031": {
+      "name": "Take-Two Interactive Software Inc",
+      "symbol": "ttwo",
+      "mic": "xnas",
+      "isin": "us8740541094",
+      "version": "0001"
+    },
+    "786e617375733839363737713130373630303031": {
+      "name": "Trip.com Group Ltd ADS",
+      "symbol": "tcom",
+      "mic": "xnas",
+      "isin": "us89677q1076",
+      "version": "0001"
+    },
+    "786e617375733930333834733330333130303031": {
+      "name": "Ulta Beauty Inc",
+      "symbol": "ulta",
+      "mic": "xnas",
+      "isin": "us90384s3031",
+      "version": "0001"
+    },
+    "786e617367623030623877363736363230303031": {
+      "name": "Liberty Global plc Class A",
+      "symbol": "lbtya",
+      "mic": "xnas",
+      "isin": "gb00b8w67662",
+      "version": "0001"
+    },
+    "786e617367623030623877363762313930303031": {
+      "name": "Liberty Global plc Class C",
+      "symbol": "lbtyk",
+      "mic": "xnas",
+      "isin": "gb00b8w67b19",
+      "version": "0001"
+    },
+    "786e6173757333353133376c3230343330303031": {
+      "name": "Fox Corp Class B",
+      "symbol": "fox",
+      "mic": "xnas",
+      "isin": "us35137l2043",
+      "version": "0001"
+    }
   }
 }
