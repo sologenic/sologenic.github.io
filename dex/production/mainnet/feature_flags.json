@@ -67,6 +67,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "airdrops",
+    "status": "inactive",
+    "flag_description": "Airdrops explorer on Sologenic DEX",
+    "restricted_description": ""
+  },
+  {
     "flag": "swap-tool",
     "status": "active",
     "flag_description": "Swap tool for Minter Provenance",
