@@ -70,7 +70,8 @@
     "flag": "airdrops",
     "status": "active",
     "flag_description": "Airdrops explorer on Sologenic DEX",
-    "restricted_description": ""
+    "restricted_description": "",
+    "new": true
   },
   {
     "flag": "swap-tool",
@@ -88,8 +89,7 @@
     "flag": "ido",
     "status": "active",
     "flag_description": "IDO Launchpad",
-    "restricted_description": "",
-    "new": true
+    "restricted_description": ""
   },
   {
     "flag": "trade",
