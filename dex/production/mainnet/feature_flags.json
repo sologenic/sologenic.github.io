@@ -68,7 +68,7 @@
   },
   {
     "flag": "airdrops",
-    "status": "inactive",
+    "status": "active",
     "flag_description": "Airdrops explorer on Sologenic DEX",
     "restricted_description": ""
   },
