@@ -28,7 +28,13 @@
     "status": "early-access",
     "flag_description": "Simplex Fiat On-ramp",
     "restricted_description": "",
-    "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW"],
+    "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW"]
+  },
+  {
+    "flag": "topper-fiat",
+    "status": "active",
+    "flag_description": "Topper Fiat On-ramp",
+    "restricted_description": "",
     "new": true
   },
   {
