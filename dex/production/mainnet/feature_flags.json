@@ -25,6 +25,13 @@
     "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW", "rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
   },
   {
+    "flag": "topper-fiat",
+    "status": "inactive",
+    "flag_description": "Topper Fiat On-ramp",
+    "restricted_description": "",
+    "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW", "rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
+  },
+  {
     "flag": "bridge",
     "status": "active",
     "flag_description": "Allbridge implementation to bridge tokens between different blockchains",
