@@ -26,10 +26,11 @@
   },
   {
     "flag": "topper-fiat",
-    "status": "early-access",
+    "status": "active",
     "flag_description": "Topper Fiat On-ramp",
     "restricted_description": "",
-    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
+    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"],
+    "new": true
   },
   {
     "flag": "bridge",
@@ -77,8 +78,7 @@
     "flag": "airdrops",
     "status": "active",
     "flag_description": "Airdrops explorer on Sologenic DEX",
-    "restricted_description": "",
-    "new": true
+    "restricted_description": ""
   },
   {
     "flag": "swap-tool",
