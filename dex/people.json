@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Bob Rash",
+    "file": "bob_rash",
+    "position": "_co_creator"
+  },
+  {
+    "name": "Reza Bashash",
+    "file": "reza_bashash",
+    "position": "_co_creator_tech"
+  },
+  {
+    "name": "Alberto Robles",
+    "file": "alberto_robles",
+    "position": "_tech_manager"
+  },
+  {
+    "name": "Norbert Van Nobelen",
+    "file": "norbert_van",
+    "position": "_golang_developer"
+  },
+  {
+    "name": "Yaroslav Savchuk",
+    "file": "yaroslav_savchuk",
+    "position": "_golang_developer"
+  },
+  {
+    "name": "Artem Linetskyi",
+    "file": "artem_linetskyi",
+    "position": "_golang_developer"
+  },
+  {
+    "name": "Kate Nguyen",
+    "file": "kate_nguyen",
+    "position": "_mobile_developer"
+  },
+  {
+    "name": "Juan Camilo Cifuentes",
+    "file": "juan_cifuentes",
+    "position": "_junior_frontend_dev"
+  },
+  {
+    "name": "Maria Vasquez",
+    "file": "maria_vasquez",
+    "position": "_junior_frontend_dev"
+  },
+  {
+    "name": "Utsav Khatiwada",
+    "file": "ustav_khatiwada",
+    "position": "_qa_tester"
+  },
+  {
+    "name": "Kuvshynnikov Mykola",
+    "file": "kuvshynnikov_mykola",
+    "position": "_qa_tester"
+  },
+  {
+    "name": "Dai Nguyen",
+    "file": "dai_nguyen",
+    "position": "_ui_ux_designer"
+  },
+  {
+    "name": "Mike McCluskey",
+    "file": "mike_mccluskey",
+    "position": "_head_strategic_partnerships"
+  },
+  {
+    "name": "Favio Velarde",
+    "file": "favio_velarde",
+    "position": "_head_growth_partnership"
+  },
+  {
+    "name": "Erik A. Stoltz",
+    "file": "erik_stoltz",
+    "position": "_securities_market"
+  },
+  {
+    "name": "Michael McCaffrey",
+    "file": "michael_mcAffrey",
+    "position": "_business_development"
+  },
+  {
+    "name": "Kris King",
+    "file": "kris_king",
+    "position": "marketing_specialist"
+  },
+  {
+    "name": "Nicole Fonseca",
+    "file": "nicole_fonseca",
+    "position": "_videographer"
+  },
+  {
+    "name": "Roberto Valdes",
+    "file": "roberto_valdes",
+    "position": "_chief_compliance"
+  },
+  {
+    "name": "Della Dibaj",
+    "file": "della_dibaj",
+    "position": "_head_operations"
+  },
+  {
+    "name": "Michelle Arjoon",
+    "file": "michelle_arjoon",
+    "position": "_office_administrator"
+  },
+  {
+    "name": "Karla B. Rodriguez",
+    "file": "karla_rodriguez",
+    "position": "_administrative_assistant"
+  }
+]
