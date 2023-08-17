@@ -34,7 +34,7 @@
     "flag": "partner",
     "status": "active",
     "flag_description": "Partner dashboard tool",
-    "restricted_description": "
+    "restricted_description": ""
   },
   {
     "flag": "topper-fiat",
