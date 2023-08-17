@@ -66,6 +66,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "partner",
+    "status": "active",
+    "flag_description": "Partner dashboard tool",
+    "restricted_description": "
+  },
+  {
     "flag": "issuance",
     "status": "active",
     "flag_description": "Issuance tool on the market index",
