@@ -31,6 +31,12 @@
     "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW"]
   },
   {
+    "flag": "partner",
+    "status": "active",
+    "flag_description": "Partner dashboard tool",
+    "restricted_description": "
+  },
+  {
     "flag": "topper-fiat",
     "status": "active",
     "flag_description": "Topper Fiat On-ramp",
