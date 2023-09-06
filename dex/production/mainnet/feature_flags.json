@@ -18,6 +18,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "partner",
+    "status": "inactive",
+    "flag_description": "Partner dashboard tool",
+    "restricted_description": ""
+  },
+  {
     "flag": "simplex-fiat",
     "status": "inactive",
     "flag_description": "Simplex Fiat On-ramp",
