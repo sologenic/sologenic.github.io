@@ -37,6 +37,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "amm",
+    "status": "inactive",
+    "flag_description": "XLS30 Amendment for the AMM",
+    "restricted_description": ""
+  },
+  {
     "flag": "topper-fiat",
     "status": "active",
     "flag_description": "Topper Fiat On-ramp",
