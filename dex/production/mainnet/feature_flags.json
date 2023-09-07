@@ -24,6 +24,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "amm",
+    "status": "inactive",
+    "flag_description": "XLS30 Amendment for the AMM",
+    "restricted_description": ""
+  },
+  {
     "flag": "simplex-fiat",
     "status": "inactive",
     "flag_description": "Simplex Fiat On-ramp",
