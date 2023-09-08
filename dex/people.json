@@ -2,121 +2,145 @@
   {
     "name": "Bob Ras",
     "file": "bob_rash",
-    "position": "_co_creator"
+    "position": "_co_creator",
+    "position_raw": "Co-creator"
   },
   {
     "name": "Reza Bashash",
     "file": "reza_bashash",
-    "position": "_co_creator_tech"
+    "position": "_co_creator_tech",
+    "position_raw": "Co-creator & Tech Director"
   },
   {
     "name": "Alberto Robles",
     "file": "alberto_robles",
-    "position": "_tech_manager"
+    "position": "_tech_manager",
+    "position_raw": "Tech Manager"
   },
   {
     "name": "Norbert Van Nobelen",
     "file": "norbert_van",
-    "position": "_golang_developer"
+    "position": "_golang_developer",
+    "position_raw": "Golang Developer"
   },
   {
     "name": "HyunBae Choi",
     "file": "hyunbae_choi",
-    "position": "_backend_developer"
+    "position": "_backend_developer",
+    "position_raw": "Backend Developer"
   },
   {
     "name": "Yaroslav Savchuk",
     "file": "yaroslav_savchuk",
-    "position": "_golang_developer"
+    "position": "_golang_developer",
+    "position_raw": "Golang Developer"
   },
   {
     "name": "Artem Linetskyi",
     "file": "artem_linetskyi",
-    "position": "_golang_developer"
+    "position": "_golang_developer",
+    "position_raw": "Golang Developer"
   },
   {
     "name": "Kate Nguyen",
     "file": "kate_nguyen",
-    "position": "_mobile_developer"
+    "position": "_mobile_developer",
+    "position_raw": "Front-End Developer"
   },
   {
     "name": "Juan Camilo Cifuentes",
     "file": "juan_cifuentes",
-    "position": "_junior_frontend_dev"
+    "position": "_junior_frontend_dev",
+    "position_raw": "Jr. Front-End Developer"
   },
   {
     "name": "Maria Vasquez",
     "file": "maria_vasquez",
-    "position": "_junior_frontend_dev"
+    "position": "_junior_frontend_dev",
+    "position_raw": "Jr. Front-End Developer"
   },
   {
     "name": "Utsav Khatiwada",
     "file": "ustav_khatiwada",
-    "position": "_qa_tester"
+    "position": "_qa_tester",
+    "position_raw": "Quality Assurance"
   },
   {
     "name": "Kuvshynnikov Mykola",
     "file": "kuvshynnikov_mykola",
-    "position": "_qa_tester"
+    "position": "_qa_tester",
+    "position_raw": "Quality Assurance"
   },
   {
     "name": "Dai Nguyen",
     "file": "dai_nguyen",
-    "position": "_ui_ux_designer"
+    "position": "_ui_ux_designer",
+    "position_raw": "UI/UX Designer"
   },
   {
     "name": "Paulina Fierro",
     "file": "paulina_fierro",
-    "position": "Multimedia Design Intern"
+    "position": "Multimedia Design Intern",
+    "position_raw": "Multimedia Design Intern"
   },
   {
     "name": "Mike McCluskey",
     "file": "mike_mccluskey",
-    "position": "_head_strategic_partnerships"
+    "position": "_head_strategic_partnerships",
+    "position_raw": "Head of Strategic Partnerships"
   },
   {
     "name": "Favio Velarde",
     "file": "favio_velarde",
-    "position": "_head_growth_partnership"
+    "position": "_head_growth_partnership",
+    "position_raw": "Head of Growth & Partnership"
   },
   {
     "name": "Erik A. Stoltz",
     "file": "erik_stoltz",
-    "position": "_securities_market"
+    "position": "_securities_market",
+    "position_raw": "BD & Securities Markets Analyst"
   },
   {
     "name": "Michael McCaffrey",
     "file": "michael_mcAffrey",
-    "position": "_business_development"
+    "position": "_business_development",
+    "position_raw": "Business Development"
   },
   {
     "name": "Kris King",
     "file": "kris_king",
-    "position": "marketing_specialist"
+    "position": "marketing_specialist",
+    "position_raw": "Digital Marketing Specialist"
   },
   {
     "name": "Nicole Fonseca",
     "file": "nicole_fonseca",
-    "position": "_videographer"
+    "position": "_videographer",
+    "position_raw": "Videographer"
   },
   {
     "name": "Roberto Valdes",
     "file": "roberto_valdes",
-    "position": "_chief_compliance"
+    "position": "_chief_compliance",
+    "position_raw": "Chief Compliance Officer"
   },
   {
     "name": "Della Dibaj",
     "file": "della_dibaj",
-    "position": "_head_operations"
+    "position": "_head_operations",
+    "position_raw": "Head of Operations"
   },
   {
     "name": "Michelle Arjoon",
     "file": "michelle_arjoon",
-    "position": "_office_administrator"
+    "position": "_office_administrator",
+    "position_raw": "Office Administrator"
   },
   {
     "name": "Karla B. Rodriguez",
     "file": "karla_rodriguez",
-    "position": "_administrative_assistant"
+    "position": "_administrative_assistant",
+    "position_raw": "Administrative Assistant"
   }
 ]
