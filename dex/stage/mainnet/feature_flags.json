@@ -32,9 +32,10 @@
   },
   {
     "flag": "partner",
-    "status": "active",
+    "status": "inactive",
     "flag_description": "Partner dashboard tool",
-    "restricted_description": ""
+    "restricted_description": "",
+    "new": true
   },
   {
     "flag": "amm",
@@ -46,8 +47,7 @@
     "flag": "topper-fiat",
     "status": "active",
     "flag_description": "Topper Fiat On-ramp",
-    "restricted_description": "",
-    "new": true
+    "restricted_description": ""
   },
   {
     "flag": "bridge",
