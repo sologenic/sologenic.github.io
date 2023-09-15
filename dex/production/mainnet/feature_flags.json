@@ -19,9 +19,10 @@
   },
   {
     "flag": "partner",
-    "status": "inactive",
+    "status": "early-access",
     "flag_description": "Partner dashboard tool",
-    "restricted_description": ""
+    "restricted_description": "",
+    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
   },
   {
     "flag": "amm",
