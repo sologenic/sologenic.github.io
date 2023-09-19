@@ -40,9 +40,10 @@
   },
   {
     "flag": "amm",
-    "status": "inactive",
+    "status": "early-access",
     "flag_description": "XLS30 Amendment for the AMM",
-    "restricted_description": ""
+    "restricted_description": "",
+    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
   },
   {
     "flag": "topper-fiat",
