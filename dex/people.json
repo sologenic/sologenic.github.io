@@ -11,6 +11,12 @@
     "position": "_co_creator_tech",
     "position_raw": "Co-creator & Tech Director"
   },
+   {
+    "name": "Mike McCluskey",
+    "file": "mike_mccluskey",
+    "position": "_head_strategic_partnerships",
+    "position_raw": "Head of Strategic Partnerships"
+  },
   {
     "name": "Alberto Robles",
     "file": "alberto_robles",
@@ -25,7 +31,7 @@
   },
   {
     "name": "HyunBae Choi",
-    "file": "hyunbae_choi",
+    "file": "hyun_bae",
     "position": "_backend_developer",
     "position_raw": "Backend Developer"
   },
@@ -84,12 +90,6 @@
     "position_raw": "Multimedia Design Intern"
   },
   {
-    "name": "Mike McCluskey",
-    "file": "mike_mccluskey",
-    "position": "_head_strategic_partnerships",
-    "position_raw": "Head of Strategic Partnerships"
-  },
-  {
     "name": "Favio Velarde",
     "file": "favio_velarde",
     "position": "_head_growth_partnership",
@@ -106,6 +106,18 @@
     "file": "michael_mcAffrey",
     "position": "_business_development",
     "position_raw": "Business Development"
+  },
+   {
+    "name": "Annalisa Caballero",
+    "file": "annalisa_caballero",
+    "position": "marketing_specialist",
+    "position_raw": "Digital Marketing Specialist"
+  },
+   {
+    "name": "Zachary Rice",
+    "file": "zachary_rice",
+    "position": "marketing_specialist",
+    "position_raw": "Digital Marketing Specialist"
   },
   {
     "name": "Nicole Fonseca",
