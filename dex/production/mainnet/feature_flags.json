@@ -26,7 +26,7 @@
   },
   {
     "flag": "amm",
-    "status": "inactive",
+    "status": "active",
     "flag_description": "XLS30 Amendment for the AMM",
     "restricted_description": ""
   },
