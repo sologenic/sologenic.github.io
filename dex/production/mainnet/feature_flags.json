@@ -15,7 +15,8 @@
     "flag": "xls30d-standard",
     "status": "active",
     "flag_description": "All features regarding XRP Ledger NFT standard: XLS-30d",
-    "restricted_description": ""
+    "restricted_description": "",
+    "new": true
   },
   {
     "flag": "banxa-fiat",
@@ -48,8 +49,7 @@
     "status": "active",
     "flag_description": "Topper Fiat On-ramp",
     "restricted_description": "",
-    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"],
-    "new": true
+    "early_access": ["rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
   },
   {
     "flag": "bridge",
