@@ -12,6 +12,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "xls30d-standard",
+    "status": "active",
+    "flag_description": "All features regarding XRP Ledger NFT standard: XLS-30d",
+    "restricted_description": ""
+  },
+  {
     "flag": "banxa-fiat",
     "status": "active",
     "flag_description": "Banxa Fiat On-ramp",
