@@ -11,13 +11,42 @@
     },
     {
       "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3331383639343735623200000000"
+      }
+    },
+    {
+      "base": {
         "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
         "currency": "434F524500000000000000000000000000000000"
       },
       "counter": {
         "currency": "XRP"
       }
-    }, 
+    },
+    {
+      "base": {
+        "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
+        "currency": "434F524500000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3331383639343735623200000000"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "r3dVizzUAS3U29WKaaSALqkieytA2LCoRe",
+        "currency": "58434F5245000000000000000000000000000000"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    },
     {
       "base": {
         "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
@@ -27,15 +56,14 @@
         "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
         "currency": "534F4C4F00000000000000000000000000000000"
       }
-    }, 
+    },
     {
       "base": {
-        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
-        "currency": "534F4C4F00000000000000000000000000000000"
+        "currency": "XRP"
       },
       "counter": {
-        "counterparty": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
-        "currency": "USD"
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3331383639343735623200000000"
       }
     },
     {
@@ -61,8 +89,28 @@
         "currency": "XRP"
       },
       "counter": {
-        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
-        "currency": "EUR"
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3161656339613265303900000000"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
+        "currency": "434F524500000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3161656339613265303900000000"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3161656339613265303900000000"
       }
     },
     {
@@ -70,8 +118,46 @@
         "currency": "XRP"
       },
       "counter": {
-        "counterparty": "rctArjqVvTHihekzDeecKo6mkTYTUSBNc",
-        "currency": "SGB"
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3430623433626639656500000000"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
+        "currency": "434F524500000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3430623433626639656500000000"
+      }
+    },
+    {
+      "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      },
+      "counter": {
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3430623433626639656500000000"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rHXuEaRYnnJHbDeuBH5w8yPh5uwNVh5zAg",
+        "currency": "ELS"
+      }
+    },
+    {
+      "base": {
+        "currency": "XRP"
+      },
+      "counter": {
+        "counterparty": "rpakCr61Q92abPXJnVboKENmpKssWyHpwu",
+        "currency": "457175696C69627269756D000000000000000000"
       }
     },
     {
@@ -90,80 +176,6 @@
       "counter": {
         "counterparty": "rXTKdHWuppSjkbiKoEv53bfxHAn1MxmTb",
         "currency": "XTK"
-      }
-    },
-    {
-      "base": {
-        "currency": "XRP"
-      },
-      "counter": {
-        "counterparty": "rLqUC2eCPohYvJCEBJ77eCCqVL2uEiczjA",
-        "currency": "5852646F67650000000000000000000000000000"
-      }
-    },
-    {
-      "base": {
-        "currency": "XRP"
-      },
-      "counter": {
-        "counterparty": "rUtXeAXonpFpgKubAa7LxcLd7NFep92T1t",
-        "currency": "58464C4F4B490000000000000000000000000000"
-      }
-    },
-    {
-      "base": {
-        "currency": "XRP"
-      },
-      "counter": {
-        "counterparty": "r4pDJ7bT1rANe9nAdFR9pyVRwtJZQUEFpj",
-        "currency": "4A554E4B00000000000000000000000000000000"
-      }
-    },    
-    {
-      "base": {
-        "currency": "XRP"
-      },
-      "counter": {
-        "counterparty": "rU5LE7X6yyu9DuHsLdHhWSiUVTgpyRK1vz",
-        "currency": "5844554445000000000000000000000000000000"
-      }
-    },
-    {
-      "base": {
-        "currency": "XRP"
-      },
-      "counter": {
-        "counterparty": "rpakCr61Q92abPXJnVboKENmpKssWyHpwu",
-        "currency": "457175696C69627269756D000000000000000000"
-      }
-    },
-    {
-      "base": {
-        "currency": "XRP"
-      },
-      "counter": {
-        "counterparty": "rHXuEaRYnnJHbDeuBH5w8yPh5uwNVh5zAg",
-        "currency": "ELS"
-      }
-    },
-    {
-      "base": {
-        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
-        "currency": "BTC"
-      },
-      "counter": {
-        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
-        "currency": "USD"
-      }
-    },
-    {
-      "base": {
-        "counterparty": "rcA8X3TVMST1n3CJeAdGk1RdRCHii7N2h",
-        "currency": "ETH"
-      },
-      "counter": {
-        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
-        "currency": "USD"
       }
     }
   ],
