@@ -157,12 +157,12 @@
     },
     {
       "base": {
-        "counterparty": "rchGBxcD1A1C2tdxF6papQYZ8kjRKMYcL",
-        "currency": "BTC"
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
-        "counterparty": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq",
-        "currency": "USD"
+        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
+        "currency": "636F7265756D3430623433626639656500000000"
       }
     }
   ],
