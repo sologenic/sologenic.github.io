@@ -11,7 +11,7 @@
     "position": "_co_creator_tech",
     "position_raw": "Co-creator & Tech Director"
   },
-   {
+  {
     "name": "Mike McCluskey",
     "file": "mike_mccluskey",
     "position": "_head_strategic_partnerships",
@@ -60,12 +60,6 @@
     "position_raw": "Jr. Front-End Developer"
   },
   {
-    "name": "Maria Vasquez",
-    "file": "maria_vasquez",
-    "position": "_junior_frontend_dev",
-    "position_raw": "Jr. Front-End Developer"
-  },
-  {
     "name": "Utsav Khatiwada",
     "file": "ustav_khatiwada",
     "position": "_qa_tester",
@@ -107,13 +101,13 @@
     "position": "_business_development",
     "position_raw": "Business Development"
   },
-   {
+  {
     "name": "Annalisa Caballero",
     "file": "annalisa_caballero",
     "position": "marketing_specialist",
     "position_raw": "Digital Marketing Specialist"
   },
-   {
+  {
     "name": "Zachary Rice",
     "file": "zachary_rice",
     "position": "marketing_specialist",
