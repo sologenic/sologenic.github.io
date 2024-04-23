@@ -38,7 +38,7 @@
     },
     {
       "base": {
-        "counterparty": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
+        "counterparty": "r4w1UKD7Q82io54k7zjDTRZJnBNJDFKnuS",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
@@ -56,7 +56,7 @@
     },
     {
       "base": {
-        "counterparty": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
+        "counterparty": "r4w1UKD7Q82io54k7zjDTRZJnBNJDFKnuS",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
@@ -66,7 +66,7 @@
     },
     {
       "base": {
-        "counterparty": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
+        "counterparty": "r4w1UKD7Q82io54k7zjDTRZJnBNJDFKnuS",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
@@ -76,7 +76,7 @@
     },
     {
       "base": {
-        "counterparty": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
+        "counterparty": "r4w1UKD7Q82io54k7zjDTRZJnBNJDFKnuS",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
@@ -86,7 +86,7 @@
     },
     {
       "base": {
-        "counterparty": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
+        "counterparty": "r4w1UKD7Q82io54k7zjDTRZJnBNJDFKnuS",
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
@@ -104,7 +104,7 @@
         {
           "name": "SOLO",
           "currency": "534F4C4F00000000000000000000000000000000",
-          "address": "rHZwvHEs56GCmHupwjA4RY7oPA3EoAJWuN",
+          "address": "r4w1UKD7Q82io54k7zjDTRZJnBNJDFKnuS",
           "logo": "https://storage.googleapis.com/cfex-prod-uploads/uploads/57/637fc55065ce38efdaa68b1120954ec03f3e18f37a96a9f01a8a95d0f4698247.png"
         }
       ]
