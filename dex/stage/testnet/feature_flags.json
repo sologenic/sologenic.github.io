@@ -1,8 +1,38 @@
 [
   {
+    "flag": "solodex",
+    "status": "active",
+    "flag_description": "XRPL Wallet integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "ledger-device",
+    "status": "active",
+    "flag_description": "XRPL Wallet integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "dcent",
+    "status": "active",
+    "flag_description": "XRPL Wallet integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "xaman",
+    "status": "active",
+    "flag_description": "XRPL Wallet integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "crossmark",
+    "status": "active",
+    "flag_description": "XRPL Wallet integration",
+    "restricted_description": ""
+  },
+  {
     "flag": "xls20d-standard",
     "status": "active",
-    "flag_description": "All features regarding XRP Ledger NFT standard: XLS-20d",
+    "flag_description": "XRPL Wallet integration",
     "restricted_description": ""
   },
   {
