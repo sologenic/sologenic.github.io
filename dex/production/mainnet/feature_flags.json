@@ -1,5 +1,35 @@
 [
   {
+    "flag": "solodex",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "ledger-device",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "dcent",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "xaman",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "crossmark",
+    "status": "inactive",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
     "flag": "xls20d-standard",
     "status": "active",
     "flag_description": "All features regarding XRP Ledger NFT standard: XLS-20d",
@@ -42,7 +72,10 @@
     "status": "inactive",
     "flag_description": "Simplex Fiat On-ramp",
     "restricted_description": "",
-    "early_access": ["rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW", "rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"]
+    "early_access": [
+      "rHy3hp632J4JAQWvmWzj6rRxGJjwBRXxKW",
+      "rL54wzknUXxqiC8Tzs6mzLi3QJTtX5uVK6"
+    ]
   },
   {
     "flag": "topper-fiat",
