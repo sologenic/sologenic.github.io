@@ -25,7 +25,7 @@
   },
   {
     "flag": "crossmark",
-    "status": "inactive",
+    "status": "active",
     "flag_description": "XRPL Wallet Integration",
     "restricted_description": ""
   },
