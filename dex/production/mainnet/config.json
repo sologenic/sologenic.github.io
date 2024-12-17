@@ -1,5 +1,5 @@
 {
- "markets": [
+  "markets": [
     {
       "base": {
         "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
@@ -9,6 +9,7 @@
         "currency": "XRP"
       }
     },
+
     {
       "base": {
         "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
@@ -28,6 +29,37 @@
         "currency": "XRP"
       }
     },
+
+    {
+      "counter": {
+        "counterparty": "rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+        "currency": "524C555344000000000000000000000000000000"
+      },
+      "base": {
+        "currency": "XRP"
+      }
+    },
+    {
+      "counter": {
+        "counterparty": "rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+        "currency": "524C555344000000000000000000000000000000"
+      },
+      "base": {
+        "counterparty": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+        "currency": "534F4C4F00000000000000000000000000000000"
+      }
+    },
+    {
+      "counter": {
+        "counterparty": "rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+        "currency": "524C555344000000000000000000000000000000"
+      },
+      "base": {
+        "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
+        "currency": "434F524500000000000000000000000000000000"
+      }
+    },
+
     {
       "base": {
         "counterparty": "rcoreNywaoz2ZCQ8Lg2EbSLnGuRBmun6D",
@@ -207,8 +239,21 @@
         {
           "name": "xCORE",
           "currency": "58434F5245000000000000000000000000000000",
-          "address":"r3dVizzUAS3U29WKaaSALqkieytA2LCoRe",
-          "logo":"https://storage.googleapis.com/sg-dex-production-331211-public-uploads/xCORE-dark.png"
+          "address": "r3dVizzUAS3U29WKaaSALqkieytA2LCoRe",
+          "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/xCORE-dark.png"
+        }
+      ]
+    },
+    {
+      "entity": "Ripple",
+      "known": true,
+      "domain": "https://ripple.com",
+      "assets": [
+        {
+          "name": "RLUSD",
+          "currency": "524C555344000000000000000000000000000000",
+          "address": "rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+          "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/RLUSD.png"
         }
       ]
     },
