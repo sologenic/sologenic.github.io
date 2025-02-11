@@ -1,4 +1,34 @@
 [
+   {
+    "flag": "solodex",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "ledger-device",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "dcent",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "xaman",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
+  {
+    "flag": "crossmark",
+    "status": "active",
+    "flag_description": "XRPL Wallet Integration",
+    "restricted_description": ""
+  },
   {
     "flag": "xls20d-standard",
     "status": "active",
