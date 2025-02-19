@@ -1,5 +1,11 @@
 [
   {
+    "flag": "secret",
+    "status": "active",
+    "flag_description": "XRPL Wallet connection with secret key",
+    "restricted_description": ""
+  },
+  {
     "flag": "solodex",
     "status": "active",
     "flag_description": "XRPL Wallet Integration",
