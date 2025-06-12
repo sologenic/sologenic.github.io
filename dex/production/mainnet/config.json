@@ -121,8 +121,8 @@
         "currency": "XRP"
       },
       "counter": {
-        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
-        "currency": "636F7265756D3161656339613265303900000000"
+        "counterparty": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+        "currency": "5553444300000000000000000000000000000000"
       }
     },
     {
@@ -131,8 +131,8 @@
         "currency": "434F524500000000000000000000000000000000"
       },
       "counter": {
-        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
-        "currency": "636F7265756D3161656339613265303900000000"
+        "counterparty": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+        "currency": "5553444300000000000000000000000000000000"
       }
     },
     {
@@ -141,8 +141,8 @@
         "currency": "534F4C4F00000000000000000000000000000000"
       },
       "counter": {
-        "counterparty": "rxXXXeMX8Gy5YvibvGLnQJ1XKKD7UswM1",
-        "currency": "636F7265756D3161656339613265303900000000"
+        "counterparty": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+        "currency": "5553444300000000000000000000000000000000"
       }
     },
     {
@@ -222,6 +222,19 @@
           "currency": "534F4C4F00000000000000000000000000000000",
           "address": "rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
           "logo": "https://storage.googleapis.com/sg-dex-production-331211-static/logos/dark/solo.png"
+        }
+      ]
+    },
+    {
+      "entity": "Circle",
+      "known": true,
+      "domain": "https://circle.com",
+      "assets": [
+        {
+          "name": "USDC",
+          "currency": "5553444300000000000000000000000000000000",
+          "address": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+          "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/USDC.png"
         }
       ]
     },
