@@ -84,11 +84,11 @@
 
     {
       "base": {
-        "counterparty": "r3dVizzUAS3U29WKaaSALqkieytA2LCoRe",
-        "currency": "58434F5245000000000000000000000000000000"
+        "currency": "XRP"
       },
       "counter": {
-        "currency": "XRP"
+        "counterparty": "rMkEuRii9w9uBMQDnWV5AA43gvYZR9JxVK",
+        "currency": "4555524F50000000000000000000000000000000"
       }
     },
     {
@@ -239,6 +239,19 @@
           "currency": "5553444300000000000000000000000000000000",
           "address": "rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
           "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/USDC.png"
+        }
+      ]
+    },
+    {
+      "entity": "Schuman Financial",
+      "known": true,
+      "domain": "https://schuman.io/europ",
+      "assets": [
+        {
+          "name": "EUROP",
+          "currency": "4555524F50000000000000000000000000000000",
+          "address": "rMkEuRii9w9uBMQDnWV5AA43gvYZR9JxVK",
+          "logo": "https://storage.googleapis.com/sg-dex-production-331211-public-uploads/EUROP.png"
         }
       ]
     },
