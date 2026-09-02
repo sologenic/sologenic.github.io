@@ -33,6 +33,16 @@
 
     {
       "base": {
+        "counterparty": "rGG3wQ4kUzd7Jnmk1n5NWPZjjut62kCBfC",
+        "currency": "41524D5900000000000000000000000000000000"
+      },
+      "counter": {
+        "currency": "XRP"
+      }
+    },
+
+    {
+      "base": {
         "currency": "XRP"
       },
       "counter": {
@@ -470,6 +480,18 @@
           "currency": "ALV",
           "address": "raEQc5krJ2rUXyi6fgmUAf63oAXmF7p6jp",
           "logo": "https://storage.googleapis.com/sg-dex-production-331211-static/logos/currencies/alv.png"
+        }
+      ]
+    },
+    {
+      "entity": "XRP ARMY",
+      "known": true,
+      "domain": "https://xrparmytoken.com",
+      "assets": [
+        {
+          "name": "ARMY",
+          "currency": "41524D5900000000000000000000000000000000",
+          "address": "rGG3wQ4kUzd7Jnmk1n5NWPZjjut62kCBfC"
         }
       ]
     },
