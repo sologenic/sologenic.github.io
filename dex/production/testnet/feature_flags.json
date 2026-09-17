@@ -42,6 +42,12 @@
     "restricted_description": ""
   },
   {
+    "flag": "xls14-xls20-conversion",
+    "status": "restricted",
+    "flag_description": "XLS-14 to XLS-20 NFT migration",
+    "restricted_description": "XLS-14 to XLS-20 NFT conversion is temporarily disabled."
+  },
+  {
     "flag": "banxa-fiat",
     "status": "active",
     "flag_description": "Banxa Fiat On-ramp",
